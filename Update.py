@@ -43,7 +43,7 @@ for i in data:
                     else:
                         i["requirements"][j] = k["requirements"][j]
             for l in k["additional"]:
-                if(isinstance(k["requirements"][l], int)):
+                if(isinstance(k["additional"][l], int)):
                     if(l in i["additional"]):
                         if(k["additional"][l] > i["additional"][l]):
                             i["additional"][l] = k["additional"][l]
