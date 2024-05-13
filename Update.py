@@ -36,17 +36,19 @@ for i in data:
         possiblemissions = [d for d in data if d["base_mission_id"] in i["exp"]]
         for k in possiblemissions:
             for j in k["requirements"]:
-                if(j in i["requirements"]):
-                    if(k["requirements"][j] > i["requirements"][j]):
+                if(isinstance(k["requirements"][j], int)):
+                    if(j in i["requirements"]):
+                        if(k["requirements"][j] > i["requirements"][j]):
+                            i["requirements"][j] = k["requirements"][j]
+                    else:
                         i["requirements"][j] = k["requirements"][j]
-                else:
-                    i["requirements"][j] = k["requirements"][j]
             for l in k["additional"]:
-                if(l in i["additional"]):
-                    if(k["additional"][l] > i["additional"][l]):
+                if(isinstance(k["requirements"][l], int)):
+                    if(l in i["additional"]):
+                        if(k["additional"][l] > i["additional"][l]):
+                            i["additional"][l] = k["additional"][l]
+                    else:
                         i["additional"][l] = k["additional"][l]
-                else:
-                    i["additional"][l] = k["additional"][l]
 
 
 
