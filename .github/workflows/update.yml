@@ -39,4 +39,6 @@ jobs:
       with:
         # This part is also where you can pass other options, for example:
         prettier_options: --write **/*.{js,md,json}
-        commit_message: Update files  
+        commit_message: Update files
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}    
