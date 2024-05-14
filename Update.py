@@ -49,6 +49,18 @@ for i in data:
                             i["additional"][l] = k["additional"][l]
                     else:
                         i["additional"][l] = k["additional"][l]
+                elif (l == "personnel_educations"):
+                    for m in k["additional"]["personnel_educations"]:
+                        if not("personnel_educations" in i["additional"]):
+                            i["additional"]["personnel_educations"] = {}
+                        if(isinstance(k["additional"]["personnel_educations"][m], int)):
+                            if(m in i["additional"]["personnel_educations"]):
+                                if(k["additional"]["personnel_educations"][m] > i["additional"]["personnel_educations"][m]):
+                                    i["additional"]["personnel_educations"][m] = k["additional"]["personnel_educations"][m]
+                            else:
+                                i["additional"]["personnel_educations"][m] = k["additional"]["personnel_educations"][m]
+                    
+
 
 
 
