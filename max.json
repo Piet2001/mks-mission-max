@@ -136,7 +136,8 @@
     "additional": {
       "expansion_missions_ids": [140],
       "filter_id": "firehouse_missions",
-      "optional_event_mission": false
+      "optional_event_mission": false,
+      "personnel_educations": { "Handcrew": 18 }
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -528,7 +529,8 @@
     "additional": {
       "expansion_missions_ids": [214, 215, 216],
       "filter_id": "firehouse_missions",
-      "optional_event_mission": false
+      "optional_event_mission": false,
+      "personnel_educations": { "Handcrew": 18 }
     },
     "prerequisites": {
       "main_building": 0,
@@ -4764,7 +4766,8 @@
     "additional": {
       "expansion_missions_ids": [140, 141, 142, 143, 144, 308, 309, 357],
       "filter_id": "firehouse_missions",
-      "optional_event_mission": false
+      "optional_event_mission": false,
+      "personnel_educations": { "Handcrew": 18 }
     },
     "prerequisites": {
       "main_building": 0,
@@ -4807,7 +4810,8 @@
     "additional": {
       "expansion_missions_ids": [141, 142, 143, 144, 308, 309, 357],
       "filter_id": "firehouse_missions",
-      "optional_event_mission": false
+      "optional_event_mission": false,
+      "personnel_educations": { "Handcrew": 18 }
     },
     "prerequisites": {
       "main_building": 0,
@@ -4850,7 +4854,8 @@
     "additional": {
       "expansion_missions_ids": [142, 143, 144, 308, 309, 357],
       "filter_id": "firehouse_missions",
-      "optional_event_mission": false
+      "optional_event_mission": false,
+      "personnel_educations": { "Handcrew": 18 }
     },
     "prerequisites": {
       "main_building": 0,
@@ -4893,7 +4898,8 @@
     "additional": {
       "expansion_missions_ids": [143, 144, 308, 309, 357],
       "filter_id": "firehouse_missions",
-      "optional_event_mission": false
+      "optional_event_mission": false,
+      "personnel_educations": { "Handcrew": 18 }
     },
     "prerequisites": {
       "main_building": 0,
@@ -7460,7 +7466,8 @@
     "additional": {
       "expansion_missions_ids": [215, 216],
       "filter_id": "firehouse_missions",
-      "optional_event_mission": false
+      "optional_event_mission": false,
+      "personnel_educations": { "Handcrew": 18 }
     },
     "prerequisites": {
       "main_building": 0,
@@ -34863,6 +34870,7 @@
       "filter_id": "water_watch_missions",
       "optional_event_mission": false,
       "need_bike_police_only_if_present": true,
+      "personnel_educations": { "Handcrew": 36 },
       "possible_patient": 10,
       "possible_patient_min": 5,
       "allow_arff_instead_of_lf": true
@@ -34917,6 +34925,7 @@
       "filter_id": "water_watch_missions",
       "optional_event_mission": false,
       "need_bike_police_only_if_present": true,
+      "personnel_educations": { "Handcrew": 36 },
       "possible_patient": 10,
       "possible_patient_min": 5,
       "allow_arff_instead_of_lf": true
