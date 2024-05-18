@@ -35086,8 +35086,8 @@
       "expansion_missions_ids": [867, 868, 880, 881, 882],
       "filter_id": "water_watch_missions",
       "optional_event_mission": false,
-      "need_bike_police_only_if_present": true,
       "personnel_educations": { "Handcrew": 36 },
+      "need_bike_police_only_if_present": true,
       "possible_patient": 10,
       "possible_patient_min": 5,
       "allow_arff_instead_of_lf": true
@@ -35141,8 +35141,8 @@
       "expansion_missions_ids": [868, 880, 881, 882],
       "filter_id": "water_watch_missions",
       "optional_event_mission": false,
-      "need_bike_police_only_if_present": true,
       "personnel_educations": { "Handcrew": 36 },
+      "need_bike_police_only_if_present": true,
       "possible_patient": 10,
       "possible_patient_min": 5,
       "allow_arff_instead_of_lf": true
