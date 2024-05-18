@@ -10,7 +10,7 @@ data = json.load(file)
 for i in data:
     print(f"collecting expansions for mission {i['id']}")
     expansions = []
-    expansions.append(i['id'])
+    expansions.append(i['base_mission_id'])
     if("expansion_missions_ids" in i["additional"]):
         for e in i["additional"]["expansion_missions_ids"]:
             if not(e in expansions):
