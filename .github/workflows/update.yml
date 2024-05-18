@@ -28,6 +28,7 @@ jobs:
         git pull
         curl -X GET https://www.meldkamerspel.com/einsaetze.json > api.json
         python Update.py
+        python Complete.py
                            
     - name: json-syntax-check
       uses: limitusus/json-syntax-check@v1
