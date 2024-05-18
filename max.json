@@ -129,6 +129,7 @@
       "mobile_air_vehicles": 2,
       "wildfire_command": 1,
       "wildfire_equipment": 1,
+      "personnel_educations": { "wildfire": 18 },
       "fire_aviation": 1,
       "police_cars": 8
     },
@@ -524,6 +525,7 @@
       "mobile_command_vehicles": 1,
       "wildfire_command": 1,
       "wildfire_equipment": 1,
+      "personnel_educations": { "wildfire": 18 },
       "elw3": 1,
       "fire_aviation": 1
     },
@@ -4785,6 +4787,7 @@
       "mobile_air_vehicles": 2,
       "wildfire_command": 1,
       "wildfire_equipment": 1,
+      "personnel_educations": { "wildfire": 18 },
       "fire_aviation": 1,
       "police_cars": 8,
       "firetrucks": 1
@@ -4829,6 +4832,7 @@
       "mobile_air_vehicles": 2,
       "wildfire_command": 1,
       "wildfire_equipment": 1,
+      "personnel_educations": { "wildfire": 18 },
       "fire_aviation": 1,
       "police_cars": 8,
       "firetrucks": 1
@@ -4873,6 +4877,7 @@
       "mobile_air_vehicles": 2,
       "wildfire_command": 1,
       "wildfire_equipment": 1,
+      "personnel_educations": { "wildfire": 18 },
       "fire_aviation": 1,
       "police_cars": 8,
       "firetrucks": 1
@@ -4917,6 +4922,7 @@
       "mobile_air_vehicles": 2,
       "wildfire_command": 1,
       "wildfire_equipment": 1,
+      "personnel_educations": { "wildfire": 18 },
       "fire_aviation": 1,
       "police_cars": 8,
       "firetrucks": 1
@@ -7499,6 +7505,7 @@
       "mobile_command_vehicles": 1,
       "wildfire_command": 1,
       "wildfire_equipment": 1,
+      "personnel_educations": { "wildfire": 18 },
       "elw3": 1,
       "fire_aviation": 1
     },
@@ -35078,6 +35085,7 @@
       "spokesman": 2,
       "wildfire_command": 1,
       "wildfire_equipment": 2,
+      "personnel_educations": { "wildfire": 36 },
       "police_helicopters": 1,
       "fire_aviation": 2
     },
@@ -35086,8 +35094,8 @@
       "expansion_missions_ids": [867, 868, 880, 881, 882],
       "filter_id": "water_watch_missions",
       "optional_event_mission": false,
-      "personnel_educations": { "Handcrew": 36 },
       "need_bike_police_only_if_present": true,
+      "personnel_educations": { "Handcrew": 36 },
       "possible_patient": 10,
       "possible_patient_min": 5,
       "allow_arff_instead_of_lf": true
@@ -35133,6 +35141,7 @@
       "spokesman": 2,
       "wildfire_command": 1,
       "wildfire_equipment": 2,
+      "personnel_educations": { "wildfire": 36 },
       "police_helicopters": 1,
       "fire_aviation": 2
     },
@@ -35141,8 +35150,8 @@
       "expansion_missions_ids": [868, 880, 881, 882],
       "filter_id": "water_watch_missions",
       "optional_event_mission": false,
-      "personnel_educations": { "Handcrew": 36 },
       "need_bike_police_only_if_present": true,
+      "personnel_educations": { "Handcrew": 36 },
       "possible_patient": 10,
       "possible_patient_min": 5,
       "allow_arff_instead_of_lf": true
