@@ -24642,8 +24642,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-06-23T09:00:00Z",
-      "date_end": "2023-08-20T21:59:00Z",
+      "date_start": "2024-06-21T09:00:00Z",
+      "date_end": "2024-08-23T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -24674,8 +24674,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-06-23T09:00:00Z",
-      "date_end": "2023-08-20T21:59:00Z",
+      "date_start": "2024-06-21T09:00:00Z",
+      "date_end": "2024-08-23T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -24706,8 +24706,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-06-23T09:00:00Z",
-      "date_end": "2023-08-20T21:59:00Z",
+      "date_start": "2024-06-21T09:00:00Z",
+      "date_end": "2024-08-23T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -24738,8 +24738,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-06-23T09:00:00Z",
-      "date_end": "2023-08-20T21:59:00Z",
+      "date_start": "2024-06-21T09:00:00Z",
+      "date_end": "2024-08-23T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -24768,8 +24768,8 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-06-23T09:00:00Z",
-      "date_end": "2023-08-20T21:59:00Z"
+      "date_start": "2024-06-21T09:00:00Z",
+      "date_end": "2024-08-23T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -33296,8 +33296,8 @@
       "filter_id": "ambulance_station_missions",
       "allow_ktw_instead_of_rtw": true,
       "optional_event_mission": true,
-      "date_start": "2023-06-23T09:00:00Z",
-      "date_end": "2023-08-20T21:59:00Z"
+      "date_start": "2024-06-21T09:00:00Z",
+      "date_end": "2024-08-23T23:59:59+02:00"
     },
     "prerequisites": { "main_building": 3, "rescue_stations": 2 },
     "overlay_index": null,
@@ -33325,8 +33325,8 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "optional_event_mission": true,
-      "date_start": "2023-06-23T09:00:00Z",
-      "date_end": "2023-08-20T21:59:00Z",
+      "date_start": "2024-06-21T09:00:00Z",
+      "date_end": "2024-08-23T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -33360,8 +33360,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "firehouse_missions",
       "optional_event_mission": true,
-      "date_start": "2023-06-23T09:00:00Z",
-      "date_end": "2023-08-20T21:59:00Z"
+      "date_start": "2024-06-21T09:00:00Z",
+      "date_end": "2024-08-23T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -47079,5 +47079,110 @@
     "additive_overlays": "",
     "mission_categories": ["fire"],
     "exp": [1083]
+  },
+  {
+    "id": "1084",
+    "name": "Supporters met vuurwerk op tribune",
+    "place": "Stadion",
+    "place_array": ["Stadion"],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/stadium_gruen.png",
+      "/images/stadium_gelb.png",
+      "/images/stadium_rot.png"
+    ],
+    "requirements": {
+      "detention_unit": 1,
+      "gefkw": 1,
+      "grukw": 2,
+      "ovdp": 1,
+      "police_cars": 3
+    },
+    "chances": {},
+    "additional": {
+      "min_possible_prisoners": 3,
+      "max_possible_prisoners": 5,
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2024-06-21T09:00:00Z",
+      "date_end": "2024-06-26T22:00:00Z"
+    },
+    "prerequisites": {
+      "main_building": 5,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "detention_unit_count": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1084,
+    "additive_overlays": "",
+    "mission_categories": ["police"],
+    "exp": [1084]
+  },
+  {
+    "id": "1085",
+    "name": "Voetballer uitgegleden in douche",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "",
+    "icons": [
+      "/images/stadium_gruen.png",
+      "/images/stadium_gelb.png",
+      "/images/stadium_rot.png"
+    ],
+    "requirements": {},
+    "chances": { "patient_transport": 40 },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2024-06-21T09:00:00Z",
+      "date_end": "2024-06-26T22:00:00Z",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": { "main_building": 3, "rescue_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 1085,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"],
+    "exp": [1085]
+  },
+  {
+    "id": "1086",
+    "name": "Paniek op de tribune",
+    "place": "Stadion",
+    "place_array": ["Stadion"],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/stadium_gruen.png",
+      "/images/stadium_gelb.png",
+      "/images/stadium_rot.png"
+    ],
+    "requirements": { "gefkw": 1, "police_horse": 4, "police_cars": 5 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "optional_event_mission": true,
+      "date_start": "2024-06-21T09:00:00Z",
+      "date_end": "2024-06-26T22:00:00Z"
+    },
+    "prerequisites": {
+      "main_building": 5,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "riot_unit_count": 1,
+      "police_horse": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1086,
+    "additive_overlays": "",
+    "mission_categories": ["police"],
+    "exp": [1086]
   }
 ]
