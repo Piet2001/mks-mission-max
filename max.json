@@ -844,6 +844,48 @@
     "exp": [25]
   },
   {
+    "id": "26",
+    "name": "Brand in supermarkt",
+    "place": "Supermarkt",
+    "place_array": ["Supermarkt"],
+    "average_credits": 3550,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 1,
+      "firetrucks": 3,
+      "police_cars": 1
+    },
+    "chances": {
+      "mobile_command_vehicles": 50,
+      "mobile_air_vehicles": 50,
+      "water_tankers": 20
+    },
+    "additional": {
+      "expansion_missions_ids": [26],
+      "filter_id": "firehouse_missions",
+      "fire_alarm_system_possible": true
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 13
+    },
+    "overlay_index": null,
+    "base_mission_id": 26,
+    "additive_overlays": "",
+    "mission_categories": ["fire"],
+    "exp": [26]
+  },
+  {
     "id": "27",
     "name": "Persoon aangereden",
     "place": "",
@@ -1051,6 +1093,44 @@
     "additive_overlays": "",
     "mission_categories": ["fire"],
     "exp": [33, 28, 126, 127, 326, 327, 709, 710, 711]
+  },
+  {
+    "id": "34",
+    "name": "Brand in supermarkt",
+    "place": "Supermarkt",
+    "place_array": ["Supermarkt"],
+    "average_credits": 1580,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "mobile_air_vehicles": 1,
+      "firetrucks": 3,
+      "police_cars": 1,
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "water_tankers": 1
+    },
+    "chances": { "mobile_air_vehicles": 50 },
+    "additional": {
+      "expansion_missions_ids": [26],
+      "filter_id": "firehouse_missions",
+      "fire_alarm_system_possible": true
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 5
+    },
+    "overlay_index": null,
+    "base_mission_id": 34,
+    "additive_overlays": "",
+    "mission_categories": ["fire"],
+    "exp": [34, 26]
   },
   {
     "id": "35",
@@ -2382,18 +2462,27 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "platform_trucks": 1, "firetrucks": 1 },
+    "requirements": {
+      "platform_trucks": 1,
+      "firetrucks": 3,
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 1,
+      "police_cars": 1
+    },
     "chances": { "platform_trucks": 10 },
     "additional": {
       "expansion_missions_ids": [34],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "fire_alarm_system_possible": true
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 78,
     "additive_overlays": "",
     "mission_categories": ["fire"],
-    "exp": [78, 34]
+    "exp": [78, 34, 26]
   },
   {
     "id": "79",
@@ -9621,6 +9710,40 @@
     "additive_overlays": "",
     "mission_categories": ["police"],
     "exp": [284]
+  },
+  {
+    "id": "285",
+    "name": "Brand in supermarkt",
+    "place": "Supermarkt",
+    "place_array": ["Supermarkt"],
+    "average_credits": 840,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "firetrucks": 3,
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 1,
+      "police_cars": 1
+    },
+    "chances": { "platform_trucks": 10 },
+    "additional": {
+      "expansion_missions_ids": [26, 34],
+      "filter_id": "firehouse_missions",
+      "fire_alarm_system_possible": true
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 3 },
+    "overlay_index": null,
+    "base_mission_id": 285,
+    "additive_overlays": "",
+    "mission_categories": ["fire"],
+    "exp": [285, 26, 34]
   },
   {
     "id": "286",
@@ -45450,7 +45573,7 @@
       "firetrucks": 15,
       "police_cars": 12
     },
-    "chances": { "nef": 5, "patient_transport": 50 },
+    "chances": { "nef": 50, "patient_transport": 50 },
     "additional": {
       "possible_patient": 40,
       "possible_patient_min": 10,
@@ -45463,10 +45586,10 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "rescue_stations": 15,
-      "police_stations": 10,
+      "rescue_stations": 10,
+      "police_stations": 8,
       "mass_casualty_count": 1,
-      "fire_stations": 30
+      "fire_stations": 12
     },
     "overlay_index": null,
     "base_mission_id": 1083,
