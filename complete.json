@@ -2153,7 +2153,10 @@
       "firetrucks": 1
     },
     "chances": { "heavy_rescue_vehicles": 10 },
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "unavailable_in_normal_missions": true
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 68,
@@ -2618,24 +2621,28 @@
     "name": "Val van hoogte (> 5m)",
     "place": "",
     "place_array": [],
-    "average_credits": null,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
-      "/images/medicalstore_gruen.png",
-      "/images/medicalstore_gelb.png",
-      "/images/medicalstore_rot.png"
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
     ],
-    "requirements": {},
+    "requirements": { "police_cars": 1 },
     "chances": { "nef": 100, "patient_transport": 100 },
     "additional": {
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "patient_specialization_ids": [1],
-      "patient_specialization_captions": ["Algemene Heelkunde"],
-      "patient_specializations": "Algemene Heelkunde"
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatologie"],
+      "patient_specializations": "Traumatologie"
     },
-    "prerequisites": { "main_building": 3, "rescue_stations": 10 },
+    "prerequisites": {
+      "main_building": 3,
+      "rescue_stations": 10,
+      "police_stations": 1
+    },
     "overlay_index": null,
     "base_mission_id": 83,
     "additive_overlays": "",
@@ -6565,34 +6572,45 @@
     "name": "Vechtpartij in caf\u00e9",
     "place": "Caf\u00e9/Club",
     "place_array": ["Caf\u00e9/Club"],
-    "average_credits": 850,
+    "average_credits": 1810,
     "generated_by": "",
     "icons": [
       "/images/baseball_gruen.png",
       "/images/baseball_gelb.png",
       "/images/baseball_rot.png"
     ],
-    "requirements": { "ovdp": 1, "police_cars": 4 },
+    "requirements": {
+      "ovdp": 1,
+      "police_cars": 5,
+      "hondengeleider": 1,
+      "detention_unit": 1,
+      "gefkw": 1,
+      "grukw": 6,
+      "lebefkw": 1,
+      "police_horse": 4,
+      "wasserwerfer": 1
+    },
     "chances": { "ovdp": 50, "patient_transport": 30 },
     "additional": {
       "possible_patient": 1,
-      "max_possible_prisoners": 2,
+      "expansion_missions_ids": [330],
+      "max_possible_prisoners": 10,
       "filter_id": "police_station_missions",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
-      "patient_specializations": "Traumatologie",
-      "unavailable_in_normal_missions": true
+      "patient_specializations": "Traumatologie"
     },
     "prerequisites": {
       "main_building": 5,
       "rescue_stations": 1,
-      "police_stations": 5
+      "police_stations": 5,
+      "bereitschaftspolizei": 1
     },
     "overlay_index": null,
     "base_mission_id": 201,
     "additive_overlays": "",
     "mission_categories": ["police"],
-    "exp": [201]
+    "exp": [201, 330, 493, 492]
   },
   {
     "id": "202",
@@ -11300,7 +11318,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "unavailable_in_normal_missions": true
     },
     "prerequisites": { "main_building": 5, "police_stations": 4 },
     "overlay_index": null,
@@ -17328,7 +17347,7 @@
     "name": "Verdachte vaten aangetroffen",
     "place": "Bos",
     "place_array": ["Bos"],
-    "average_credits": 1600,
+    "average_credits": 3590,
     "generated_by": "",
     "icons": [
       "/images/bar_cocktail_gruen.png",
@@ -17344,10 +17363,15 @@
       "police_cars": 4
     },
     "chances": { "gwmess": 20 },
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "min_possible_prisoners": 1,
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions"
+    },
     "prerequisites": {
       "main_building": 5,
       "police_stations": 5,
+      "bereitschaftspolizei": 1,
       "fire_stations": 11
     },
     "overlay_index": null,
@@ -17380,7 +17404,8 @@
     "additional": {
       "expansion_missions_ids": [200, 462, 463],
       "filter_id": "firehouse_missions",
-      "max_possible_prisoners": 2
+      "max_possible_prisoners": 2,
+      "min_possible_prisoners": 1
     },
     "prerequisites": {
       "main_building": 0,
