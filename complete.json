@@ -14349,7 +14349,6 @@
       "gwmess": 1,
       "heavy_rescue_vehicles": 1,
       "mobile_air_vehicles": 1,
-      "diver_units": 1,
       "police_cars": 2,
       "foam_needed": 1000
     },
@@ -14390,7 +14389,6 @@
       "gwmess": 1,
       "heavy_rescue_vehicles": 1,
       "mobile_air_vehicles": 1,
-      "diver_units": 1,
       "police_cars": 2,
       "foam_needed": 1000
     },
@@ -14431,7 +14429,6 @@
       "heavy_rescue_vehicles": 1,
       "firetrucks": 12,
       "mobile_air_vehicles": 1,
-      "diver_units": 1,
       "police_cars": 2,
       "foam_needed": 1000
     },
@@ -14478,7 +14475,6 @@
       "gwmess": 1,
       "heavy_rescue_vehicles": 1,
       "firetrucks": 12,
-      "diver_units": 1,
       "police_cars": 2,
       "foam_needed": 1000
     },
@@ -14505,8 +14501,8 @@
   {
     "id": "394",
     "name": "Brand bij afvalverwerker (Grip 1)",
-    "place": "Afvalverwerker",
-    "place_array": ["Afvalverwerker"],
+    "place": "",
+    "place_array": [],
     "average_credits": 8710,
     "generated_by": "",
     "icons": [
@@ -14523,7 +14519,6 @@
       "hazmat_vehicles": 1,
       "water_tankers": 4,
       "gwmess": 1,
-      "diver_units": 1,
       "heavy_rescue_vehicles": 1,
       "firetrucks": 12,
       "police_cars": 2,
@@ -14543,7 +14538,6 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "wasserrettung": 1,
       "rescue_stations": 2,
       "police_stations": 2,
       "fire_stations": 21
@@ -14551,7 +14545,7 @@
     "overlay_index": null,
     "base_mission_id": 394,
     "additive_overlays": "",
-    "mission_categories": ["fire_support_specialization", "fire"],
+    "mission_categories": ["fire", "fire_support_specialization"],
     "exp": [394, 395]
   },
   {
@@ -14603,9 +14597,9 @@
   {
     "id": "395",
     "name": "Brand bij afvalverwerker (Grip 3)",
-    "place": "Afvalverwerker",
-    "place_array": ["Afvalverwerker"],
-    "average_credits": 12210,
+    "place": "",
+    "place_array": [],
+    "average_credits": 11710,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -14621,7 +14615,6 @@
       "hazmat_vehicles": 1,
       "water_tankers": 4,
       "gwmess": 1,
-      "diver_units": 1,
       "heavy_rescue_vehicles": 1,
       "foam_needed": 1000,
       "firetrucks": 12,
@@ -14640,7 +14633,6 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "wasserrettung": 1,
       "rescue_stations": 8,
       "police_stations": 2,
       "fire_support_count": 1,
@@ -14649,7 +14641,7 @@
     "overlay_index": null,
     "base_mission_id": 395,
     "additive_overlays": "",
-    "mission_categories": ["fire_support_specialization", "fire"],
+    "mission_categories": ["fire", "fire_support_specialization"],
     "exp": [395]
   },
   {
@@ -33823,8 +33815,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59+01:00",
+      "date_start": "2024-09-20T09:00:00Z",
+      "date_end": "2024-11-29T21:59:00Z",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
       "patient_specializations": "Algemene Heelkunde"
@@ -33858,8 +33850,8 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59+01:00",
+      "date_start": "2024-09-20T09:00:00Z",
+      "date_end": "2024-11-29T21:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -33894,8 +33886,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59+01:00",
+      "date_start": "2024-09-20T09:00:00Z",
+      "date_end": "2024-11-29T21:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -33925,8 +33917,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59+01:00",
+      "date_start": "2024-09-20T09:00:00Z",
+      "date_end": "2024-11-29T21:59:00Z",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
       "patient_specializations": "Algemene Heelkunde"
@@ -33958,8 +33950,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59+01:00"
+      "date_start": "2024-09-20T09:00:00Z",
+      "date_end": "2024-11-29T21:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -33986,8 +33978,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59+01:00",
+      "date_start": "2024-09-20T09:00:00Z",
+      "date_end": "2024-11-29T21:59:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -34016,8 +34008,8 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59+01:00",
+      "date_start": "2024-09-20T09:00:00Z",
+      "date_end": "2024-11-29T21:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -34054,8 +34046,8 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59+01:00",
+      "date_start": "2024-09-20T09:00:00Z",
+      "date_end": "2024-11-29T21:59:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -34088,8 +34080,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59+01:00"
+      "date_start": "2024-09-20T09:00:00Z",
+      "date_end": "2024-11-29T21:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -34114,8 +34106,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2023-09-22T09:00:00Z",
-      "date_end": "2023-11-30T23:59:59+01:00"
+      "date_start": "2024-09-20T09:00:00Z",
+      "date_end": "2024-11-29T21:59:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 4 },
     "overlay_index": null,
