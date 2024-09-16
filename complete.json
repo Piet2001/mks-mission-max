@@ -35639,9 +35639,9 @@
     "average_credits": 15000,
     "generated_by": "",
     "icons": [
-      "/images/dancinghall_gruen.png",
-      "/images/dancinghall_gelb.png",
-      "/images/dancinghall_rot.png"
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
     ],
     "requirements": {
       "platform_trucks": 5,
@@ -35656,7 +35656,8 @@
     },
     "chances": { "nef": 15, "patient_transport": 100 },
     "additional": {
-      "possible_patient": 30,
+      "possible_patient": 10,
+      "possible_patient_min": 10,
       "filter_id": "ambulance_station_missions",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
@@ -35682,9 +35683,9 @@
     "average_credits": 20000,
     "generated_by": "",
     "icons": [
-      "/images/dancinghall_gruen.png",
-      "/images/dancinghall_gelb.png",
-      "/images/dancinghall_rot.png"
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
     ],
     "requirements": {
       "platform_trucks": 5,
@@ -35699,7 +35700,8 @@
     },
     "chances": { "nef": 15, "patient_transport": 100 },
     "additional": {
-      "possible_patient": 30,
+      "possible_patient": 25,
+      "possible_patient_min": 25,
       "filter_id": "ambulance_station_missions",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
@@ -35725,9 +35727,9 @@
     "average_credits": 30000,
     "generated_by": "",
     "icons": [
-      "/images/dancinghall_gruen.png",
-      "/images/dancinghall_gelb.png",
-      "/images/dancinghall_rot.png"
+      "/images/ambulance_gruen.png",
+      "/images/ambulance_gelb.png",
+      "/images/ambulance_rot.png"
     ],
     "requirements": {
       "platform_trucks": 5,
@@ -35742,7 +35744,8 @@
     },
     "chances": { "nef": 15, "patient_transport": 100 },
     "additional": {
-      "possible_patient": 30,
+      "possible_patient": 50,
+      "possible_patient_min": 50,
       "filter_id": "ambulance_station_missions",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
