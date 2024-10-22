@@ -768,28 +768,35 @@
   },
   {
     "id": "23",
-    "name": "Brand in cafetaria",
+    "name": "Brand in cafetaria (Klein)",
     "place": "",
     "place_array": [],
-    "average_credits": 1200,
+    "average_credits": 840,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "platform_trucks": 1, "firetrucks": 1 },
+    "requirements": {
+      "platform_trucks": 1,
+      "firetrucks": 3,
+      "battalion_chief_vehicles": 1,
+      "police_cars": 1,
+      "mobile_command_vehicles": 1,
+      "water_tankers": 1
+    },
     "chances": { "platform_trucks": 10 },
     "additional": {
-      "filter_id": "firehouse_missions",
-      "fire_alarm_system_possible": true
+      "expansion_missions_ids": [130, 131],
+      "filter_id": "firehouse_missions"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
     "base_mission_id": 23,
     "additive_overlays": "",
     "mission_categories": ["fire"],
-    "exp": [23]
+    "exp": [23, 130, 131]
   },
   {
     "id": "24",
@@ -4283,10 +4290,10 @@
   },
   {
     "id": "130",
-    "name": "Brand in cafetaria",
+    "name": "Brand in cafetaria (Middel)",
     "place": "",
     "place_array": [],
-    "average_credits": 1400,
+    "average_credits": 1520,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -4296,31 +4303,33 @@
     "requirements": {
       "platform_trucks": 1,
       "battalion_chief_vehicles": 1,
-      "firetrucks": 2,
-      "police_cars": 1
+      "firetrucks": 3,
+      "police_cars": 1,
+      "mobile_command_vehicles": 1,
+      "water_tankers": 1
     },
     "chances": { "platform_trucks": 50 },
     "additional": {
-      "filter_id": "firehouse_missions",
-      "fire_alarm_system_possible": true
+      "expansion_missions_ids": [131],
+      "filter_id": "firehouse_missions"
     },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 1,
-      "fire_stations": 5
+      "fire_stations": 6
     },
     "overlay_index": null,
     "base_mission_id": 130,
     "additive_overlays": "",
     "mission_categories": ["fire"],
-    "exp": [130]
+    "exp": [130, 131]
   },
   {
     "id": "131",
-    "name": "Brand in cafetaria",
+    "name": "Brand in cafetaria (Groot)",
     "place": "",
     "place_array": [],
-    "average_credits": 1700,
+    "average_credits": 3150,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -4336,14 +4345,11 @@
       "police_cars": 1
     },
     "chances": { "mobile_command_vehicles": 50, "water_tankers": 10 },
-    "additional": {
-      "filter_id": "firehouse_missions",
-      "fire_alarm_system_possible": true
-    },
+    "additional": { "filter_id": "firehouse_missions" },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 1,
-      "fire_stations": 7
+      "fire_stations": 13
     },
     "overlay_index": null,
     "base_mission_id": 131,
@@ -12369,23 +12375,24 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "firetrucks": 2,
+      "firetrucks": 3,
       "platform_trucks": 1,
       "battalion_chief_vehicles": 1,
-      "police_cars": 1
+      "police_cars": 1,
+      "mobile_command_vehicles": 1,
+      "water_tankers": 1
     },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [130],
-      "filter_id": "firehouse_missions",
-      "fire_alarm_system_possible": true
+      "filter_id": "firehouse_missions"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 341,
     "additive_overlays": "",
     "mission_categories": ["fire"],
-    "exp": [341, 130]
+    "exp": [341, 130, 131]
   },
   {
     "id": "342",
@@ -13145,7 +13152,7 @@
   },
   {
     "id": "360",
-    "name": "Brand in bovenwoning",
+    "name": "Brand in bovenwoning (Klein)",
     "place": "",
     "place_array": [],
     "average_credits": 840,
@@ -13155,19 +13162,28 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "platform_trucks": 1, "firetrucks": 1 },
+    "requirements": {
+      "platform_trucks": 1,
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "police_cars": 1
+    },
     "chances": { "platform_trucks": 40 },
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "expansion_missions_ids": [361],
+      "filter_id": "firehouse_missions",
+      "possible_patient": 1
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
     "base_mission_id": 360,
     "additive_overlays": "",
     "mission_categories": ["fire"],
-    "exp": [360]
+    "exp": [360, 361]
   },
   {
     "id": "361",
-    "name": "Brand in bovenwoning",
+    "name": "Brand in bovenwoning (Middel)",
     "place": "",
     "place_array": [],
     "average_credits": 1520,
