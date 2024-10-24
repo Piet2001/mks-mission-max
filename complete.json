@@ -18,7 +18,7 @@
     "overlay_index": null,
     "base_mission_id": 0,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [0]
   },
   {
@@ -40,7 +40,7 @@
     "overlay_index": null,
     "base_mission_id": 1,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [1]
   },
   {
@@ -62,7 +62,7 @@
     "overlay_index": null,
     "base_mission_id": 2,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [2]
   },
   {
@@ -93,7 +93,7 @@
     "overlay_index": null,
     "base_mission_id": 3,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [3, 510, 511, 512, 513]
   },
   {
@@ -133,7 +133,7 @@
     "overlay_index": null,
     "base_mission_id": 4,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [4, 140, 141, 142, 143, 144, 308, 309, 357]
   },
   {
@@ -164,7 +164,7 @@
     "overlay_index": null,
     "base_mission_id": 5,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [5]
   },
   {
@@ -186,7 +186,7 @@
     "overlay_index": null,
     "base_mission_id": 6,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [6]
   },
   {
@@ -208,7 +208,7 @@
     "overlay_index": null,
     "base_mission_id": 7,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural", "urban"],
     "exp": [7]
   },
   {
@@ -234,7 +234,7 @@
     "overlay_index": null,
     "base_mission_id": 8,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural", "urban"],
     "exp": [8, 54]
   },
   {
@@ -278,7 +278,7 @@
     "overlay_index": null,
     "base_mission_id": 9,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [9, 28, 126, 127, 326, 327, 709, 710, 711, 712, 713, 714]
   },
   {
@@ -321,7 +321,7 @@
     "overlay_index": null,
     "base_mission_id": 10,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [10, 28, 126, 127, 326, 327, 709, 710, 711]
   },
   {
@@ -352,7 +352,7 @@
     "overlay_index": null,
     "base_mission_id": 11,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [11, 510, 511, 512, 513]
   },
   {
@@ -385,7 +385,7 @@
     "overlay_index": null,
     "base_mission_id": 12,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [12, 69]
   },
   {
@@ -413,7 +413,7 @@
     "overlay_index": null,
     "base_mission_id": 13,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [13]
   },
   {
@@ -445,7 +445,7 @@
     "overlay_index": 0,
     "base_mission_id": 13,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [13]
   },
   {
@@ -554,7 +554,7 @@
     "overlay_index": null,
     "base_mission_id": 16,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [16]
   },
   {
@@ -576,7 +576,7 @@
     "overlay_index": null,
     "base_mission_id": 17,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [17]
   },
   {
@@ -606,7 +606,7 @@
     "overlay_index": null,
     "base_mission_id": 18,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [18, 14]
   },
   {
@@ -633,7 +633,7 @@
     "overlay_index": null,
     "base_mission_id": 19,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [19]
   },
   {
@@ -664,7 +664,7 @@
     "overlay_index": 0,
     "base_mission_id": 19,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [19]
   },
   {
@@ -731,7 +731,7 @@
     "overlay_index": null,
     "base_mission_id": 21,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [21]
   },
   {
@@ -763,7 +763,7 @@
     "overlay_index": null,
     "base_mission_id": 22,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [22]
   },
   {
@@ -817,7 +817,7 @@
     "overlay_index": null,
     "base_mission_id": 24,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [24]
   },
   {
@@ -856,7 +856,7 @@
     "overlay_index": null,
     "base_mission_id": 25,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [25]
   },
   {
@@ -897,7 +897,7 @@
     "overlay_index": null,
     "base_mission_id": 26,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [26]
   },
   {
@@ -919,7 +919,7 @@
     "overlay_index": null,
     "base_mission_id": 27,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [27]
   },
   {
@@ -946,7 +946,7 @@
     "overlay_index": null,
     "base_mission_id": 28,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [28]
   },
   {
@@ -993,7 +993,7 @@
     "overlay_index": null,
     "base_mission_id": 29,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [29]
   },
   {
@@ -1015,7 +1015,7 @@
     "overlay_index": null,
     "base_mission_id": 30,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [30]
   },
   {
@@ -1037,7 +1037,7 @@
     "overlay_index": null,
     "base_mission_id": 31,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [31]
   },
   {
@@ -1063,7 +1063,7 @@
     "overlay_index": null,
     "base_mission_id": 32,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [32]
   },
   {
@@ -1106,7 +1106,7 @@
     "overlay_index": null,
     "base_mission_id": 33,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [33, 28, 126, 127, 326, 327, 709, 710, 711]
   },
   {
@@ -1144,7 +1144,7 @@
     "overlay_index": null,
     "base_mission_id": 34,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [34, 26]
   },
   {
@@ -1179,7 +1179,7 @@
     "overlay_index": null,
     "base_mission_id": 35,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [35]
   },
   {
@@ -1208,14 +1208,14 @@
     "overlay_index": null,
     "base_mission_id": 36,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [36]
   },
   {
     "id": "37",
     "name": "Brandende afvalbak",
-    "place": "Tramhalte",
-    "place_array": ["Tramhalte"],
+    "place": "Ziekenhuis\nTramhalte\nStation\nCentraal Station",
+    "place_array": ["Ziekenhuis", "Tramhalte", "Station", "Centraal Station"],
     "average_credits": 110,
     "generated_by": "",
     "icons": [
@@ -1230,7 +1230,7 @@
     "overlay_index": null,
     "base_mission_id": 37,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [37]
   },
   {
@@ -1247,12 +1247,15 @@
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "unavailable_in_normal_missions": true
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 38,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [38]
   },
   {
@@ -1269,12 +1272,15 @@
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "unavailable_in_normal_missions": true
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 39,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [39]
   },
   {
@@ -1291,12 +1297,15 @@
     ],
     "requirements": { "firetrucks": 1 },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "unavailable_in_normal_missions": true
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 40,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [40]
   },
   {
@@ -1344,7 +1353,7 @@
     "overlay_index": null,
     "base_mission_id": 41,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [41]
   },
   {
@@ -1387,7 +1396,7 @@
     "overlay_index": null,
     "base_mission_id": 42,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [42]
   },
   {
@@ -1431,7 +1440,7 @@
     "overlay_index": 0,
     "base_mission_id": 42,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [42]
   },
   {
@@ -1499,7 +1508,7 @@
     "overlay_index": null,
     "base_mission_id": 44,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [44, 478, 844]
   },
   {
@@ -1737,7 +1746,7 @@
     "overlay_index": null,
     "base_mission_id": 52,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [52]
   },
   {
@@ -1776,7 +1785,7 @@
     "overlay_index": null,
     "base_mission_id": 53,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [53]
   },
   {
@@ -1801,7 +1810,7 @@
     "overlay_index": null,
     "base_mission_id": 54,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [54]
   },
   {
@@ -1830,7 +1839,7 @@
     "overlay_index": null,
     "base_mission_id": 55,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [55]
   },
   {
@@ -1873,7 +1882,7 @@
     "overlay_index": null,
     "base_mission_id": 56,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [56]
   },
   {
@@ -1895,7 +1904,7 @@
     "overlay_index": null,
     "base_mission_id": 57,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [57]
   },
   {
@@ -1917,7 +1926,7 @@
     "overlay_index": null,
     "base_mission_id": 58,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [58]
   },
   {
@@ -1954,7 +1963,7 @@
     "overlay_index": null,
     "base_mission_id": 59,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [59]
   },
   {
@@ -1980,7 +1989,7 @@
     "overlay_index": null,
     "base_mission_id": 60,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [60]
   },
   {
@@ -2011,7 +2020,7 @@
     "overlay_index": null,
     "base_mission_id": 61,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [61, 22]
   },
   {
@@ -2038,7 +2047,7 @@
     "overlay_index": null,
     "base_mission_id": 62,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [62]
   },
   {
@@ -2060,7 +2069,7 @@
     "overlay_index": null,
     "base_mission_id": 63,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [63]
   },
   {
@@ -2086,7 +2095,7 @@
     "overlay_index": null,
     "base_mission_id": 64,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [64]
   },
   {
@@ -2108,7 +2117,7 @@
     "overlay_index": null,
     "base_mission_id": 65,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [65]
   },
   {
@@ -2130,7 +2139,7 @@
     "overlay_index": null,
     "base_mission_id": 66,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [66]
   },
   {
@@ -2152,7 +2161,7 @@
     "overlay_index": null,
     "base_mission_id": 67,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [67]
   },
   {
@@ -2185,7 +2194,7 @@
     "overlay_index": null,
     "base_mission_id": 68,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [68]
   },
   {
@@ -2223,7 +2232,7 @@
     "overlay_index": null,
     "base_mission_id": 69,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [69]
   },
   {
@@ -2429,7 +2438,7 @@
     "overlay_index": null,
     "base_mission_id": 76,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [76]
   },
   {
@@ -2468,7 +2477,7 @@
     "overlay_index": null,
     "base_mission_id": 77,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [77]
   },
   {
@@ -2502,7 +2511,7 @@
     "overlay_index": null,
     "base_mission_id": 78,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [78, 34, 26]
   },
   {
@@ -2645,7 +2654,7 @@
     "overlay_index": null,
     "base_mission_id": 82,
     "additive_overlays": "",
-    "mission_categories": ["fire", "technical_aid"],
+    "mission_categories": ["fire", "urban", "technical_aid"],
     "exp": [82]
   },
   {
@@ -3237,7 +3246,7 @@
     "overlay_index": null,
     "base_mission_id": 98,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [98]
   },
   {
@@ -3263,7 +3272,7 @@
     "overlay_index": null,
     "base_mission_id": 99,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [99]
   },
   {
@@ -3313,7 +3322,7 @@
     "overlay_index": null,
     "base_mission_id": 100,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [100]
   },
   {
@@ -3355,7 +3364,7 @@
     "overlay_index": null,
     "base_mission_id": 101,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [101]
   },
   {
@@ -3382,7 +3391,7 @@
     "overlay_index": null,
     "base_mission_id": 102,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [102]
   },
   {
@@ -3411,7 +3420,7 @@
     "overlay_index": null,
     "base_mission_id": 103,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [103, 32]
   },
   {
@@ -3441,7 +3450,7 @@
     "overlay_index": null,
     "base_mission_id": 104,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [104, 115]
   },
   {
@@ -3463,7 +3472,7 @@
     "overlay_index": null,
     "base_mission_id": 105,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [105]
   },
   {
@@ -3485,7 +3494,7 @@
     "overlay_index": null,
     "base_mission_id": 106,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [106]
   },
   {
@@ -3525,7 +3534,7 @@
     "overlay_index": null,
     "base_mission_id": 107,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [107]
   },
   {
@@ -3564,7 +3573,7 @@
     "overlay_index": null,
     "base_mission_id": 108,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [108]
   },
   {
@@ -3604,7 +3613,7 @@
     "overlay_index": null,
     "base_mission_id": 109,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [109]
   },
   {
@@ -3626,7 +3635,7 @@
     "overlay_index": null,
     "base_mission_id": 110,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [110]
   },
   {
@@ -3653,7 +3662,7 @@
     "overlay_index": null,
     "base_mission_id": 111,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [111]
   },
   {
@@ -3725,7 +3734,7 @@
     "overlay_index": null,
     "base_mission_id": 114,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [114]
   },
   {
@@ -3756,7 +3765,7 @@
     "overlay_index": null,
     "base_mission_id": 115,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [115]
   },
   {
@@ -3949,7 +3958,7 @@
     "overlay_index": null,
     "base_mission_id": 118,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [118]
   },
   {
@@ -4036,7 +4045,7 @@
     "overlay_index": null,
     "base_mission_id": 121,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [121]
   },
   {
@@ -4376,7 +4385,7 @@
     "overlay_index": null,
     "base_mission_id": 132,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [132]
   },
   {
@@ -4398,7 +4407,7 @@
     "overlay_index": null,
     "base_mission_id": 133,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [133]
   },
   {
@@ -4420,7 +4429,7 @@
     "overlay_index": null,
     "base_mission_id": 134,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [134]
   },
   {
@@ -4442,7 +4451,7 @@
     "overlay_index": null,
     "base_mission_id": 135,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [135]
   },
   {
@@ -4470,7 +4479,7 @@
     "overlay_index": null,
     "base_mission_id": 136,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [136]
   },
   {
@@ -4510,7 +4519,7 @@
     "overlay_index": 0,
     "base_mission_id": 136,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [136]
   },
   {
@@ -4559,7 +4568,7 @@
     "overlay_index": null,
     "base_mission_id": 138,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [138]
   },
   {
@@ -4900,7 +4909,7 @@
     "overlay_index": null,
     "base_mission_id": 146,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [146]
   },
   {
@@ -4926,7 +4935,7 @@
     "overlay_index": null,
     "base_mission_id": 147,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [147]
   },
   {
@@ -4960,7 +4969,7 @@
     "overlay_index": null,
     "base_mission_id": 148,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [148]
   },
   {
@@ -4990,7 +4999,7 @@
     "overlay_index": null,
     "base_mission_id": 149,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [149]
   },
   {
@@ -5158,7 +5167,7 @@
     "overlay_index": null,
     "base_mission_id": 155,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [155]
   },
   {
@@ -5195,7 +5204,7 @@
     "overlay_index": null,
     "base_mission_id": 156,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [156]
   },
   {
@@ -5249,7 +5258,7 @@
     "overlay_index": null,
     "base_mission_id": 157,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [157]
   },
   {
@@ -5305,7 +5314,7 @@
     "overlay_index": 0,
     "base_mission_id": 157,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [157]
   },
   {
@@ -5362,7 +5371,7 @@
     "overlay_index": 1,
     "base_mission_id": 157,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [157]
   },
   {
@@ -5387,7 +5396,7 @@
     "overlay_index": null,
     "base_mission_id": 158,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [158]
   },
   {
@@ -5422,7 +5431,7 @@
     "overlay_index": null,
     "base_mission_id": 159,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [159]
   },
   {
@@ -5448,7 +5457,7 @@
     "overlay_index": null,
     "base_mission_id": 160,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [160]
   },
   {
@@ -5598,7 +5607,7 @@
     "overlay_index": null,
     "base_mission_id": 165,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [165]
   },
   {
@@ -5734,7 +5743,7 @@
     "overlay_index": null,
     "base_mission_id": 169,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [169]
   },
   {
@@ -5761,7 +5770,7 @@
     "overlay_index": null,
     "base_mission_id": 170,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [170]
   },
   {
@@ -5801,7 +5810,7 @@
     "overlay_index": null,
     "base_mission_id": 171,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [171]
   },
   {
@@ -5915,7 +5924,7 @@
     "overlay_index": null,
     "base_mission_id": 175,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [175]
   },
   {
@@ -6269,7 +6278,7 @@
     "overlay_index": null,
     "base_mission_id": 186,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [186]
   },
   {
@@ -6298,7 +6307,7 @@
     "overlay_index": null,
     "base_mission_id": 187,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [187]
   },
   {
@@ -6320,7 +6329,7 @@
     "overlay_index": null,
     "base_mission_id": 188,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [188]
   },
   {
@@ -6342,7 +6351,7 @@
     "overlay_index": null,
     "base_mission_id": 189,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [189]
   },
   {
@@ -6371,7 +6380,7 @@
     "overlay_index": null,
     "base_mission_id": 190,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [190]
   },
   {
@@ -6393,7 +6402,7 @@
     "overlay_index": null,
     "base_mission_id": 191,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [191]
   },
   {
@@ -6422,7 +6431,7 @@
     "overlay_index": null,
     "base_mission_id": 192,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [192]
   },
   {
@@ -6444,7 +6453,7 @@
     "overlay_index": null,
     "base_mission_id": 193,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [193]
   },
   {
@@ -6466,7 +6475,7 @@
     "overlay_index": null,
     "base_mission_id": 194,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [194]
   },
   {
@@ -6488,7 +6497,7 @@
     "overlay_index": null,
     "base_mission_id": 195,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [195]
   },
   {
@@ -6510,7 +6519,7 @@
     "overlay_index": null,
     "base_mission_id": 196,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [196]
   },
   {
@@ -6532,7 +6541,7 @@
     "overlay_index": null,
     "base_mission_id": 197,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [197]
   },
   {
@@ -6554,7 +6563,7 @@
     "overlay_index": null,
     "base_mission_id": 198,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [198]
   },
   {
@@ -6741,7 +6750,7 @@
     "overlay_index": null,
     "base_mission_id": 203,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [203, 204]
   },
   {
@@ -6789,7 +6798,7 @@
     "overlay_index": null,
     "base_mission_id": 204,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [204]
   },
   {
@@ -7451,7 +7460,7 @@
     "overlay_index": null,
     "base_mission_id": 219,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [219]
   },
   {
@@ -7490,7 +7499,7 @@
     "overlay_index": null,
     "base_mission_id": 220,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [220]
   },
   {
@@ -7577,7 +7586,7 @@
     "overlay_index": null,
     "base_mission_id": 223,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [223, 20]
   },
   {
@@ -7610,7 +7619,7 @@
     "overlay_index": null,
     "base_mission_id": 224,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [224, 223, 20]
   },
   {
@@ -7772,7 +7781,7 @@
     "overlay_index": null,
     "base_mission_id": 229,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [229]
   },
   {
@@ -7827,7 +7836,7 @@
     "overlay_index": 0,
     "base_mission_id": 229,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [229]
   },
   {
@@ -7891,7 +7900,7 @@
     "overlay_index": 1,
     "base_mission_id": 229,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [229]
   },
   {
@@ -7995,7 +8004,7 @@
     "overlay_index": null,
     "base_mission_id": 233,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [233]
   },
   {
@@ -8140,7 +8149,7 @@
     "overlay_index": null,
     "base_mission_id": 237,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [237]
   },
   {
@@ -8165,7 +8174,7 @@
     "overlay_index": null,
     "base_mission_id": 238,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [238]
   },
   {
@@ -8756,7 +8765,7 @@
     "overlay_index": null,
     "base_mission_id": 254,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [254]
   },
   {
@@ -8785,7 +8794,7 @@
     "overlay_index": null,
     "base_mission_id": 255,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [255]
   },
   {
@@ -8818,7 +8827,7 @@
     "overlay_index": 0,
     "base_mission_id": 255,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [255]
   },
   {
@@ -8884,7 +8893,7 @@
     "overlay_index": null,
     "base_mission_id": 258,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [258]
   },
   {
@@ -8922,7 +8931,7 @@
     "overlay_index": null,
     "base_mission_id": 259,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [259]
   },
   {
@@ -8944,7 +8953,7 @@
     "overlay_index": null,
     "base_mission_id": 260,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [260]
   },
   {
@@ -9025,7 +9034,7 @@
     "overlay_index": null,
     "base_mission_id": 263,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [263]
   },
   {
@@ -9059,7 +9068,7 @@
     "overlay_index": null,
     "base_mission_id": 264,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [264]
   },
   {
@@ -9599,7 +9608,7 @@
     "overlay_index": null,
     "base_mission_id": 280,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [280]
   },
   {
@@ -9640,7 +9649,7 @@
     "overlay_index": null,
     "base_mission_id": 281,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [281]
   },
   {
@@ -9690,7 +9699,7 @@
     "overlay_index": null,
     "base_mission_id": 282,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [282]
   },
   {
@@ -9741,7 +9750,7 @@
     "overlay_index": 0,
     "base_mission_id": 282,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [282]
   },
   {
@@ -9826,7 +9835,7 @@
     "overlay_index": null,
     "base_mission_id": 285,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [285, 26, 34]
   },
   {
@@ -9863,7 +9872,7 @@
     "overlay_index": null,
     "base_mission_id": 286,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [286]
   },
   {
@@ -9888,7 +9897,7 @@
     "overlay_index": null,
     "base_mission_id": 287,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [287]
   },
   {
@@ -9917,7 +9926,7 @@
     "overlay_index": null,
     "base_mission_id": 288,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [288]
   },
   {
@@ -9958,7 +9967,7 @@
     "overlay_index": null,
     "base_mission_id": 289,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [289]
   },
   {
@@ -9999,7 +10008,7 @@
     "overlay_index": null,
     "base_mission_id": 290,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [290]
   },
   {
@@ -10044,7 +10053,7 @@
     "overlay_index": null,
     "base_mission_id": 291,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [291]
   },
   {
@@ -10090,7 +10099,7 @@
     "overlay_index": 0,
     "base_mission_id": 291,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [291]
   },
   {
@@ -10130,7 +10139,7 @@
     "overlay_index": null,
     "base_mission_id": 292,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [292]
   },
   {
@@ -10170,7 +10179,7 @@
     "overlay_index": null,
     "base_mission_id": 293,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [293]
   },
   {
@@ -10239,7 +10248,7 @@
     "overlay_index": null,
     "base_mission_id": 296,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [296]
   },
   {
@@ -10274,7 +10283,7 @@
     "overlay_index": null,
     "base_mission_id": 297,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [297]
   },
   {
@@ -10323,7 +10332,7 @@
     "overlay_index": null,
     "base_mission_id": 298,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [298]
   },
   {
@@ -10456,7 +10465,7 @@
     "overlay_index": null,
     "base_mission_id": 302,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [302, 303, 304, 474, 475]
   },
   {
@@ -10505,7 +10514,7 @@
     "overlay_index": null,
     "base_mission_id": 303,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [303, 304, 474, 475]
   },
   {
@@ -10559,7 +10568,7 @@
     "overlay_index": null,
     "base_mission_id": 304,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [304, 475]
   },
   {
@@ -10610,6 +10619,7 @@
     "additive_overlays": "",
     "mission_categories": [
       "fire",
+      "urban",
       "technical_aid",
       "traffic_police_specialization"
     ],
@@ -10664,6 +10674,7 @@
     "additive_overlays": "",
     "mission_categories": [
       "fire",
+      "urban",
       "technical_aid",
       "traffic_police_specialization"
     ],
@@ -10717,6 +10728,7 @@
     "additive_overlays": "",
     "mission_categories": [
       "fire",
+      "urban",
       "technical_aid",
       "traffic_police_specialization"
     ],
@@ -10771,6 +10783,7 @@
     "additive_overlays": "",
     "mission_categories": [
       "fire",
+      "urban",
       "technical_aid",
       "traffic_police_specialization"
     ],
@@ -10824,6 +10837,7 @@
     "additive_overlays": "",
     "mission_categories": [
       "fire",
+      "urban",
       "technical_aid",
       "traffic_police_specialization"
     ],
@@ -10878,6 +10892,7 @@
     "additive_overlays": "",
     "mission_categories": [
       "fire",
+      "urban",
       "technical_aid",
       "traffic_police_specialization"
     ],
@@ -10935,6 +10950,7 @@
     "additive_overlays": "",
     "mission_categories": [
       "fire",
+      "urban",
       "technical_aid",
       "traffic_police_specialization"
     ],
@@ -10993,6 +11009,7 @@
     "additive_overlays": "",
     "mission_categories": [
       "fire",
+      "urban",
       "technical_aid",
       "traffic_police_specialization"
     ],
@@ -11208,7 +11225,7 @@
     "overlay_index": null,
     "base_mission_id": 312,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [312]
   },
   {
@@ -11234,7 +11251,7 @@
     "overlay_index": null,
     "base_mission_id": 313,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [313]
   },
   {
@@ -11273,7 +11290,7 @@
     "overlay_index": null,
     "base_mission_id": 314,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [314]
   },
   {
@@ -11324,7 +11341,7 @@
     "overlay_index": null,
     "base_mission_id": 315,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [315]
   },
   {
@@ -11575,7 +11592,7 @@
     "overlay_index": null,
     "base_mission_id": 321,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [321]
   },
   {
@@ -11601,7 +11618,7 @@
     "overlay_index": null,
     "base_mission_id": 322,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [322]
   },
   {
@@ -11749,7 +11766,7 @@
     "overlay_index": null,
     "base_mission_id": 326,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "rural", "fire_support_specialization"],
     "exp": [326]
   },
   {
@@ -11799,7 +11816,7 @@
     "overlay_index": 0,
     "base_mission_id": 326,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "rural", "fire_support_specialization"],
     "exp": [326]
   },
   {
@@ -11848,7 +11865,7 @@
     "overlay_index": null,
     "base_mission_id": 327,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "rural", "fire_support_specialization"],
     "exp": [327]
   },
   {
@@ -11898,7 +11915,7 @@
     "overlay_index": 0,
     "base_mission_id": 327,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "rural", "fire_support_specialization"],
     "exp": [327]
   },
   {
@@ -11945,7 +11962,7 @@
     "overlay_index": null,
     "base_mission_id": 328,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [328]
   },
   {
@@ -12138,7 +12155,7 @@
     "overlay_index": null,
     "base_mission_id": 334,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [334]
   },
   {
@@ -12172,7 +12189,7 @@
     "overlay_index": null,
     "base_mission_id": 335,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [335]
   },
   {
@@ -12213,7 +12230,7 @@
     "overlay_index": null,
     "base_mission_id": 336,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [336]
   },
   {
@@ -12319,7 +12336,7 @@
     "overlay_index": null,
     "base_mission_id": 339,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [339]
   },
   {
@@ -12359,7 +12376,7 @@
     "overlay_index": null,
     "base_mission_id": 340,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [340]
   },
   {
@@ -12391,7 +12408,7 @@
     "overlay_index": null,
     "base_mission_id": 341,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [341, 130, 131]
   },
   {
@@ -12423,7 +12440,7 @@
     "overlay_index": null,
     "base_mission_id": 342,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [342, 297]
   },
   {
@@ -12452,7 +12469,7 @@
     "overlay_index": null,
     "base_mission_id": 343,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [343, 60, 114]
   },
   {
@@ -12497,7 +12514,7 @@
     "overlay_index": null,
     "base_mission_id": 344,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [344]
   },
   {
@@ -12547,7 +12564,7 @@
     "overlay_index": null,
     "base_mission_id": 345,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [345]
   },
   {
@@ -13216,7 +13233,7 @@
     "overlay_index": null,
     "base_mission_id": 361,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [361]
   },
   {
@@ -13261,7 +13278,7 @@
     "overlay_index": null,
     "base_mission_id": 362,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [362]
   },
   {
@@ -13671,7 +13688,7 @@
     "overlay_index": null,
     "base_mission_id": 372,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [372]
   },
   {
@@ -13773,7 +13790,7 @@
     "overlay_index": null,
     "base_mission_id": 375,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [375]
   },
   {
@@ -13915,7 +13932,7 @@
     "overlay_index": null,
     "base_mission_id": 378,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [378]
   },
   {
@@ -13958,7 +13975,7 @@
     "overlay_index": null,
     "base_mission_id": 379,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [379]
   },
   {
@@ -14070,7 +14087,7 @@
     "overlay_index": null,
     "base_mission_id": 383,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [383]
   },
   {
@@ -14100,7 +14117,7 @@
     "overlay_index": null,
     "base_mission_id": 384,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [384]
   },
   {
@@ -14144,7 +14161,7 @@
     "overlay_index": null,
     "base_mission_id": 385,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [385]
   },
   {
@@ -14190,7 +14207,7 @@
     "overlay_index": null,
     "base_mission_id": 386,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [386]
   },
   {
@@ -14237,7 +14254,7 @@
     "overlay_index": 0,
     "base_mission_id": 386,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [386]
   },
   {
@@ -14276,7 +14293,7 @@
   },
   {
     "id": "388",
-    "name": "Bouwvakker van hoogte gevallen",
+    "name": "Bouwvakker van hoogte gevallen (Spoed)",
     "place": "",
     "place_array": [],
     "average_credits": 1680,
@@ -14349,7 +14366,7 @@
     "overlay_index": null,
     "base_mission_id": 389,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [389]
   },
   {
@@ -14389,7 +14406,7 @@
     "overlay_index": null,
     "base_mission_id": 390,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [390, 391, 392, 393, 394, 395]
   },
   {
@@ -14429,7 +14446,7 @@
     "overlay_index": null,
     "base_mission_id": 391,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [391, 392, 393, 394, 395]
   },
   {
@@ -14475,7 +14492,7 @@
     "overlay_index": null,
     "base_mission_id": 392,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [392, 393, 394, 395]
   },
   {
@@ -14521,7 +14538,7 @@
     "overlay_index": null,
     "base_mission_id": 393,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [393, 394, 395]
   },
   {
@@ -14571,7 +14588,7 @@
     "overlay_index": null,
     "base_mission_id": 394,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [394, 395]
   },
   {
@@ -14667,7 +14684,7 @@
     "overlay_index": null,
     "base_mission_id": 395,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [395]
   },
   {
@@ -14748,7 +14765,7 @@
     "overlay_index": null,
     "base_mission_id": 396,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [396]
   },
   {
@@ -14782,7 +14799,7 @@
     "overlay_index": null,
     "base_mission_id": 397,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [397]
   },
   {
@@ -14824,7 +14841,7 @@
     "overlay_index": null,
     "base_mission_id": 398,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [398]
   },
   {
@@ -15090,7 +15107,7 @@
     "overlay_index": null,
     "base_mission_id": 407,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [407]
   },
   {
@@ -15115,7 +15132,7 @@
     "overlay_index": null,
     "base_mission_id": 408,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [408]
   },
   {
@@ -15144,7 +15161,7 @@
     "overlay_index": null,
     "base_mission_id": 409,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [409]
   },
   {
@@ -15191,7 +15208,7 @@
     "overlay_index": null,
     "base_mission_id": 410,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [410]
   },
   {
@@ -15240,7 +15257,7 @@
     "overlay_index": null,
     "base_mission_id": 411,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [411]
   },
   {
@@ -15286,7 +15303,7 @@
     "overlay_index": null,
     "base_mission_id": 412,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [412]
   },
   {
@@ -15333,7 +15350,7 @@
     "overlay_index": 0,
     "base_mission_id": 412,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [412]
   },
   {
@@ -15381,7 +15398,7 @@
     "overlay_index": null,
     "base_mission_id": 413,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [413]
   },
   {
@@ -15430,7 +15447,7 @@
     "overlay_index": 0,
     "base_mission_id": 413,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [413]
   },
   {
@@ -15452,7 +15469,7 @@
     "overlay_index": null,
     "base_mission_id": 414,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [414]
   },
   {
@@ -15478,7 +15495,7 @@
     "overlay_index": null,
     "base_mission_id": 415,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [415]
   },
   {
@@ -15512,7 +15529,7 @@
     "overlay_index": null,
     "base_mission_id": 416,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [416]
   },
   {
@@ -15547,7 +15564,7 @@
     "overlay_index": 0,
     "base_mission_id": 416,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [416]
   },
   {
@@ -15690,7 +15707,7 @@
     "overlay_index": null,
     "base_mission_id": 420,
     "additive_overlays": "",
-    "mission_categories": ["fire", "traffic_police_specialization"],
+    "mission_categories": ["fire", "urban", "traffic_police_specialization"],
     "exp": [420]
   },
   {
@@ -15735,7 +15752,7 @@
     "overlay_index": 0,
     "base_mission_id": 420,
     "additive_overlays": "",
-    "mission_categories": ["fire", "traffic_police_specialization"],
+    "mission_categories": ["fire", "urban", "traffic_police_specialization"],
     "exp": [420]
   },
   {
@@ -15873,7 +15890,7 @@
     "overlay_index": null,
     "base_mission_id": 425,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [425]
   },
   {
@@ -15902,7 +15919,7 @@
     "overlay_index": null,
     "base_mission_id": 426,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [426]
   },
   {
@@ -15943,7 +15960,7 @@
     "overlay_index": null,
     "base_mission_id": 427,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [427]
   },
   {
@@ -15990,7 +16007,7 @@
     "overlay_index": null,
     "base_mission_id": 428,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [428]
   },
   {
@@ -16038,7 +16055,7 @@
     "overlay_index": 0,
     "base_mission_id": 428,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [428]
   },
   {
@@ -16087,7 +16104,7 @@
     "overlay_index": null,
     "base_mission_id": 429,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [429]
   },
   {
@@ -16137,7 +16154,7 @@
     "overlay_index": 0,
     "base_mission_id": 429,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [429]
   },
   {
@@ -16210,7 +16227,7 @@
     "overlay_index": null,
     "base_mission_id": 431,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [431]
   },
   {
@@ -16253,7 +16270,7 @@
     "overlay_index": null,
     "base_mission_id": 432,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [432]
   },
   {
@@ -16298,7 +16315,7 @@
     "overlay_index": null,
     "base_mission_id": 433,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [433]
   },
   {
@@ -16338,7 +16355,7 @@
     "overlay_index": null,
     "base_mission_id": 434,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [434]
   },
   {
@@ -16383,7 +16400,7 @@
     "overlay_index": null,
     "base_mission_id": 435,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [435]
   },
   {
@@ -16429,7 +16446,7 @@
     "overlay_index": 0,
     "base_mission_id": 435,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [435]
   },
   {
@@ -16651,7 +16668,7 @@
     "overlay_index": null,
     "base_mission_id": 440,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [440]
   },
   {
@@ -16695,7 +16712,7 @@
     "overlay_index": null,
     "base_mission_id": 441,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [441]
   },
   {
@@ -16746,7 +16763,7 @@
     "overlay_index": null,
     "base_mission_id": 442,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [442]
   },
   {
@@ -16771,7 +16788,7 @@
     "overlay_index": null,
     "base_mission_id": 443,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [443]
   },
   {
@@ -16800,7 +16817,7 @@
     "overlay_index": null,
     "base_mission_id": 444,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [444]
   },
   {
@@ -16847,7 +16864,7 @@
     "overlay_index": null,
     "base_mission_id": 445,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [445]
   },
   {
@@ -16892,7 +16909,7 @@
     "overlay_index": null,
     "base_mission_id": 446,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [446]
   },
   {
@@ -16938,7 +16955,7 @@
     "overlay_index": null,
     "base_mission_id": 447,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [447]
   },
   {
@@ -17081,7 +17098,7 @@
     "overlay_index": null,
     "base_mission_id": 452,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [452]
   },
   {
@@ -17103,7 +17120,7 @@
     "overlay_index": null,
     "base_mission_id": 453,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [453]
   },
   {
@@ -17129,7 +17146,7 @@
     "overlay_index": null,
     "base_mission_id": 454,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [454]
   },
   {
@@ -17151,7 +17168,7 @@
     "overlay_index": null,
     "base_mission_id": 455,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [455]
   },
   {
@@ -17177,7 +17194,7 @@
     "overlay_index": null,
     "base_mission_id": 456,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [456]
   },
   {
@@ -17204,7 +17221,7 @@
     "overlay_index": null,
     "base_mission_id": 457,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [457]
   },
   {
@@ -17234,7 +17251,7 @@
     "overlay_index": null,
     "base_mission_id": 458,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [458]
   },
   {
@@ -17268,7 +17285,7 @@
     "overlay_index": 0,
     "base_mission_id": 458,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [458]
   },
   {
@@ -17479,7 +17496,7 @@
     "overlay_index": null,
     "base_mission_id": 464,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [464, 200, 462, 463]
   },
   {
@@ -17524,7 +17541,7 @@
     "overlay_index": null,
     "base_mission_id": 465,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [465]
   },
   {
@@ -17565,7 +17582,7 @@
     "overlay_index": null,
     "base_mission_id": 466,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [466]
   },
   {
@@ -17607,7 +17624,7 @@
     "overlay_index": null,
     "base_mission_id": 467,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [467]
   },
   {
@@ -17659,7 +17676,7 @@
     "overlay_index": null,
     "base_mission_id": 468,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [468]
   },
   {
@@ -17706,7 +17723,7 @@
     "overlay_index": null,
     "base_mission_id": 469,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [469]
   },
   {
@@ -17744,7 +17761,7 @@
     "overlay_index": null,
     "base_mission_id": 470,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [470]
   },
   {
@@ -17785,7 +17802,7 @@
     "overlay_index": null,
     "base_mission_id": 471,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [471]
   },
   {
@@ -17823,7 +17840,7 @@
     "overlay_index": null,
     "base_mission_id": 472,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [472]
   },
   {
@@ -17864,7 +17881,7 @@
     "overlay_index": null,
     "base_mission_id": 473,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [473]
   },
   {
@@ -17919,7 +17936,7 @@
     "overlay_index": null,
     "base_mission_id": 474,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [474, 475]
   },
   {
@@ -17970,7 +17987,7 @@
     "overlay_index": null,
     "base_mission_id": 475,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [475]
   },
   {
@@ -18067,7 +18084,7 @@
     "overlay_index": null,
     "base_mission_id": 478,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [478, 844]
   },
   {
@@ -18250,7 +18267,7 @@
     "overlay_index": null,
     "base_mission_id": 483,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [483]
   },
   {
@@ -18461,7 +18478,7 @@
     "overlay_index": null,
     "base_mission_id": 486,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [486]
   },
   {
@@ -18490,7 +18507,7 @@
     "overlay_index": null,
     "base_mission_id": 487,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [487]
   },
   {
@@ -18519,7 +18536,7 @@
     "overlay_index": null,
     "base_mission_id": 488,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [488]
   },
   {
@@ -18548,7 +18565,7 @@
     "overlay_index": null,
     "base_mission_id": 489,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [489]
   },
   {
@@ -18587,7 +18604,7 @@
     "overlay_index": null,
     "base_mission_id": 490,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [490]
   },
   {
@@ -18626,7 +18643,7 @@
     "overlay_index": null,
     "base_mission_id": 491,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [491]
   },
   {
@@ -19243,7 +19260,7 @@
     "overlay_index": null,
     "base_mission_id": 500,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [500]
   },
   {
@@ -19282,7 +19299,7 @@
     "overlay_index": null,
     "base_mission_id": 501,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [501]
   },
   {
@@ -19327,6 +19344,7 @@
     "additive_overlays": "",
     "mission_categories": [
       "fire",
+      "urban",
       "technical_aid",
       "traffic_police_specialization"
     ],
@@ -19375,6 +19393,7 @@
     "additive_overlays": "",
     "mission_categories": [
       "fire",
+      "urban",
       "technical_aid",
       "traffic_police_specialization"
     ],
@@ -19423,7 +19442,7 @@
     "overlay_index": null,
     "base_mission_id": 503,
     "additive_overlays": "",
-    "mission_categories": ["fire", "technical_aid"],
+    "mission_categories": ["fire", "urban", "technical_aid"],
     "exp": [503]
   },
   {
@@ -19452,7 +19471,7 @@
     "overlay_index": null,
     "base_mission_id": 504,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [504]
   },
   {
@@ -19492,7 +19511,7 @@
     "overlay_index": null,
     "base_mission_id": 505,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [505]
   },
   {
@@ -19540,7 +19559,7 @@
     "overlay_index": null,
     "base_mission_id": 506,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [506]
   },
   {
@@ -19592,7 +19611,7 @@
     "overlay_index": null,
     "base_mission_id": 507,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [507]
   },
   {
@@ -19637,7 +19656,7 @@
     "overlay_index": null,
     "base_mission_id": 508,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [508]
   },
   {
@@ -19683,7 +19702,7 @@
     "overlay_index": 0,
     "base_mission_id": 508,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [508]
   },
   {
@@ -19730,7 +19749,7 @@
     "overlay_index": null,
     "base_mission_id": 509,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [509]
   },
   {
@@ -19778,7 +19797,7 @@
     "overlay_index": 0,
     "base_mission_id": 509,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [509]
   },
   {
@@ -19800,7 +19819,7 @@
     "overlay_index": null,
     "base_mission_id": 510,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [510]
   },
   {
@@ -19838,7 +19857,7 @@
     "overlay_index": null,
     "base_mission_id": 511,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [511]
   },
   {
@@ -19860,7 +19879,7 @@
     "overlay_index": null,
     "base_mission_id": 512,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [512]
   },
   {
@@ -19898,7 +19917,7 @@
     "overlay_index": null,
     "base_mission_id": 513,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [513]
   },
   {
@@ -20375,7 +20394,7 @@
     "overlay_index": null,
     "base_mission_id": 525,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [525]
   },
   {
@@ -20401,7 +20420,7 @@
     "overlay_index": null,
     "base_mission_id": 526,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [526]
   },
   {
@@ -20427,7 +20446,7 @@
     "overlay_index": null,
     "base_mission_id": 527,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [527]
   },
   {
@@ -20453,7 +20472,7 @@
     "overlay_index": null,
     "base_mission_id": 528,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [528]
   },
   {
@@ -20479,7 +20498,7 @@
     "overlay_index": null,
     "base_mission_id": 529,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [529]
   },
   {
@@ -20513,7 +20532,7 @@
     "overlay_index": null,
     "base_mission_id": 530,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [530]
   },
   {
@@ -20539,7 +20558,7 @@
     "overlay_index": null,
     "base_mission_id": 531,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [531]
   },
   {
@@ -20565,7 +20584,7 @@
     "overlay_index": null,
     "base_mission_id": 532,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [532]
   },
   {
@@ -20591,7 +20610,7 @@
     "overlay_index": null,
     "base_mission_id": 533,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [533]
   },
   {
@@ -20617,7 +20636,7 @@
     "overlay_index": null,
     "base_mission_id": 534,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [534]
   },
   {
@@ -20643,7 +20662,7 @@
     "overlay_index": null,
     "base_mission_id": 535,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [535]
   },
   {
@@ -20741,7 +20760,7 @@
     "overlay_index": null,
     "base_mission_id": 538,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [538]
   },
   {
@@ -20864,7 +20883,7 @@
     "overlay_index": null,
     "base_mission_id": 542,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [542]
   },
   {
@@ -20904,7 +20923,7 @@
     "overlay_index": null,
     "base_mission_id": 543,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [543]
   },
   {
@@ -21139,7 +21158,7 @@
     "overlay_index": null,
     "base_mission_id": 550,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [550, 551, 552]
   },
   {
@@ -21173,7 +21192,7 @@
     "overlay_index": null,
     "base_mission_id": 551,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [551, 552]
   },
   {
@@ -21219,7 +21238,7 @@
     "overlay_index": null,
     "base_mission_id": 552,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [552]
   },
   {
@@ -21357,7 +21376,7 @@
     "overlay_index": null,
     "base_mission_id": 556,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [556]
   },
   {
@@ -21410,7 +21429,7 @@
     "overlay_index": null,
     "base_mission_id": 557,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [557]
   },
   {
@@ -21464,7 +21483,7 @@
     "overlay_index": 0,
     "base_mission_id": 557,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [557]
   },
   {
@@ -21517,7 +21536,7 @@
     "overlay_index": null,
     "base_mission_id": 558,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [558]
   },
   {
@@ -21571,7 +21590,7 @@
     "overlay_index": 0,
     "base_mission_id": 558,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [558]
   },
   {
@@ -21825,7 +21844,7 @@
     "overlay_index": null,
     "base_mission_id": 566,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [566]
   },
   {
@@ -22080,7 +22099,7 @@
     "overlay_index": null,
     "base_mission_id": 573,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [573, 62, 64]
   },
   {
@@ -22283,7 +22302,7 @@
     "overlay_index": null,
     "base_mission_id": 580,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [580]
   },
   {
@@ -22344,7 +22363,7 @@
     "overlay_index": null,
     "base_mission_id": 582,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [582]
   },
   {
@@ -22380,7 +22399,7 @@
     "overlay_index": null,
     "base_mission_id": 583,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [583]
   },
   {
@@ -22410,7 +22429,7 @@
     "overlay_index": null,
     "base_mission_id": 584,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [584]
   },
   {
@@ -22483,7 +22502,7 @@
     "overlay_index": null,
     "base_mission_id": 586,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [586]
   },
   {
@@ -22544,7 +22563,7 @@
     "overlay_index": null,
     "base_mission_id": 588,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [588]
   },
   {
@@ -22695,7 +22714,7 @@
     "overlay_index": null,
     "base_mission_id": 591,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "rural", "fire_support_specialization"],
     "exp": [591]
   },
   {
@@ -22747,7 +22766,7 @@
     "overlay_index": 0,
     "base_mission_id": 591,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "rural", "fire_support_specialization"],
     "exp": [591]
   },
   {
@@ -22798,7 +22817,7 @@
     "overlay_index": null,
     "base_mission_id": 592,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [592]
   },
   {
@@ -22850,7 +22869,7 @@
     "overlay_index": 0,
     "base_mission_id": 592,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [592]
   },
   {
@@ -23018,7 +23037,7 @@
     "overlay_index": null,
     "base_mission_id": 597,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [597, 598]
   },
   {
@@ -23057,7 +23076,7 @@
     "overlay_index": null,
     "base_mission_id": 598,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [598]
   },
   {
@@ -23232,7 +23251,7 @@
     "overlay_index": null,
     "base_mission_id": 603,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [603, 604, 605]
   },
   {
@@ -23283,7 +23302,7 @@
     "overlay_index": null,
     "base_mission_id": 604,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "rural"],
     "exp": [604, 605]
   },
   {
@@ -23335,7 +23354,7 @@
     "overlay_index": 0,
     "base_mission_id": 604,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "rural"],
     "exp": [604, 605]
   },
   {
@@ -23392,7 +23411,7 @@
     "overlay_index": null,
     "base_mission_id": 605,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "rural"],
     "exp": [605]
   },
   {
@@ -23450,7 +23469,7 @@
     "overlay_index": 0,
     "base_mission_id": 605,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "rural"],
     "exp": [605]
   },
   {
@@ -23607,7 +23626,7 @@
     "overlay_index": null,
     "base_mission_id": 610,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [610, 611, 612]
   },
   {
@@ -23659,7 +23678,7 @@
     "overlay_index": null,
     "base_mission_id": 611,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [611, 612]
   },
   {
@@ -24055,7 +24074,7 @@
     "overlay_index": null,
     "base_mission_id": 621,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [621]
   },
   {
@@ -24109,7 +24128,7 @@
     "overlay_index": null,
     "base_mission_id": 622,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [622, 42]
   },
   {
@@ -24148,7 +24167,7 @@
     "overlay_index": null,
     "base_mission_id": 623,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [623]
   },
   {
@@ -24417,7 +24436,7 @@
     "overlay_index": null,
     "base_mission_id": 631,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [631, 632]
   },
   {
@@ -24456,7 +24475,7 @@
     "overlay_index": null,
     "base_mission_id": 632,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [632]
   },
   {
@@ -24943,7 +24962,7 @@
     "overlay_index": null,
     "base_mission_id": 646,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [646, 647, 648]
   },
   {
@@ -24991,7 +25010,7 @@
     "overlay_index": null,
     "base_mission_id": 647,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [647, 648]
   },
   {
@@ -25038,7 +25057,7 @@
     "overlay_index": null,
     "base_mission_id": 648,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [648]
   },
   {
@@ -25178,7 +25197,7 @@
     "overlay_index": null,
     "base_mission_id": 653,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [653, 654]
   },
   {
@@ -25216,7 +25235,7 @@
     "overlay_index": null,
     "base_mission_id": 654,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [654]
   },
   {
@@ -25366,7 +25385,7 @@
     "overlay_index": null,
     "base_mission_id": 659,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [659, 660, 661]
   },
   {
@@ -25414,7 +25433,7 @@
     "overlay_index": null,
     "base_mission_id": 660,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [660, 661]
   },
   {
@@ -25461,7 +25480,7 @@
     "overlay_index": null,
     "base_mission_id": 661,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [661]
   },
   {
@@ -25620,7 +25639,7 @@
     "overlay_index": null,
     "base_mission_id": 666,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [666]
   },
   {
@@ -25661,7 +25680,7 @@
     "overlay_index": null,
     "base_mission_id": 667,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [667]
   },
   {
@@ -26039,7 +26058,7 @@
     "overlay_index": null,
     "base_mission_id": 678,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [678]
   },
   {
@@ -26296,7 +26315,7 @@
     "overlay_index": null,
     "base_mission_id": 686,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [686, 687]
   },
   {
@@ -26351,7 +26370,7 @@
     "overlay_index": null,
     "base_mission_id": 687,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [687]
   },
   {
@@ -26408,7 +26427,7 @@
     "overlay_index": 0,
     "base_mission_id": 687,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [687]
   },
   {
@@ -26465,7 +26484,7 @@
     "overlay_index": 1,
     "base_mission_id": 687,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [687]
   },
   {
@@ -26525,7 +26544,7 @@
     "overlay_index": 2,
     "base_mission_id": 687,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [687]
   },
   {
@@ -27100,7 +27119,7 @@
     "overlay_index": null,
     "base_mission_id": 705,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [705, 706]
   },
   {
@@ -27134,7 +27153,7 @@
     "overlay_index": null,
     "base_mission_id": 706,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [706]
   },
   {
@@ -27317,7 +27336,7 @@
     "overlay_index": null,
     "base_mission_id": 709,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [709, 710, 711]
   },
   {
@@ -27365,7 +27384,7 @@
     "overlay_index": null,
     "base_mission_id": 710,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [710, 711]
   },
   {
@@ -27412,7 +27431,7 @@
     "overlay_index": null,
     "base_mission_id": 711,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [711]
   },
   {
@@ -27457,7 +27476,7 @@
     "overlay_index": null,
     "base_mission_id": 712,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [712, 713, 714]
   },
   {
@@ -27700,7 +27719,7 @@
     "overlay_index": null,
     "base_mission_id": 715,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [715, 716, 717]
   },
   {
@@ -27743,7 +27762,7 @@
     "overlay_index": null,
     "base_mission_id": 716,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [716, 717]
   },
   {
@@ -27984,7 +28003,7 @@
     "overlay_index": null,
     "base_mission_id": 722,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [722, 723, 724]
   },
   {
@@ -28431,7 +28450,7 @@
     "overlay_index": null,
     "base_mission_id": 731,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [731]
   },
   {
@@ -28466,7 +28485,7 @@
     "overlay_index": null,
     "base_mission_id": 732,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [732]
   },
   {
@@ -28580,7 +28599,7 @@
     "overlay_index": null,
     "base_mission_id": 736,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [736]
   },
   {
@@ -28606,7 +28625,7 @@
     "overlay_index": null,
     "base_mission_id": 737,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [737]
   },
   {
@@ -28632,7 +28651,7 @@
     "overlay_index": null,
     "base_mission_id": 738,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [738]
   },
   {
@@ -28658,7 +28677,7 @@
     "overlay_index": null,
     "base_mission_id": 739,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [739]
   },
   {
@@ -29034,7 +29053,7 @@
     "overlay_index": null,
     "base_mission_id": 751,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [751]
   },
   {
@@ -29160,7 +29179,7 @@
     "overlay_index": null,
     "base_mission_id": 755,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [755, 756]
   },
   {
@@ -29201,7 +29220,7 @@
     "overlay_index": null,
     "base_mission_id": 756,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [756]
   },
   {
@@ -29357,7 +29376,7 @@
     "overlay_index": null,
     "base_mission_id": 761,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [761, 762]
   },
   {
@@ -29404,7 +29423,7 @@
     "overlay_index": 0,
     "base_mission_id": 761,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [761, 762]
   },
   {
@@ -29454,7 +29473,7 @@
     "overlay_index": null,
     "base_mission_id": 762,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [762]
   },
   {
@@ -29505,7 +29524,7 @@
     "overlay_index": 0,
     "base_mission_id": 762,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [762]
   },
   {
@@ -29930,11 +29949,7 @@
     "overlay_index": null,
     "base_mission_id": 772,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "technical_aid",
-      "traffic_police_specialization"
-    ],
+    "mission_categories": ["fire", "technical_aid", "urban"],
     "exp": [772, 773]
   },
   {
@@ -29983,11 +29998,7 @@
     "overlay_index": 0,
     "base_mission_id": 772,
     "additive_overlays": "",
-    "mission_categories": [
-      "fire",
-      "technical_aid",
-      "traffic_police_specialization"
-    ],
+    "mission_categories": ["fire", "technical_aid", "urban"],
     "exp": [772, 773]
   },
   {
@@ -30039,7 +30050,8 @@
     "mission_categories": [
       "fire",
       "technical_aid",
-      "traffic_police_specialization"
+      "traffic_police_specialization",
+      "urban"
     ],
     "exp": [773]
   },
@@ -30093,7 +30105,8 @@
     "mission_categories": [
       "fire",
       "technical_aid",
-      "traffic_police_specialization"
+      "traffic_police_specialization",
+      "urban"
     ],
     "exp": [773]
   },
@@ -30251,7 +30264,7 @@
     "overlay_index": null,
     "base_mission_id": 778,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [778, 779, 780]
   },
   {
@@ -30301,7 +30314,7 @@
     "overlay_index": null,
     "base_mission_id": 779,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [779, 780]
   },
   {
@@ -30352,7 +30365,7 @@
     "overlay_index": 0,
     "base_mission_id": 779,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [779, 780]
   },
   {
@@ -30403,7 +30416,7 @@
     "overlay_index": null,
     "base_mission_id": 780,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [780]
   },
   {
@@ -30455,7 +30468,7 @@
     "overlay_index": 0,
     "base_mission_id": 780,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [780]
   },
   {
@@ -30636,7 +30649,7 @@
     "overlay_index": null,
     "base_mission_id": 786,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [786]
   },
   {
@@ -30686,7 +30699,7 @@
     "overlay_index": null,
     "base_mission_id": 787,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [787]
   },
   {
@@ -30743,7 +30756,7 @@
     "overlay_index": null,
     "base_mission_id": 789,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [789]
   },
   {
@@ -30778,7 +30791,7 @@
     "overlay_index": null,
     "base_mission_id": 790,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [790]
   },
   {
@@ -30807,7 +30820,7 @@
     "overlay_index": null,
     "base_mission_id": 791,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [791, 792]
   },
   {
@@ -30842,7 +30855,7 @@
     "overlay_index": null,
     "base_mission_id": 792,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [792]
   },
   {
@@ -31863,7 +31876,7 @@
     "overlay_index": null,
     "base_mission_id": 815,
     "additive_overlays": "",
-    "mission_categories": ["fire", "technical_aid"],
+    "mission_categories": ["fire", "technical_aid", "urban"],
     "exp": [815, 816]
   },
   {
@@ -31905,7 +31918,7 @@
     "overlay_index": null,
     "base_mission_id": 816,
     "additive_overlays": "",
-    "mission_categories": ["fire", "technical_aid"],
+    "mission_categories": ["fire", "technical_aid", "urban"],
     "exp": [816]
   },
   {
@@ -32035,7 +32048,7 @@
     "overlay_index": null,
     "base_mission_id": 820,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [820]
   },
   {
@@ -32152,7 +32165,7 @@
     "overlay_index": null,
     "base_mission_id": 824,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [824]
   },
   {
@@ -32296,7 +32309,7 @@
     "overlay_index": null,
     "base_mission_id": 829,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [829]
   },
   {
@@ -32392,7 +32405,7 @@
     "overlay_index": null,
     "base_mission_id": 832,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [832]
   },
   {
@@ -32495,7 +32508,7 @@
     "overlay_index": null,
     "base_mission_id": 835,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [835, 836, 837]
   },
   {
@@ -32541,7 +32554,7 @@
     "overlay_index": 0,
     "base_mission_id": 835,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [835, 836, 837]
   },
   {
@@ -32590,7 +32603,7 @@
     "overlay_index": null,
     "base_mission_id": 836,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [836, 837]
   },
   {
@@ -32640,7 +32653,7 @@
     "overlay_index": 0,
     "base_mission_id": 836,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [836, 837]
   },
   {
@@ -32688,7 +32701,7 @@
     "overlay_index": null,
     "base_mission_id": 837,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [837]
   },
   {
@@ -32737,7 +32750,7 @@
     "overlay_index": 0,
     "base_mission_id": 837,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [837]
   },
   {
@@ -33001,7 +33014,7 @@
     "overlay_index": null,
     "base_mission_id": 842,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [842, 843]
   },
   {
@@ -33041,7 +33054,7 @@
     "overlay_index": 0,
     "base_mission_id": 842,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [842, 843]
   },
   {
@@ -33084,7 +33097,7 @@
     "overlay_index": null,
     "base_mission_id": 843,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [843]
   },
   {
@@ -33128,7 +33141,7 @@
     "overlay_index": 0,
     "base_mission_id": 843,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [843]
   },
   {
@@ -33162,7 +33175,7 @@
     "overlay_index": null,
     "base_mission_id": 844,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [844]
   },
   {
@@ -33263,7 +33276,7 @@
     "overlay_index": null,
     "base_mission_id": 847,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [847]
   },
   {
@@ -33510,7 +33523,7 @@
     "overlay_index": null,
     "base_mission_id": 852,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [852, 853]
   },
   {
@@ -33891,7 +33904,7 @@
     "overlay_index": null,
     "base_mission_id": 857,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [857]
   },
   {
@@ -33983,7 +33996,7 @@
     "overlay_index": null,
     "base_mission_id": 860,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [860]
   },
   {
@@ -34048,7 +34061,7 @@
     "overlay_index": null,
     "base_mission_id": 862,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [862]
   },
   {
@@ -34087,7 +34100,7 @@
     "overlay_index": null,
     "base_mission_id": 863,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [863]
   },
   {
@@ -34113,7 +34126,7 @@
     "overlay_index": null,
     "base_mission_id": 864,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [864]
   },
   {
@@ -34139,7 +34152,7 @@
     "overlay_index": null,
     "base_mission_id": 865,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [865]
   },
   {
@@ -34395,7 +34408,7 @@
     "overlay_index": null,
     "base_mission_id": 870,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [870]
   },
   {
@@ -34439,7 +34452,7 @@
     "overlay_index": null,
     "base_mission_id": 871,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [871]
   },
   {
@@ -34484,7 +34497,7 @@
     "overlay_index": 0,
     "base_mission_id": 871,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [871]
   },
   {
@@ -34532,7 +34545,7 @@
     "overlay_index": 1,
     "base_mission_id": 871,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [871]
   },
   {
@@ -34581,7 +34594,7 @@
     "overlay_index": 2,
     "base_mission_id": 871,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [871]
   },
   {
@@ -34629,7 +34642,7 @@
     "overlay_index": 3,
     "base_mission_id": 871,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [871]
   },
   {
@@ -34678,7 +34691,7 @@
     "overlay_index": 4,
     "base_mission_id": 871,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [871]
   },
   {
@@ -34782,7 +34795,7 @@
     "overlay_index": null,
     "base_mission_id": 874,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [874]
   },
   {
@@ -34888,7 +34901,7 @@
     "overlay_index": null,
     "base_mission_id": 877,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [877]
   },
   {
@@ -34917,7 +34930,7 @@
     "overlay_index": 0,
     "base_mission_id": 877,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [877]
   },
   {
@@ -34946,7 +34959,7 @@
     "overlay_index": 1,
     "base_mission_id": 877,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [877]
   },
   {
@@ -35371,7 +35384,7 @@
     "overlay_index": null,
     "base_mission_id": 885,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [885]
   },
   {
@@ -35429,7 +35442,7 @@
     "overlay_index": 0,
     "base_mission_id": 885,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [885]
   },
   {
@@ -35489,7 +35502,7 @@
     "overlay_index": 1,
     "base_mission_id": 885,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [885]
   },
   {
@@ -36004,7 +36017,7 @@
     "overlay_index": null,
     "base_mission_id": 893,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [893]
   },
   {
@@ -36036,7 +36049,7 @@
     "overlay_index": null,
     "base_mission_id": 894,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [894]
   },
   {
@@ -36068,7 +36081,7 @@
     "overlay_index": null,
     "base_mission_id": 895,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [895]
   },
   {
@@ -36361,7 +36374,7 @@
     "overlay_index": null,
     "base_mission_id": 898,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [898]
   },
   {
@@ -36487,7 +36500,7 @@
     "overlay_index": null,
     "base_mission_id": 901,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [901]
   },
   {
@@ -36545,7 +36558,7 @@
     "overlay_index": 0,
     "base_mission_id": 901,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [901]
   },
   {
@@ -36609,7 +36622,7 @@
     "overlay_index": 1,
     "base_mission_id": 901,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [901]
   },
   {
@@ -36674,7 +36687,7 @@
     "overlay_index": 2,
     "base_mission_id": 901,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [901]
   },
   {
@@ -36707,7 +36720,7 @@
     "overlay_index": null,
     "base_mission_id": 902,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [902]
   },
   {
@@ -36744,7 +36757,7 @@
     "overlay_index": 0,
     "base_mission_id": 902,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [902]
   },
   {
@@ -36860,7 +36873,7 @@
     "overlay_index": null,
     "base_mission_id": 904,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [904]
   },
   {
@@ -36909,7 +36922,7 @@
     "overlay_index": 0,
     "base_mission_id": 904,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [904]
   },
   {
@@ -36960,7 +36973,7 @@
     "overlay_index": null,
     "base_mission_id": 905,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [905]
   },
   {
@@ -37016,7 +37029,7 @@
     "overlay_index": 0,
     "base_mission_id": 905,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [905]
   },
   {
@@ -37061,7 +37074,7 @@
     "overlay_index": null,
     "base_mission_id": 906,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [906]
   },
   {
@@ -37101,7 +37114,7 @@
     "overlay_index": null,
     "base_mission_id": 907,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [907]
   },
   {
@@ -37236,7 +37249,7 @@
     "overlay_index": null,
     "base_mission_id": 911,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [911]
   },
   {
@@ -37304,7 +37317,7 @@
     "overlay_index": null,
     "base_mission_id": 913,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [913]
   },
   {
@@ -37357,7 +37370,7 @@
     "overlay_index": null,
     "base_mission_id": 915,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [915]
   },
   {
@@ -37737,7 +37750,7 @@
     "overlay_index": null,
     "base_mission_id": 925,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [925]
   },
   {
@@ -37886,7 +37899,7 @@
     "overlay_index": null,
     "base_mission_id": 929,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [929]
   },
   {
@@ -37940,7 +37953,7 @@
     "overlay_index": 0,
     "base_mission_id": 929,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [929]
   },
   {
@@ -37994,7 +38007,7 @@
     "overlay_index": 1,
     "base_mission_id": 929,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [929]
   },
   {
@@ -38410,7 +38423,7 @@
     "overlay_index": null,
     "base_mission_id": 935,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [935]
   },
   {
@@ -38451,7 +38464,7 @@
     "overlay_index": null,
     "base_mission_id": 936,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [936]
   },
   {
@@ -38481,7 +38494,7 @@
     "overlay_index": null,
     "base_mission_id": 937,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [937]
   },
   {
@@ -38561,7 +38574,7 @@
     "overlay_index": null,
     "base_mission_id": 939,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [939]
   },
   {
@@ -38615,7 +38628,7 @@
     "overlay_index": 0,
     "base_mission_id": 939,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [939]
   },
   {
@@ -38670,7 +38683,7 @@
     "overlay_index": 1,
     "base_mission_id": 939,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [939]
   },
   {
@@ -38993,7 +39006,7 @@
     "overlay_index": null,
     "base_mission_id": 945,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [945]
   },
   {
@@ -39050,7 +39063,7 @@
     "overlay_index": 0,
     "base_mission_id": 945,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [945]
   },
   {
@@ -39151,7 +39164,7 @@
     "overlay_index": null,
     "base_mission_id": 948,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [948]
   },
   {
@@ -39196,7 +39209,7 @@
     "overlay_index": 0,
     "base_mission_id": 948,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [948]
   },
   {
@@ -39245,7 +39258,7 @@
     "overlay_index": 1,
     "base_mission_id": 948,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "rural"],
     "exp": [948]
   },
   {
@@ -39408,7 +39421,7 @@
     "overlay_index": null,
     "base_mission_id": 952,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [952]
   },
   {
@@ -39471,7 +39484,7 @@
     "overlay_index": 0,
     "base_mission_id": 952,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [952]
   },
   {
@@ -39541,7 +39554,7 @@
     "overlay_index": 1,
     "base_mission_id": 952,
     "additive_overlays": "",
-    "mission_categories": ["riot_police"],
+    "mission_categories": ["fire", "urban"],
     "exp": [952]
   },
   {
@@ -39612,7 +39625,7 @@
     "overlay_index": 2,
     "base_mission_id": 952,
     "additive_overlays": "",
-    "mission_categories": ["riot_police"],
+    "mission_categories": ["fire", "urban"],
     "exp": [952]
   },
   {
@@ -39683,7 +39696,7 @@
     "overlay_index": 3,
     "base_mission_id": 952,
     "additive_overlays": "",
-    "mission_categories": ["riot_police"],
+    "mission_categories": ["fire", "urban"],
     "exp": [952]
   },
   {
@@ -39834,7 +39847,7 @@
     "overlay_index": null,
     "base_mission_id": 956,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [956]
   },
   {
@@ -39895,7 +39908,7 @@
     "overlay_index": 0,
     "base_mission_id": 956,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [956]
   },
   {
@@ -39956,7 +39969,7 @@
     "overlay_index": 1,
     "base_mission_id": 956,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [956]
   },
   {
@@ -40029,7 +40042,7 @@
     "overlay_index": 2,
     "base_mission_id": 956,
     "additive_overlays": "",
-    "mission_categories": ["riot_police"],
+    "mission_categories": ["fire", "urban"],
     "exp": [956]
   },
   {
@@ -40391,7 +40404,7 @@
     "overlay_index": null,
     "base_mission_id": 964,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [964]
   },
   {
@@ -40432,7 +40445,7 @@
     "overlay_index": null,
     "base_mission_id": 965,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [965]
   },
   {
@@ -40833,7 +40846,7 @@
     "overlay_index": null,
     "base_mission_id": 974,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [974]
   },
   {
@@ -40882,7 +40895,7 @@
     "overlay_index": 0,
     "base_mission_id": 974,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [974]
   },
   {
@@ -40931,7 +40944,7 @@
     "overlay_index": 1,
     "base_mission_id": 974,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [974]
   },
   {
@@ -41115,7 +41128,7 @@
     "overlay_index": null,
     "base_mission_id": 978,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [978]
   },
   {
@@ -41167,7 +41180,7 @@
     "overlay_index": 0,
     "base_mission_id": 978,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [978]
   },
   {
@@ -41284,7 +41297,7 @@
     "overlay_index": null,
     "base_mission_id": 981,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [981]
   },
   {
@@ -41321,7 +41334,7 @@
     "overlay_index": null,
     "base_mission_id": 982,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [982]
   },
   {
@@ -41972,7 +41985,7 @@
     "overlay_index": null,
     "base_mission_id": 997,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [997]
   },
   {
@@ -42166,7 +42179,7 @@
     "overlay_index": null,
     "base_mission_id": 1003,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1003]
   },
   {
@@ -42503,7 +42516,7 @@
     "overlay_index": null,
     "base_mission_id": 1013,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1013]
   },
   {
@@ -42529,7 +42542,7 @@
     "overlay_index": null,
     "base_mission_id": 1014,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1014]
   },
   {
@@ -42558,7 +42571,7 @@
     "overlay_index": null,
     "base_mission_id": 1015,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1015, 732]
   },
   {
@@ -42719,7 +42732,7 @@
     "overlay_index": null,
     "base_mission_id": 1019,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1019]
   },
   {
@@ -42772,7 +42785,7 @@
     "overlay_index": 0,
     "base_mission_id": 1019,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1019]
   },
   {
@@ -42824,7 +42837,7 @@
     "overlay_index": 1,
     "base_mission_id": 1019,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1019]
   },
   {
@@ -42947,7 +42960,7 @@
     "overlay_index": null,
     "base_mission_id": 1022,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [1022]
   },
   {
@@ -42996,7 +43009,7 @@
     "overlay_index": 0,
     "base_mission_id": 1022,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [1022]
   },
   {
@@ -43092,7 +43105,7 @@
     "overlay_index": null,
     "base_mission_id": 1026,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [1026]
   },
   {
@@ -43148,7 +43161,7 @@
     "overlay_index": 0,
     "base_mission_id": 1026,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [1026]
   },
   {
@@ -43205,7 +43218,7 @@
     "overlay_index": 1,
     "base_mission_id": 1026,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [1026]
   },
   {
@@ -43391,7 +43404,7 @@
     "overlay_index": null,
     "base_mission_id": 1030,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [1030]
   },
   {
@@ -43463,7 +43476,7 @@
     "overlay_index": null,
     "base_mission_id": 1032,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [1032]
   },
   {
@@ -43556,7 +43569,7 @@
     "overlay_index": null,
     "base_mission_id": 1034,
     "additive_overlays": "",
-    "mission_categories": ["fire", "fire_support_specialization"],
+    "mission_categories": ["fire", "fire_support_specialization", "urban"],
     "exp": [1034]
   },
   {
@@ -43656,7 +43669,7 @@
     "overlay_index": null,
     "base_mission_id": 1037,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1037]
   },
   {
@@ -43691,7 +43704,7 @@
     "overlay_index": null,
     "base_mission_id": 1038,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1038]
   },
   {
@@ -43977,7 +43990,7 @@
     "overlay_index": null,
     "base_mission_id": 1045,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [1045, 5, 16, 110, 111, 196, 198, 258, 259, 360, 361]
   },
   {
@@ -44238,7 +44251,7 @@
     "overlay_index": null,
     "base_mission_id": 1052,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [1052]
   },
   {
@@ -44298,7 +44311,7 @@
     "overlay_index": 0,
     "base_mission_id": 1052,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [1052]
   },
   {
@@ -44360,7 +44373,7 @@
     "overlay_index": 1,
     "base_mission_id": 1052,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [1052]
   },
   {
@@ -44427,7 +44440,7 @@
     "overlay_index": 2,
     "base_mission_id": 1052,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [1052]
   },
   {
@@ -44497,7 +44510,7 @@
     "overlay_index": 3,
     "base_mission_id": 1052,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [1052]
   },
   {
@@ -44573,7 +44586,7 @@
     "overlay_index": 4,
     "base_mission_id": 1052,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [1052]
   },
   {
@@ -44878,7 +44891,7 @@
     "overlay_index": null,
     "base_mission_id": 1056,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [1056]
   },
   {
@@ -44911,7 +44924,7 @@
     "overlay_index": null,
     "base_mission_id": 1057,
     "additive_overlays": "",
-    "mission_categories": ["fire", "technical_aid"],
+    "mission_categories": ["fire", "technical_aid", "urban"],
     "exp": [1057]
   },
   {
@@ -44937,7 +44950,7 @@
     "overlay_index": null,
     "base_mission_id": 1058,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1058]
   },
   {
@@ -45234,7 +45247,7 @@
     "overlay_index": null,
     "base_mission_id": 1063,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [1063]
   },
   {
@@ -45397,7 +45410,7 @@
     "overlay_index": null,
     "base_mission_id": 1072,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1072]
   },
   {
@@ -45423,7 +45436,7 @@
     "overlay_index": null,
     "base_mission_id": 1073,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1073]
   },
   {
@@ -45558,7 +45571,7 @@
     "overlay_index": null,
     "base_mission_id": 1077,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1077]
   },
   {
@@ -45600,7 +45613,7 @@
     "overlay_index": null,
     "base_mission_id": 1078,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1078]
   },
   {
@@ -45669,7 +45682,7 @@
     "overlay_index": null,
     "base_mission_id": 1080,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1080]
   },
   {
@@ -45709,7 +45722,7 @@
     "overlay_index": null,
     "base_mission_id": 1081,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1081]
   },
   {
@@ -45784,7 +45797,7 @@
     "overlay_index": null,
     "base_mission_id": 1083,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1083]
   },
   {
@@ -46080,7 +46093,7 @@
     "overlay_index": null,
     "base_mission_id": 1092,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1092]
   },
   {
@@ -46120,7 +46133,7 @@
     "overlay_index": null,
     "base_mission_id": 1093,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1093]
   },
   {
@@ -46161,7 +46174,7 @@
     "overlay_index": null,
     "base_mission_id": 1094,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1094]
   },
   {
@@ -46294,7 +46307,7 @@
     "overlay_index": null,
     "base_mission_id": 1098,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1098]
   },
   {
@@ -46336,7 +46349,7 @@
     "overlay_index": null,
     "base_mission_id": 1099,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban", "rural"],
     "exp": [1099]
   },
   {
@@ -46515,7 +46528,7 @@
     "overlay_index": null,
     "base_mission_id": 1104,
     "additive_overlays": "",
-    "mission_categories": ["fire"],
+    "mission_categories": ["fire", "urban"],
     "exp": [1104]
   }
 ]
