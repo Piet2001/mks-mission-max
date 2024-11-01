@@ -8290,19 +8290,14 @@
     ],
     "requirements": {
       "battalion_chief_vehicles": 1,
-      "diver_units": 2,
+      "diver_units": 1,
       "firetrucks": 1,
-      "police_cars": 2,
-      "boats": 1,
-      "platform_trucks": 1,
-      "heavy_rescue_vehicles": 1
+      "police_cars": 1
     },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [241, 348],
-      "filter_id": "water_watch_missions",
-      "possible_patient": 1,
-      "patient_at_end_of_mission": true
+      "filter_id": "water_watch_missions"
     },
     "prerequisites": {
       "main_building": -1,
