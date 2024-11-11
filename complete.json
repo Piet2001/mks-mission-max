@@ -951,10 +951,10 @@
   },
   {
     "id": "29",
-    "name": "Brand in werkplaats",
+    "name": "Brand in werkplaats (Groot)",
     "place": "",
     "place_array": [],
-    "average_credits": 2470,
+    "average_credits": 4640,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -968,7 +968,7 @@
       "water_tankers": 1,
       "heavy_rescue_vehicles": 1,
       "firetrucks": 3,
-      "police_cars": 1
+      "police_cars": 2
     },
     "chances": {
       "mobile_command_vehicles": 70,
@@ -977,7 +977,9 @@
       "patient_transport": 30
     },
     "additional": {
-      "possible_patient": 1,
+      "possible_patient": 3,
+      "possible_patient_min": 1,
+      "expansion_missions_ids": [29],
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
       "patient_specialization_ids": [1],
@@ -986,9 +988,9 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "rescue_stations": 1,
-      "police_stations": 1,
-      "fire_stations": 5
+      "rescue_stations": 8,
+      "police_stations": 2,
+      "fire_stations": 13
     },
     "overlay_index": null,
     "base_mission_id": 29,
@@ -8119,10 +8121,10 @@
   },
   {
     "id": "237",
-    "name": "Brand in werkplaats",
+    "name": "Brand in werkplaats (Middel)",
     "place": "",
     "place_array": [],
-    "average_credits": 780,
+    "average_credits": 1990,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -8133,49 +8135,65 @@
       "battalion_chief_vehicles": 1,
       "mobile_air_vehicles": 1,
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 2,
-      "police_cars": 1
+      "firetrucks": 3,
+      "police_cars": 2,
+      "mobile_command_vehicles": 1,
+      "water_tankers": 1
     },
     "chances": { "mobile_air_vehicles": 10 },
     "additional": {
+      "expansion_missions_ids": [29],
       "filter_id": "firehouse_missions",
-      "fire_alarm_system_possible": true
+      "fire_alarm_system_possible": true,
+      "possible_patient": 3,
+      "possible_patient_min": 1
     },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 1,
-      "fire_stations": 4
+      "fire_stations": 6
     },
     "overlay_index": null,
     "base_mission_id": 237,
     "additive_overlays": "",
     "mission_categories": ["fire", "urban"],
-    "exp": [237]
+    "exp": [237, 29]
   },
   {
     "id": "238",
-    "name": "Brand in werkplaats",
+    "name": "Brand in werkplaats (Klein)",
     "place": "",
     "place_array": [],
-    "average_credits": 450,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "firetrucks": 1 },
+    "requirements": {
+      "firetrucks": 3,
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 2
+    },
     "chances": {},
     "additional": {
+      "expansion_missions_ids": [237, 29],
       "filter_id": "firehouse_missions",
-      "fire_alarm_system_possible": true
+      "fire_alarm_system_possible": true,
+      "possible_patient": 3,
+      "possible_patient_min": 1
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 238,
     "additive_overlays": "",
     "mission_categories": ["fire", "urban"],
-    "exp": [238]
+    "exp": [238, 237, 29]
   },
   {
     "id": "239",
