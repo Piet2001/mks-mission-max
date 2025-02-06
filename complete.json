@@ -28757,8 +28757,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2024-02-15T10:00:00Z",
-      "date_end": "2024-02-18T23:00:00Z"
+      "date_start": "2025-02-06T10:00:00Z",
+      "date_end": "2025-02-09T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -28783,8 +28783,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2024-02-15T10:00:00Z",
-      "date_end": "2024-02-18T23:00:00Z"
+      "date_start": "2025-02-06T10:00:00Z",
+      "date_end": "2025-02-09T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -28809,8 +28809,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2024-02-15T10:00:00Z",
-      "date_end": "2024-02-18T23:00:00Z"
+      "date_start": "2025-02-06T10:00:00Z",
+      "date_end": "2025-02-09T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -28835,8 +28835,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2024-02-15T10:00:00Z",
-      "date_end": "2024-02-18T23:00:00Z"
+      "date_start": "2025-02-06T10:00:00Z",
+      "date_end": "2025-02-09T23:00:00Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
@@ -28861,8 +28861,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2024-02-15T10:00:00Z",
-      "date_end": "2024-02-18T23:00:00Z"
+      "date_start": "2025-02-06T10:00:00Z",
+      "date_end": "2025-02-09T23:00:00Z"
     },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
@@ -28887,8 +28887,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2024-02-15T10:00:00Z",
-      "date_end": "2024-02-18T23:00:00Z"
+      "date_start": "2025-02-06T10:00:00Z",
+      "date_end": "2025-02-09T23:00:00Z"
     },
     "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
@@ -28914,8 +28914,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2024-02-15T10:00:00Z",
-      "date_end": "2024-02-18T23:00:00Z"
+      "date_start": "2025-02-06T10:00:00Z",
+      "date_end": "2025-02-09T23:00:00Z"
     },
     "prerequisites": {
       "main_building": 5,
@@ -28947,8 +28947,8 @@
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
-      "date_start": "2024-02-15T10:00:00Z",
-      "date_end": "2024-02-18T23:00:00Z"
+      "date_start": "2025-02-06T10:00:00Z",
+      "date_end": "2025-02-09T23:00:00Z"
     },
     "prerequisites": { "main_building": 5, "police_stations": 4 },
     "overlay_index": null,
@@ -28975,8 +28975,8 @@
       "min_possible_prisoners": 2,
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions",
-      "date_start": "2024-02-15T10:00:00Z",
-      "date_end": "2024-02-18T23:00:00Z"
+      "date_start": "2025-02-06T10:00:00Z",
+      "date_end": "2025-02-09T23:00:00Z"
     },
     "prerequisites": {
       "main_building": 5,
@@ -29008,8 +29008,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2024-02-15T10:00:00Z",
-      "date_end": "2024-02-18T23:00:00Z",
+      "date_start": "2025-02-06T10:00:00Z",
+      "date_end": "2025-02-09T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -29039,8 +29039,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2024-02-15T10:00:00Z",
-      "date_end": "2024-02-18T23:00:00Z",
+      "date_start": "2025-02-06T10:00:00Z",
+      "date_end": "2025-02-09T23:00:00Z",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -29070,8 +29070,8 @@
       "possible_patient": 5,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2024-02-15T10:00:00Z",
-      "date_end": "2024-02-18T23:00:00Z",
+      "date_start": "2025-02-06T10:00:00Z",
+      "date_end": "2025-02-09T23:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -29101,8 +29101,8 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2024-02-15T10:00:00Z",
-      "date_end": "2024-02-18T23:00:00Z",
+      "date_start": "2025-02-06T10:00:00Z",
+      "date_end": "2025-02-09T23:00:00Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -29132,8 +29132,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2024-02-15T10:00:00Z",
-      "date_end": "2024-02-18T23:00:00Z",
+      "date_start": "2025-02-06T10:00:00Z",
+      "date_end": "2025-02-09T23:00:00Z",
       "patient_specialization_ids": [8],
       "patient_specialization_captions": ["Cardiochirurgie"],
       "patient_specializations": "Cardiochirurgie"
@@ -29168,8 +29168,8 @@
     "chances": { "platform_trucks": 20 },
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2024-02-15T10:00:00Z",
-      "date_end": "2024-02-18T23:00:00Z"
+      "date_start": "2025-02-06T10:00:00Z",
+      "date_end": "2025-02-09T23:00:00Z"
     },
     "prerequisites": {
       "main_building": 5,
@@ -29206,8 +29206,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2024-02-15T10:00:00Z",
-      "date_end": "2024-02-18T23:00:00Z"
+      "date_start": "2025-02-06T10:00:00Z",
+      "date_end": "2025-02-09T23:00:00Z"
     },
     "prerequisites": {
       "main_building": 0,
@@ -29240,8 +29240,8 @@
       "possible_patient_min": 2,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2024-02-15T10:00:00Z",
-      "date_end": "2024-02-18T23:00:00Z",
+      "date_start": "2025-02-06T10:00:00Z",
+      "date_end": "2025-02-09T23:00:00Z",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
       "patient_specializations": "Algemene Heelkunde"
