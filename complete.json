@@ -10497,17 +10497,15 @@
       "mobile_air_vehicles": 1,
       "water_tankers": 1,
       "mass_casualty": 1,
-      "mass_casualty_advanced": 1,
-      "elw3": 1,
-      "ovdp": 1
+      "mass_casualty_advanced": 1
     },
     "chances": { "platform_trucks": 20 },
     "additional": {
       "expansion_missions_ids": [303, 304, 474, 475],
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
-      "possible_patient": 100,
-      "possible_patient_min": 35
+      "possible_patient": 60,
+      "possible_patient_min": 20
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -10536,13 +10534,11 @@
       "mobile_air_vehicles": 1,
       "water_tankers": 1,
       "mass_casualty": 1,
-      "mass_casualty_advanced": 1,
-      "elw3": 1,
-      "ovdp": 1
+      "mass_casualty_advanced": 1
     },
     "chances": { "platform_trucks": 80, "patient_transport": 30 },
     "additional": {
-      "possible_patient": 100,
+      "possible_patient": 60,
       "expansion_missions_ids": [304, 474, 475],
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
@@ -10552,7 +10548,7 @@
         "Traumatologie"
       ],
       "patient_specializations": "Algemene Heelkunde, Traumatologie",
-      "possible_patient_min": 35
+      "possible_patient_min": 20
     },
     "prerequisites": {
       "main_building": 0,
@@ -10578,16 +10574,12 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "platform_trucks": 2,
+      "platform_trucks": 1,
       "battalion_chief_vehicles": 1,
       "mobile_command_vehicles": 1,
       "mobile_air_vehicles": 1,
       "water_tankers": 1,
-      "firetrucks": 4,
-      "elw3": 1,
-      "ovdp": 1,
-      "mass_casualty": 1,
-      "mass_casualty_advanced": 1
+      "firetrucks": 3
     },
     "chances": {
       "mobile_command_vehicles": 50,
@@ -10597,8 +10589,8 @@
       "patient_transport": 30
     },
     "additional": {
-      "possible_patient": 100,
-      "possible_patient_min": 35,
+      "possible_patient": 50,
+      "possible_patient_min": 10,
       "expansion_missions_ids": [475, 475],
       "filter_id": "firehouse_missions",
       "patient_specialization_ids": [1, 4],
@@ -18104,9 +18096,7 @@
       "water_tankers": 1,
       "mass_casualty": 1,
       "mass_casualty_advanced": 1,
-      "firetrucks": 4,
-      "elw3": 1,
-      "ovdp": 1
+      "firetrucks": 4
     },
     "chances": {
       "mobile_command_vehicles": 50,
@@ -18116,8 +18106,8 @@
       "patient_transport": 30
     },
     "additional": {
-      "possible_patient": 100,
-      "possible_patient_min": 35,
+      "possible_patient": 60,
+      "possible_patient_min": 20,
       "expansion_missions_ids": [475],
       "filter_id": "firehouse_missions",
       "patient_specialization_ids": [1, 4],
