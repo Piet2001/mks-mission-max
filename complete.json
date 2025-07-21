@@ -10492,20 +10492,23 @@
     "requirements": {
       "platform_trucks": 2,
       "firetrucks": 4,
-      "battalion_chief_vehicles": 1,
+      "battalion_chief_vehicles": 2,
       "mobile_command_vehicles": 1,
       "mobile_air_vehicles": 1,
       "water_tankers": 1,
-      "mass_casualty": 1,
-      "mass_casualty_advanced": 1
+      "mass_casualty": 2,
+      "mass_casualty_advanced": 1,
+      "elw3": 1,
+      "ovdp": 1,
+      "police_cars": 4
     },
     "chances": { "platform_trucks": 20 },
     "additional": {
       "expansion_missions_ids": [303, 304, 474, 475],
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
-      "possible_patient": 60,
-      "possible_patient_min": 20
+      "possible_patient": 100,
+      "possible_patient_min": 35
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -10528,17 +10531,20 @@
     ],
     "requirements": {
       "platform_trucks": 2,
-      "battalion_chief_vehicles": 1,
+      "battalion_chief_vehicles": 2,
       "firetrucks": 4,
       "mobile_command_vehicles": 1,
       "mobile_air_vehicles": 1,
       "water_tankers": 1,
-      "mass_casualty": 1,
-      "mass_casualty_advanced": 1
+      "mass_casualty": 2,
+      "mass_casualty_advanced": 1,
+      "elw3": 1,
+      "ovdp": 1,
+      "police_cars": 4
     },
     "chances": { "platform_trucks": 80, "patient_transport": 30 },
     "additional": {
-      "possible_patient": 60,
+      "possible_patient": 100,
       "expansion_missions_ids": [304, 474, 475],
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
@@ -10548,7 +10554,7 @@
         "Traumatologie"
       ],
       "patient_specializations": "Algemene Heelkunde, Traumatologie",
-      "possible_patient_min": 20
+      "possible_patient_min": 35
     },
     "prerequisites": {
       "main_building": 0,
@@ -10574,12 +10580,17 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "platform_trucks": 1,
-      "battalion_chief_vehicles": 1,
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
       "mobile_command_vehicles": 1,
       "mobile_air_vehicles": 1,
       "water_tankers": 1,
-      "firetrucks": 3
+      "firetrucks": 4,
+      "elw3": 1,
+      "ovdp": 1,
+      "mass_casualty": 2,
+      "mass_casualty_advanced": 1,
+      "police_cars": 4
     },
     "chances": {
       "mobile_command_vehicles": 50,
@@ -10589,8 +10600,8 @@
       "patient_transport": 30
     },
     "additional": {
-      "possible_patient": 50,
-      "possible_patient_min": 10,
+      "possible_patient": 100,
+      "possible_patient_min": 35,
       "expansion_missions_ids": [475, 475],
       "filter_id": "firehouse_missions",
       "patient_specialization_ids": [1, 4],
@@ -18090,13 +18101,16 @@
     ],
     "requirements": {
       "platform_trucks": 2,
-      "battalion_chief_vehicles": 1,
+      "battalion_chief_vehicles": 2,
       "mobile_command_vehicles": 1,
       "mobile_air_vehicles": 1,
       "water_tankers": 1,
-      "mass_casualty": 1,
+      "mass_casualty": 2,
       "mass_casualty_advanced": 1,
-      "firetrucks": 4
+      "firetrucks": 4,
+      "elw3": 1,
+      "ovdp": 1,
+      "police_cars": 4
     },
     "chances": {
       "mobile_command_vehicles": 50,
@@ -18106,8 +18120,8 @@
       "patient_transport": 30
     },
     "additional": {
-      "possible_patient": 60,
-      "possible_patient_min": 20,
+      "possible_patient": 100,
+      "possible_patient_min": 35,
       "expansion_missions_ids": [475],
       "filter_id": "firehouse_missions",
       "patient_specialization_ids": [1, 4],
@@ -18132,9 +18146,9 @@
   {
     "id": "475",
     "name": "Brand in kantoorgebouw",
-    "place": "Kantoorgebouw",
-    "place_array": ["Kantoorgebouw"],
-    "average_credits": 8480,
+    "place": "",
+    "place_array": [],
+    "average_credits": 10100,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -18143,41 +18157,42 @@
     ],
     "requirements": {
       "platform_trucks": 2,
-      "battalion_chief_vehicles": 1,
+      "battalion_chief_vehicles": 2,
       "mobile_command_vehicles": 1,
       "elw3": 1,
       "mobile_air_vehicles": 1,
       "water_tankers": 1,
       "ovdp": 1,
-      "mass_casualty": 1,
+      "mass_casualty": 2,
       "mass_casualty_advanced": 1,
-      "firetrucks": 4
+      "firetrucks": 4,
+      "police_cars": 4
     },
-    "chances": { "nef": 1, "patient_transport": 30 },
+    "chances": { "nef": 1, "patient_transport": 35 },
     "additional": {
       "possible_patient": 100,
       "possible_patient_min": 35,
-      "expansion_missions_ids": [475],
       "filter_id": "firehouse_missions",
-      "patient_specialization_ids": [1, 4],
+      "patient_specialization_ids": [4, 1, 0],
       "patient_specialization_captions": [
+        "Traumatologie",
         "Algemene Heelkunde",
-        "Traumatologie"
+        "Interne Geneeskunde"
       ],
-      "patient_specializations": "Algemene Heelkunde, Traumatologie"
+      "patient_specializations": "Traumatologie, Algemene Heelkunde, Interne Geneeskunde"
     },
     "prerequisites": {
       "main_building": 0,
-      "rescue_stations": 33,
+      "rescue_stations": 34,
       "police_stations": 5,
       "bereitschaftspolizei": 1,
-      "mass_casualty_count": 1,
+      "mass_casualty_count": 2,
       "fire_stations": 14
     },
     "overlay_index": null,
     "base_mission_id": 475,
     "additive_overlays": "",
-    "mission_categories": ["fire", "urban"],
+    "mission_categories": ["fire"],
     "exp": [475]
   },
   {
@@ -24122,7 +24137,7 @@
     "name": "Zonnesteek",
     "place": "",
     "place_array": [],
-    "average_credits": null,
+    "average_credits": 250,
     "generated_by": "",
     "icons": [
       "/images/medicalstore_gruen.png",
@@ -24153,7 +24168,7 @@
     "name": "Hitteslag",
     "place": "",
     "place_array": [],
-    "average_credits": null,
+    "average_credits": 250,
     "generated_by": "",
     "icons": [
       "/images/medicalstore_gruen.png",
@@ -24184,7 +24199,7 @@
     "name": "Hittekramp",
     "place": "",
     "place_array": [],
-    "average_credits": null,
+    "average_credits": 250,
     "generated_by": "",
     "icons": [
       "/images/medicalstore_gruen.png",
@@ -24215,7 +24230,7 @@
     "name": "Uitgedroogde persoon",
     "place": "",
     "place_array": [],
-    "average_credits": null,
+    "average_credits": 250,
     "generated_by": "",
     "icons": [
       "/images/medicalstore_gruen.png",
@@ -46615,7 +46630,7 @@
     "name": "Glijbaan ongeluk in Zwembad",
     "place": "Zwembad",
     "place_array": ["Zwembad"],
-    "average_credits": null,
+    "average_credits": 250,
     "generated_by": "",
     "icons": [
       "/images/waterpark_gruen.png",
