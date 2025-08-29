@@ -40602,8 +40602,8 @@
       "guard_mission": true,
       "filter_id": "riot_police_missions",
       "need_bike_police_only_if_present": true,
-      "date_start": "2025-07-25T09:00:00Z",
-      "date_end": "2025-07-27T23:59:59Z"
+      "date_start": "2025-08-29T09:00:00Z",
+      "date_end": "2025-08-31T23:59:59Z"
     },
     "prerequisites": {
       "main_building": 11,
@@ -40634,8 +40634,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2025-07-25T09:00:00Z",
-      "date_end": "2025-07-27T23:59:59Z"
+      "date_start": "2025-08-29T09:00:00Z",
+      "date_end": "2025-08-31T23:59:59Z"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -40667,8 +40667,8 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2025-07-25T09:00:00Z",
-      "date_end": "2025-07-27T23:59:59Z",
+      "date_start": "2025-08-29T09:00:00Z",
+      "date_end": "2025-08-31T23:59:59Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -40704,8 +40704,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "need_bike_police_only_if_present": true,
-      "date_start": "2025-07-25T09:00:00Z",
-      "date_end": "2025-07-27T23:59:59Z"
+      "date_start": "2025-08-29T09:00:00Z",
+      "date_end": "2025-08-31T23:59:59Z"
     },
     "prerequisites": { "main_building": 5, "police_stations": 6 },
     "overlay_index": null,
@@ -40732,8 +40732,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2025-07-25T09:00:00Z",
-      "date_end": "2025-07-27T23:59:59Z",
+      "date_start": "2025-08-29T09:00:00Z",
+      "date_end": "2025-08-31T23:59:59Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -40774,8 +40774,8 @@
       "min_possible_prisoners": 2,
       "max_possible_prisoners": 6,
       "filter_id": "riot_police_missions",
-      "date_start": "2025-07-25T09:00:00Z",
-      "date_end": "2025-07-27T23:59:59Z",
+      "date_start": "2025-08-29T09:00:00Z",
+      "date_end": "2025-08-31T23:59:59Z",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
       "patient_specializations": "Algemene Heelkunde"
@@ -40819,8 +40819,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "riot_police_missions",
-      "date_start": "2025-07-25T09:00:00Z",
-      "date_end": "2025-07-27T23:59:59Z"
+      "date_start": "2025-08-29T09:00:00Z",
+      "date_end": "2025-08-31T23:59:59Z"
     },
     "prerequisites": {
       "main_building": 11,
@@ -40852,8 +40852,8 @@
     "additional": {
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2025-07-25T09:00:00Z",
-      "date_end": "2025-07-27T23:59:59Z"
+      "date_start": "2025-08-29T09:00:00Z",
+      "date_end": "2025-08-31T23:59:59Z"
     },
     "prerequisites": { "main_building": 5, "police_stations": 4 },
     "overlay_index": null,
@@ -40887,8 +40887,8 @@
       "max_possible_prisoners": 5,
       "filter_id": "riot_police_missions",
       "patient_at_end_of_mission": true,
-      "date_start": "2025-07-25T09:00:00Z",
-      "date_end": "2025-07-27T23:59:59Z",
+      "date_start": "2025-08-29T09:00:00Z",
+      "date_end": "2025-08-31T23:59:59Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie",
@@ -40935,8 +40935,8 @@
       "max_possible_prisoners": 5,
       "filter_id": "riot_police_missions",
       "patient_at_end_of_mission": true,
-      "date_start": "2025-07-25T09:00:00Z",
-      "date_end": "2025-07-27T23:59:59Z",
+      "date_start": "2025-08-29T09:00:00Z",
+      "date_end": "2025-08-31T23:59:59Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -40974,8 +40974,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2025-07-25T09:00:00Z",
-      "date_end": "2025-07-27T23:59:59Z",
+      "date_start": "2025-08-29T09:00:00Z",
+      "date_end": "2025-08-31T23:59:59Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -44371,8 +44371,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2025-07-25T09:00:00Z",
-      "date_end": "2025-07-27T23:59:59Z"
+      "date_start": "2025-08-29T09:00:00Z",
+      "date_end": "2025-08-31T23:59:59Z"
     },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
@@ -44397,8 +44397,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2025-07-25T09:00:00Z",
-      "date_end": "2025-07-27T23:59:59Z"
+      "date_start": "2025-08-29T09:00:00Z",
+      "date_end": "2025-08-31T23:59:59Z"
     },
     "prerequisites": {
       "main_building": 5,
@@ -44430,8 +44430,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2025-07-25T09:00:00Z",
-      "date_end": "2025-07-27T23:59:59Z",
+      "date_start": "2025-08-29T09:00:00Z",
+      "date_end": "2025-08-31T23:59:59Z",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -44461,8 +44461,8 @@
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions",
-      "date_start": "2025-07-25T09:00:00Z",
-      "date_end": "2025-07-27T23:59:59Z"
+      "date_start": "2025-08-29T09:00:00Z",
+      "date_end": "2025-08-31T23:59:59Z"
     },
     "prerequisites": { "main_building": 5, "police_stations": 4 },
     "overlay_index": null,
