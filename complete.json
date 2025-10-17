@@ -4922,8 +4922,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2024-10-18T09:00:00Z",
-      "date_end": "2024-10-31T23:00:00Z"
+      "date_start": "2025-10-17T09:00:00Z",
+      "date_end": "2025-10-31T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -4948,8 +4948,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2024-10-18T09:00:00Z",
-      "date_end": "2024-10-31T23:00:00Z"
+      "date_start": "2025-10-17T09:00:00Z",
+      "date_end": "2025-10-31T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
@@ -4975,8 +4975,8 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2024-10-18T09:00:00Z",
-      "date_end": "2024-10-31T23:00:00Z",
+      "date_start": "2025-10-17T09:00:00Z",
+      "date_end": "2025-10-31T23:59:59+01:00",
       "patient_specialization_ids": [5],
       "patient_specialization_captions": ["Neurologie"],
       "patient_specializations": "Neurologie"
@@ -5009,8 +5009,8 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2024-10-18T09:00:00Z",
-      "date_end": "2024-10-31T23:00:00Z",
+      "date_start": "2025-10-17T09:00:00Z",
+      "date_end": "2025-10-31T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -5038,8 +5038,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2024-10-18T09:00:00Z",
-      "date_end": "2024-10-31T23:00:00Z"
+      "date_start": "2025-10-17T09:00:00Z",
+      "date_end": "2025-10-31T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 4 },
     "overlay_index": null,
@@ -5064,8 +5064,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2024-10-18T09:00:00Z",
-      "date_end": "2024-10-31T23:00:00Z"
+      "date_start": "2025-10-17T09:00:00Z",
+      "date_end": "2025-10-31T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
@@ -5090,8 +5090,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2024-10-18T09:00:00Z",
-      "date_end": "2024-10-31T23:00:00Z"
+      "date_start": "2025-10-17T09:00:00Z",
+      "date_end": "2025-10-31T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 3 },
     "overlay_index": null,
@@ -5116,8 +5116,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2024-10-18T09:00:00Z",
-      "date_end": "2024-10-31T23:00:00Z"
+      "date_start": "2025-10-17T09:00:00Z",
+      "date_end": "2025-10-31T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
@@ -5144,8 +5144,8 @@
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2024-10-18T09:00:00Z",
-      "date_end": "2024-10-31T23:00:00Z"
+      "date_start": "2025-10-17T09:00:00Z",
+      "date_end": "2025-10-31T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
@@ -45217,8 +45217,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2024-10-18T09:00:00Z",
-      "date_end": "2024-10-31T23:00:00Z"
+      "date_start": "2025-10-17T09:00:00Z",
+      "date_end": "2025-10-31T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -45245,8 +45245,8 @@
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2024-10-18T09:00:00Z",
-      "date_end": "2024-10-31T23:00:00Z"
+      "date_start": "2025-10-17T09:00:00Z",
+      "date_end": "2025-10-31T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 3 },
     "overlay_index": null,
@@ -45278,8 +45278,8 @@
       "possible_patient_min": 2,
       "filter_id": "ambulance_station_missions",
       "patient_at_end_of_mission": true,
-      "date_start": "2024-10-18T09:00:00Z",
-      "date_end": "2024-10-31T23:00:00Z",
+      "date_start": "2025-10-17T09:00:00Z",
+      "date_end": "2025-10-31T23:59:59+01:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -45315,8 +45315,8 @@
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
       "patient_at_end_of_mission": true,
-      "date_start": "2024-10-18T09:00:00Z",
-      "date_end": "2024-10-31T23:00:00Z",
+      "date_start": "2025-10-17T09:00:00Z",
+      "date_end": "2025-10-31T23:59:59+01:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -49337,6 +49337,74 @@
     "additive_overlays": "",
     "mission_categories": ["ambulance"],
     "exp": [1174]
+  },
+  {
+    "id": "1175",
+    "name": "Babbeltruc door spokenjagers",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/ghost_gruen.png",
+      "/images/ghost_gelb.png",
+      "/images/ghost_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "police_station_missions",
+      "date_start": "2025-10-17T09:00:00Z",
+      "date_end": "2025-10-31T23:59:59+01:00",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 5,
+      "rescue_stations": 1,
+      "police_stations": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 1175,
+    "additive_overlays": "",
+    "mission_categories": ["police"],
+    "exp": [1175]
+  },
+  {
+    "id": "1176",
+    "name": "Heks op bezem botst tegen een woning",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1200,
+    "generated_by": "",
+    "icons": [
+      "/images/ghost_gruen.png",
+      "/images/ghost_gelb.png",
+      "/images/ghost_rot.png"
+    ],
+    "requirements": { "police_cars": 1 },
+    "chances": { "patient_transport": 30 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "police_station_missions",
+      "date_start": "2025-10-17T09:00:00Z",
+      "date_end": "2025-10-31T23:59:59+01:00",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 5,
+      "rescue_stations": 1,
+      "police_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1176,
+    "additive_overlays": "",
+    "mission_categories": ["police"],
+    "exp": [1176]
   },
   {
     "id": "1139",
