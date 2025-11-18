@@ -499,11 +499,7 @@
       "mobile_command_vehicles": 1,
       "wildfire_command": 1,
       "wildfire_equipment": 1,
-      "personnel_educations": {
-        "wildfire": 18,
-        "clean_service": 0,
-        "care_service": 2
-      },
+      "personnel_educations": { "wildfire": 18 },
       "elw3": 1,
       "fire_aviation": 1,
       "police_cars": 2,
@@ -513,11 +509,7 @@
     "additional": {
       "expansion_missions_ids": [214, 215, 216],
       "filter_id": "firehouse_missions",
-      "personnel_educations": {
-        "Handcrew": 18,
-        "Hygi\u00ebnemedewerker": 0,
-        "Verzorger": 2
-      },
+      "personnel_educations": { "Handcrew": 18 },
       "care_includes_staff_members": true
     },
     "prerequisites": {
@@ -7464,11 +7456,7 @@
       "mobile_command_vehicles": 1,
       "wildfire_command": 1,
       "wildfire_equipment": 1,
-      "personnel_educations": {
-        "wildfire": 18,
-        "clean_service": 0,
-        "care_service": 2
-      },
+      "personnel_educations": { "wildfire": 18 },
       "elw3": 1,
       "fire_aviation": 1,
       "police_cars": 2,
@@ -7478,11 +7466,7 @@
     "additional": {
       "expansion_missions_ids": [215, 216],
       "filter_id": "firehouse_missions",
-      "personnel_educations": {
-        "Handcrew": 18,
-        "Hygi\u00ebnemedewerker": 0,
-        "Verzorger": 2
-      },
+      "personnel_educations": { "Handcrew": 18 },
       "care_includes_staff_members": true
     },
     "prerequisites": {
@@ -7515,11 +7499,7 @@
       "brush_truck": 4,
       "wildfire_command": 1,
       "wildfire_equipment": 1,
-      "personnel_educations": {
-        "wildfire": 18,
-        "clean_service": 0,
-        "care_service": 2
-      },
+      "personnel_educations": { "wildfire": 18 },
       "elw3": 1,
       "fire_aviation": 1,
       "police_cars": 2,
@@ -7529,11 +7509,7 @@
     "additional": {
       "expansion_missions_ids": [216],
       "filter_id": "firehouse_missions",
-      "personnel_educations": {
-        "Handcrew": 18,
-        "Hygi\u00ebnemedewerker": 0,
-        "Verzorger": 2
-      },
+      "personnel_educations": { "Handcrew": 18 },
       "care_includes_staff_members": true
     },
     "prerequisites": {
@@ -7570,21 +7546,13 @@
       "wildfire_equipment": 1,
       "fire_aviation": 1,
       "police_cars": 2,
-      "personnel_educations": {
-        "wildfire": 18,
-        "clean_service": 0,
-        "care_service": 2
-      },
+      "personnel_educations": { "wildfire": 18 },
       "care_service_command": 1
     },
     "chances": { "mobile_command_vehicles": 50, "elw3": 10 },
     "additional": {
       "filter_id": "firehouse_missions",
-      "personnel_educations": {
-        "Handcrew": 18,
-        "Hygi\u00ebnemedewerker": 0,
-        "Verzorger": 2
-      },
+      "personnel_educations": { "Handcrew": 18 },
       "care_includes_staff_members": true
     },
     "prerequisites": {
@@ -7624,21 +7592,13 @@
       "wildfire_equipment": 1,
       "fire_aviation": 1,
       "police_cars": 2,
-      "personnel_educations": {
-        "wildfire": 18,
-        "clean_service": 0,
-        "care_service": 2
-      }
+      "personnel_educations": { "wildfire": 18 }
     },
     "chances": { "mobile_command_vehicles": 50, "elw3": 10 },
     "additional": {
       "filter_id": "firehouse_missions",
       "care_includes_staff_members": true,
-      "personnel_educations": {
-        "Handcrew": 18,
-        "Hygi\u00ebnemedewerker": 0,
-        "Verzorger": 2
-      }
+      "personnel_educations": { "Handcrew": 18 }
     },
     "prerequisites": {
       "main_building": 0,
