@@ -502,13 +502,15 @@
       "personnel_educations": { "wildfire": 18 },
       "elw3": 1,
       "fire_aviation": 1,
-      "police_cars": 2
+      "police_cars": 2,
+      "care_service_command": 1
     },
     "chances": { "water_tankers": 10 },
     "additional": {
       "expansion_missions_ids": [214, 215, 216],
       "filter_id": "firehouse_missions",
-      "personnel_educations": { "Handcrew": 18 }
+      "personnel_educations": { "Handcrew": 18 },
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -7028,7 +7030,8 @@
       "diver_units": 1,
       "heavy_rescue_vehicles": 1,
       "firetrucks": 1,
-      "police_cars": 2
+      "police_cars": 2,
+      "care_service_command": 1
     },
     "chances": {
       "platform_trucks": 10,
@@ -7041,7 +7044,8 @@
       "filter_id": "water_watch_missions",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
-      "patient_specializations": "Interne Geneeskunde"
+      "patient_specializations": "Interne Geneeskunde",
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": -1,
@@ -7053,6 +7057,56 @@
     "overlay_index": null,
     "base_mission_id": 209,
     "additive_overlays": "",
+    "mission_categories": ["water_rescue"],
+    "exp": [209]
+  },
+  {
+    "id": "209/a",
+    "name": "Aanvaring vrachtschip met vlet (Grip 3)",
+    "place": "Rivier",
+    "place_array": ["Rivier"],
+    "average_credits": 4912,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "boats": 1,
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "diver_units": 1,
+      "heavy_rescue_vehicles": 1,
+      "care_service_command": 1,
+      "firetrucks": 1,
+      "police_cars": 2
+    },
+    "chances": {
+      "platform_trucks": 10,
+      "heavy_rescue_vehicles": 50,
+      "nef": 1,
+      "patient_transport": 90
+    },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "water_watch_missions",
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": -1,
+      "wasserrettung": 2,
+      "rescue_stations": 10,
+      "police_stations": 2,
+      "care_service": 1,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 209,
+    "additive_overlays": "a",
     "mission_categories": ["water_rescue"],
     "exp": [209]
   },
@@ -7075,7 +7129,8 @@
       "diver_units": 1,
       "heavy_rescue_vehicles": 1,
       "firetrucks": 1,
-      "police_cars": 2
+      "police_cars": 2,
+      "care_service_command": 1
     },
     "chances": {
       "platform_trucks": 10,
@@ -7089,7 +7144,8 @@
       "filter_id": "water_watch_missions",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
-      "patient_specializations": "Interne Geneeskunde"
+      "patient_specializations": "Interne Geneeskunde",
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": -1,
@@ -7101,6 +7157,57 @@
     "overlay_index": null,
     "base_mission_id": 210,
     "additive_overlays": "",
+    "mission_categories": ["water_rescue"],
+    "exp": [210]
+  },
+  {
+    "id": "210/a",
+    "name": "Aanvaring vrachtschip met kajuitboot (Grip 3)",
+    "place": "Rivier",
+    "place_array": ["Rivier"],
+    "average_credits": 5975,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "boats": 1,
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "diver_units": 1,
+      "heavy_rescue_vehicles": 1,
+      "care_service_command": 1,
+      "firetrucks": 1,
+      "police_cars": 2
+    },
+    "chances": {
+      "platform_trucks": 10,
+      "heavy_rescue_vehicles": 50,
+      "nef": 1,
+      "patient_transport": 90
+    },
+    "additional": {
+      "possible_patient": 3,
+      "possible_patient_min": 1,
+      "filter_id": "water_watch_missions",
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": -1,
+      "wasserrettung": 2,
+      "rescue_stations": 10,
+      "police_stations": 2,
+      "care_service": 1,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 210,
+    "additive_overlays": "a",
     "mission_categories": ["water_rescue"],
     "exp": [210]
   },
@@ -7131,7 +7238,8 @@
       "heavy_rescue_vehicles": 1,
       "spokesman": 1,
       "firetrucks": 2,
-      "police_cars": 4
+      "police_cars": 4,
+      "care_service_command": 1
     },
     "chances": {
       "platform_trucks": 80,
@@ -7147,7 +7255,8 @@
       "vehicle_groups": ["default", "ocean_missions"],
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
-      "patient_specializations": "Algemene Heelkunde"
+      "patient_specializations": "Algemene Heelkunde",
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": 19,
@@ -7165,6 +7274,78 @@
     "overlay_index": null,
     "base_mission_id": 211,
     "additive_overlays": "",
+    "mission_categories": [
+      "water_rescue",
+      "water_rescue_specialization",
+      "coastal_rescue_ocean"
+    ],
+    "exp": [211]
+  },
+  {
+    "id": "211/a",
+    "name": "Aanvaring 2 vrachtschepen (Grip 4)",
+    "place": "Rivier",
+    "place_array": ["Rivier"],
+    "average_credits": 19487,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "boats": 2,
+      "coastal_boat": 3,
+      "coastal_guard_boat": 2,
+      "coastal_helicopter": 1,
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "diver_units": 3,
+      "ovdp": 1,
+      "police_helicopters": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "care_service_command": 1,
+      "firetrucks": 2,
+      "police_cars": 4
+    },
+    "chances": {
+      "platform_trucks": 80,
+      "mobile_command_vehicles": 50,
+      "elw3": 50,
+      "heavy_rescue_vehicles": 80,
+      "patient_transport": 100
+    },
+    "additional": {
+      "possible_patient": 13,
+      "possible_patient_min": 6,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["default", "ocean_missions"],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Algemene Heelkunde"],
+      "patient_specializations": "Algemene Heelkunde"
+    },
+    "prerequisites": {
+      "main_building": 19,
+      "wasserrettung": 5,
+      "water_rescue_2": 3,
+      "rescue_stations": 8,
+      "police_stations": 5,
+      "police_helicopter_stations": 1,
+      "bereitschaftspolizei": 1,
+      "coastal_rescue_count": 2,
+      "coastal_rescue_small_count": 3,
+      "coastal_helicopter_count": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 14
+    },
+    "overlay_index": null,
+    "base_mission_id": 211,
+    "additive_overlays": "a",
     "mission_categories": [
       "water_rescue",
       "water_rescue_specialization",
@@ -7278,13 +7459,15 @@
       "personnel_educations": { "wildfire": 18 },
       "elw3": 1,
       "fire_aviation": 1,
-      "police_cars": 2
+      "police_cars": 2,
+      "care_service_command": 1
     },
     "chances": { "heavy_rescue_vehicles": 50 },
     "additional": {
       "expansion_missions_ids": [215, 216],
       "filter_id": "firehouse_missions",
-      "personnel_educations": { "Handcrew": 18 }
+      "personnel_educations": { "Handcrew": 18 },
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -7319,13 +7502,15 @@
       "personnel_educations": { "wildfire": 18 },
       "elw3": 1,
       "fire_aviation": 1,
-      "police_cars": 2
+      "police_cars": 2,
+      "care_service_command": 1
     },
     "chances": { "mobile_command_vehicles": 50 },
     "additional": {
       "expansion_missions_ids": [216],
       "filter_id": "firehouse_missions",
-      "personnel_educations": { "Handcrew": 18 }
+      "personnel_educations": { "Handcrew": 18 },
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -7361,12 +7546,14 @@
       "wildfire_equipment": 1,
       "fire_aviation": 1,
       "police_cars": 2,
-      "personnel_educations": { "wildfire": 18 }
+      "personnel_educations": { "wildfire": 18 },
+      "care_service_command": 1
     },
     "chances": { "mobile_command_vehicles": 50, "elw3": 10 },
     "additional": {
       "filter_id": "firehouse_missions",
-      "personnel_educations": { "Handcrew": 18 }
+      "personnel_educations": { "Handcrew": 18 },
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -7379,6 +7566,53 @@
     "overlay_index": null,
     "base_mission_id": 216,
     "additive_overlays": "",
+    "mission_categories": ["forestry"],
+    "exp": [216]
+  },
+  {
+    "id": "216/a",
+    "name": "Bosbrand (Grip 1)",
+    "place": "Bos",
+    "place_array": ["Bos"],
+    "average_credits": 15140,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "water_needed": 31000,
+      "brush_truck": 4,
+      "care_service_command": 1,
+      "wildfire_command": 1,
+      "wildfire_equipment": 1,
+      "fire_aviation": 1,
+      "police_cars": 2,
+      "personnel_educations": { "wildfire": 18 }
+    },
+    "chances": { "mobile_command_vehicles": 50, "elw3": 10 },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "care_includes_staff_members": true,
+      "personnel_educations": { "Handcrew": 18 }
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 2,
+      "brush_extension": 5,
+      "fire_aviation_count": 1,
+      "personnel_educations": { "wildfire": 18 },
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 14
+    },
+    "overlay_index": null,
+    "base_mission_id": 216,
+    "additive_overlays": "a",
     "mission_categories": ["forestry"],
     "exp": [216]
   },
@@ -8301,7 +8535,8 @@
       "police_cars": 2,
       "platform_trucks": 1,
       "heavy_rescue_vehicles": 1,
-      "coastal_helicopter": 1
+      "coastal_helicopter": 1,
+      "care_service_command": 1
     },
     "chances": { "boats": 80, "patient_transport": 100 },
     "additional": {
@@ -8311,7 +8546,8 @@
       "vehicle_groups": ["default", "ocean_missions"],
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
-      "patient_specializations": "Interne Geneeskunde"
+      "patient_specializations": "Interne Geneeskunde",
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -8346,13 +8582,15 @@
       "boats": 2,
       "platform_trucks": 1,
       "heavy_rescue_vehicles": 1,
-      "coastal_helicopter": 1
+      "coastal_helicopter": 1,
+      "care_service_command": 1
     },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [241, 348],
       "filter_id": "water_watch_missions",
-      "possible_patient": 1
+      "possible_patient": 1,
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": -1,
@@ -12764,7 +13002,8 @@
       "heavy_rescue_vehicles": 1,
       "firetrucks": 2,
       "police_cars": 2,
-      "coastal_helicopter": 1
+      "coastal_helicopter": 1,
+      "care_service_command": 1
     },
     "chances": {
       "boats": 80,
@@ -12779,7 +13018,8 @@
       "vehicle_groups": ["default", "ocean_missions"],
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
-      "patient_specializations": "Interne Geneeskunde"
+      "patient_specializations": "Interne Geneeskunde",
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -12814,7 +13054,8 @@
       "diver_units": 3,
       "heavy_rescue_vehicles": 1,
       "firetrucks": 2,
-      "police_cars": 2
+      "police_cars": 2,
+      "care_service_command": 1
     },
     "chances": {
       "boats": 80,
@@ -12828,7 +13069,8 @@
       "vehicle_groups": ["default", "ocean_missions"],
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
-      "patient_specializations": "Interne Geneeskunde"
+      "patient_specializations": "Interne Geneeskunde",
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -12841,6 +13083,60 @@
     "overlay_index": null,
     "base_mission_id": 349,
     "additive_overlays": "",
+    "mission_categories": ["fire"],
+    "exp": [349]
+  },
+  {
+    "id": "349/a",
+    "name": "Zwemmer vermist (Grip 1)",
+    "place": "Meer",
+    "place_array": ["Meer"],
+    "average_credits": 7437,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "boats": 2,
+      "coastal_helicopter": 1,
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "diver_units": 3,
+      "heavy_rescue_vehicles": 1,
+      "care_service_command": 1,
+      "firetrucks": 2,
+      "police_cars": 2
+    },
+    "chances": {
+      "boats": 80,
+      "platform_trucks": 40,
+      "heavy_rescue_vehicles": 40,
+      "patient_transport": 100
+    },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "vehicle_groups": ["default", "ocean_missions"],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "wasserrettung": 5,
+      "rescue_stations": 1,
+      "police_stations": 2,
+      "coastal_helicopter_count": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 349,
+    "additive_overlays": "a",
     "mission_categories": ["fire"],
     "exp": [349]
   },
@@ -14500,6 +14796,7 @@
       "heavy_rescue_vehicles": 1,
       "mobile_air_vehicles": 1,
       "police_cars": 2,
+      "care_service_command": 1,
       "foam_needed": 1000
     },
     "chances": { "platform_trucks": 20 },
@@ -14507,7 +14804,8 @@
       "expansion_missions_ids": [391, 392, 393, 394, 395],
       "filter_id": "firehouse_missions",
       "possible_patient": 4,
-      "possible_patient_min": 1
+      "possible_patient_min": 1,
+      "care_includes_staff_members": true
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -14540,6 +14838,7 @@
       "heavy_rescue_vehicles": 1,
       "mobile_air_vehicles": 1,
       "police_cars": 2,
+      "care_service_command": 1,
       "foam_needed": 1000
     },
     "chances": { "platform_trucks": 50, "water_tankers": 20 },
@@ -14547,7 +14846,8 @@
       "expansion_missions_ids": [392, 393, 394, 395],
       "filter_id": "firehouse_missions",
       "possible_patient": 4,
-      "possible_patient_min": 1
+      "possible_patient_min": 1,
+      "care_includes_staff_members": true
     },
     "prerequisites": { "main_building": 0, "fire_stations": 7 },
     "overlay_index": null,
@@ -14580,6 +14880,7 @@
       "firetrucks": 12,
       "mobile_air_vehicles": 1,
       "police_cars": 2,
+      "care_service_command": 1,
       "foam_needed": 1000
     },
     "chances": {
@@ -14593,7 +14894,8 @@
       "expansion_missions_ids": [393, 394, 395],
       "filter_id": "firehouse_missions",
       "possible_patient": 4,
-      "possible_patient_min": 1
+      "possible_patient_min": 1,
+      "care_includes_staff_members": true
     },
     "prerequisites": { "main_building": 0, "fire_stations": 14 },
     "overlay_index": null,
@@ -14626,6 +14928,7 @@
       "heavy_rescue_vehicles": 1,
       "firetrucks": 12,
       "police_cars": 2,
+      "care_service_command": 1,
       "foam_needed": 1000
     },
     "chances": {
@@ -14639,7 +14942,8 @@
       "expansion_missions_ids": [394, 395],
       "filter_id": "firehouse_missions",
       "possible_patient": 4,
-      "possible_patient_min": 1
+      "possible_patient_min": 1,
+      "care_includes_staff_members": true
     },
     "prerequisites": { "main_building": 0, "fire_stations": 16 },
     "overlay_index": null,
@@ -14672,6 +14976,7 @@
       "heavy_rescue_vehicles": 1,
       "firetrucks": 12,
       "police_cars": 2,
+      "care_service_command": 1,
       "foam_needed": 1000
     },
     "chances": { "elw3": 50, "water_tankers": 80, "patient_transport": 50 },
@@ -14684,7 +14989,8 @@
       "subsequent_missions_ids": [877],
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
-      "patient_specializations": "Algemene Heelkunde"
+      "patient_specializations": "Algemene Heelkunde",
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -14695,6 +15001,60 @@
     "overlay_index": null,
     "base_mission_id": 394,
     "additive_overlays": "",
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
+    "exp": [394, 395]
+  },
+  {
+    "id": "394/a",
+    "name": "Brand bij afvalverwerker (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 11637,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 3,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 4,
+      "gwmess": 1,
+      "heavy_rescue_vehicles": 1,
+      "care_service_command": 1,
+      "firetrucks": 12,
+      "police_cars": 2,
+      "foam_needed": 1000
+    },
+    "chances": { "elw3": 50, "water_tankers": 80, "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 4,
+      "possible_patient_min": 1,
+      "expansion_missions_ids": [395],
+      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 879],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Algemene Heelkunde"],
+      "patient_specializations": "Algemene Heelkunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 2,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 21
+    },
+    "overlay_index": null,
+    "base_mission_id": 394,
+    "additive_overlays": "a",
     "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [394, 395]
   },
@@ -14768,7 +15128,8 @@
       "heavy_rescue_vehicles": 1,
       "foam_needed": 1000,
       "firetrucks": 12,
-      "police_cars": 2
+      "police_cars": 2,
+      "care_service_command": 1
     },
     "chances": { "elw3": 50, "water_tankers": 80, "patient_transport": 50 },
     "additional": {
@@ -14779,7 +15140,8 @@
       "subsequent_missions_ids": [877],
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
-      "patient_specializations": "Algemene Heelkunde"
+      "patient_specializations": "Algemene Heelkunde",
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -14791,6 +15153,60 @@
     "overlay_index": null,
     "base_mission_id": 395,
     "additive_overlays": "",
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
+    "exp": [395]
+  },
+  {
+    "id": "395/a",
+    "name": "Brand bij afvalverwerker (Grip 3)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 15387,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 3,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 4,
+      "gwmess": 1,
+      "heavy_rescue_vehicles": 1,
+      "foam_needed": 1000,
+      "care_service_command": 1,
+      "firetrucks": 12,
+      "police_cars": 2
+    },
+    "chances": { "elw3": 50, "water_tankers": 80, "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 4,
+      "possible_patient_min": 1,
+      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 879],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Algemene Heelkunde"],
+      "patient_specializations": "Algemene Heelkunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 2,
+      "fire_support_count": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 30
+    },
+    "overlay_index": null,
+    "base_mission_id": 395,
+    "additive_overlays": "a",
     "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [395]
   },
@@ -15999,6 +16415,7 @@
       "gwmess": 2,
       "heavy_rescue_vehicles": 1,
       "water_needed": 10000,
+      "care_service_command": 1,
       "foam": 3,
       "foam_needed": 2500,
       "hazmat_vehicles": 1,
@@ -16010,7 +16427,8 @@
       "expansion_missions_ids": [426, 427, 428, 429],
       "filter_id": "firehouse_missions",
       "possible_patient": 10,
-      "possible_patient_min": 5
+      "possible_patient_min": 5,
+      "care_includes_staff_members": true
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -16043,6 +16461,7 @@
       "gwmess": 2,
       "heavy_rescue_vehicles": 1,
       "water_needed": 10000,
+      "care_service_command": 1,
       "foam": 3,
       "foam_needed": 2500,
       "hazmat_vehicles": 1,
@@ -16054,7 +16473,8 @@
       "expansion_missions_ids": [427, 428, 429],
       "filter_id": "firehouse_missions",
       "possible_patient": 10,
-      "possible_patient_min": 5
+      "possible_patient_min": 5,
+      "care_includes_staff_members": true
     },
     "prerequisites": { "main_building": 0, "fire_stations": 6 },
     "overlay_index": null,
@@ -16087,6 +16507,7 @@
       "gwmess": 2,
       "heavy_rescue_vehicles": 1,
       "water_needed": 10000,
+      "care_service_command": 1,
       "foam": 3,
       "foam_needed": 2500,
       "hazmat_vehicles": 1,
@@ -16102,7 +16523,8 @@
       "expansion_missions_ids": [428, 429],
       "filter_id": "firehouse_missions",
       "possible_patient": 10,
-      "possible_patient_min": 5
+      "possible_patient_min": 5,
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -16139,6 +16561,7 @@
       "water_needed": 10000,
       "firetrucks": 8,
       "police_cars": 4,
+      "care_service_command": 1,
       "foam": 3,
       "foam_needed": 2500,
       "hazmat_vehicles": 1,
@@ -16166,7 +16589,8 @@
         "Neurologie",
         "Traumatologie"
       ],
-      "patient_specializations": "Algemene Heelkunde, Cardiochirurgie, Cardiologie, Interne Geneeskunde, Neurologie, Traumatologie"
+      "patient_specializations": "Algemene Heelkunde, Cardiochirurgie, Cardiologie, Interne Geneeskunde, Neurologie, Traumatologie",
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -16177,6 +16601,75 @@
     "overlay_index": null,
     "base_mission_id": 428,
     "additive_overlays": "",
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
+    "exp": [428, 429]
+  },
+  {
+    "id": "428/a",
+    "name": "Brand in bouwmarkt (Grip 1)",
+    "place": "Bouwmarkt",
+    "place_array": ["Bouwmarkt"],
+    "average_credits": 12187,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 3,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "heavy_rescue_vehicles": 1,
+      "water_needed": 10000,
+      "care_service_command": 1,
+      "firetrucks": 8,
+      "police_cars": 4,
+      "foam": 3,
+      "foam_needed": 2500,
+      "hazmat_vehicles": 1,
+      "ovdp": 1,
+      "spokesman": 1
+    },
+    "chances": {
+      "mobile_air_vehicles": 80,
+      "heavy_rescue_vehicles": 20,
+      "nef": 5,
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 10,
+      "possible_patient_min": 5,
+      "expansion_missions_ids": [429],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [1, 8, 7, 0, 5, 4],
+      "patient_specialization_captions": [
+        "Algemene Heelkunde",
+        "Cardiochirurgie",
+        "Cardiologie",
+        "Interne Geneeskunde",
+        "Neurologie",
+        "Traumatologie"
+      ],
+      "patient_specializations": "Algemene Heelkunde, Cardiochirurgie, Cardiologie, Interne Geneeskunde, Neurologie, Traumatologie"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 10,
+      "police_stations": 2,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 18
+    },
+    "overlay_index": null,
+    "base_mission_id": 428,
+    "additive_overlays": "a",
     "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [428, 429]
   },
@@ -16206,6 +16699,7 @@
       "foam_needed": 2500,
       "firetrucks": 8,
       "police_cars": 4,
+      "care_service_command": 1,
       "hazmat_vehicles": 1,
       "ovdp": 1,
       "spokesman": 1
@@ -16231,7 +16725,8 @@
         "Neurologie",
         "Traumatologie"
       ],
-      "patient_specializations": "Algemene Heelkunde, Cardiochirurgie, Cardiologie, Interne Geneeskunde, Neurologie, Traumatologie"
+      "patient_specializations": "Algemene Heelkunde, Cardiochirurgie, Cardiologie, Interne Geneeskunde, Neurologie, Traumatologie",
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -16242,6 +16737,75 @@
     "overlay_index": 0,
     "base_mission_id": 428,
     "additive_overlays": "",
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
+    "exp": [428, 429]
+  },
+  {
+    "id": "428-0/a",
+    "name": "Brand in bouwmarkt (Grip 1)",
+    "place": "Bouwmarkt",
+    "place_array": ["Bouwmarkt"],
+    "average_credits": 14562,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 3,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "foam": 3,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "heavy_rescue_vehicles": 1,
+      "water_needed": 10000,
+      "foam_needed": 2500,
+      "care_service_command": 1,
+      "firetrucks": 8,
+      "police_cars": 4,
+      "hazmat_vehicles": 1,
+      "ovdp": 1,
+      "spokesman": 1
+    },
+    "chances": {
+      "mobile_air_vehicles": 80,
+      "heavy_rescue_vehicles": 20,
+      "nef": 5,
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 10,
+      "possible_patient_min": 5,
+      "expansion_missions_ids": [429],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [1, 8, 7, 0, 5, 4],
+      "patient_specialization_captions": [
+        "Algemene Heelkunde",
+        "Cardiochirurgie",
+        "Cardiologie",
+        "Interne Geneeskunde",
+        "Neurologie",
+        "Traumatologie"
+      ],
+      "patient_specializations": "Algemene Heelkunde, Cardiochirurgie, Cardiologie, Interne Geneeskunde, Neurologie, Traumatologie"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 10,
+      "police_stations": 2,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 18
+    },
+    "overlay_index": 0,
+    "base_mission_id": 428,
+    "additive_overlays": "a",
     "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [428, 429]
   },
@@ -16272,6 +16836,7 @@
       "water_needed": 10000,
       "firetrucks": 8,
       "police_cars": 4,
+      "care_service_command": 1,
       "foam": 3,
       "foam_needed": 2500
     },
@@ -16298,7 +16863,8 @@
         "Neurologie",
         "Traumatologie"
       ],
-      "patient_specializations": "Algemene Heelkunde, Cardiochirurgie, Cardiologie, Interne Geneeskunde, Neurologie, Traumatologie"
+      "patient_specializations": "Algemene Heelkunde, Cardiochirurgie, Cardiologie, Interne Geneeskunde, Neurologie, Traumatologie",
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -16310,6 +16876,78 @@
     "overlay_index": null,
     "base_mission_id": 429,
     "additive_overlays": "",
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
+    "exp": [429]
+  },
+  {
+    "id": "429/a",
+    "name": "Brand in bouwmarkt (Grip 2)",
+    "place": "Bouwmarkt",
+    "place_array": ["Bouwmarkt"],
+    "average_credits": 18562,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 3,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 10000,
+      "care_service_command": 1,
+      "firetrucks": 8,
+      "police_cars": 4,
+      "foam": 3,
+      "foam_needed": 2500
+    },
+    "chances": {
+      "mobile_air_vehicles": 80,
+      "hazmat_vehicles": 50,
+      "ovdp": 50,
+      "heavy_rescue_vehicles": 60,
+      "nef": 5,
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 10,
+      "possible_patient_min": 5,
+      "expansion_missions_ids": [429],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [1, 8, 7, 0, 5, 4],
+      "patient_specialization_captions": [
+        "Algemene Heelkunde",
+        "Cardiochirurgie",
+        "Cardiologie",
+        "Interne Geneeskunde",
+        "Neurologie",
+        "Traumatologie"
+      ],
+      "patient_specializations": "Algemene Heelkunde, Cardiochirurgie, Cardiologie, Interne Geneeskunde, Neurologie, Traumatologie"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 10,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 30
+    },
+    "overlay_index": null,
+    "base_mission_id": 429,
+    "additive_overlays": "a",
     "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [429]
   },
@@ -16341,7 +16979,8 @@
       "water_needed": 10000,
       "foam_needed": 2500,
       "firetrucks": 8,
-      "police_cars": 4
+      "police_cars": 4,
+      "care_service_command": 1
     },
     "chances": {
       "mobile_air_vehicles": 80,
@@ -16366,7 +17005,8 @@
         "Neurologie",
         "Traumatologie"
       ],
-      "patient_specializations": "Algemene Heelkunde, Cardiochirurgie, Cardiologie, Interne Geneeskunde, Neurologie, Traumatologie"
+      "patient_specializations": "Algemene Heelkunde, Cardiochirurgie, Cardiologie, Interne Geneeskunde, Neurologie, Traumatologie",
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -16378,6 +17018,78 @@
     "overlay_index": 0,
     "base_mission_id": 429,
     "additive_overlays": "",
+    "mission_categories": ["fire", "urban", "fire_support_specialization"],
+    "exp": [429]
+  },
+  {
+    "id": "429-0/a",
+    "name": "Brand in bouwmarkt (Grip 2)",
+    "place": "Bouwmarkt",
+    "place_array": ["Bouwmarkt"],
+    "average_credits": 22187,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 3,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "foam": 3,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 10000,
+      "foam_needed": 2500,
+      "care_service_command": 1,
+      "firetrucks": 8,
+      "police_cars": 4
+    },
+    "chances": {
+      "mobile_air_vehicles": 80,
+      "hazmat_vehicles": 50,
+      "ovdp": 50,
+      "heavy_rescue_vehicles": 60,
+      "nef": 5,
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 10,
+      "possible_patient_min": 5,
+      "expansion_missions_ids": [429],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [1, 8, 7, 0, 5, 4],
+      "patient_specialization_captions": [
+        "Algemene Heelkunde",
+        "Cardiochirurgie",
+        "Cardiologie",
+        "Interne Geneeskunde",
+        "Neurologie",
+        "Traumatologie"
+      ],
+      "patient_specializations": "Algemene Heelkunde, Cardiochirurgie, Cardiologie, Interne Geneeskunde, Neurologie, Traumatologie"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 10,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 30
+    },
+    "overlay_index": 0,
+    "base_mission_id": 429,
+    "additive_overlays": "a",
     "mission_categories": ["fire", "urban", "fire_support_specialization"],
     "exp": [429]
   },
@@ -20163,7 +20875,8 @@
       "diver_units": 1,
       "heavy_rescue_vehicles": 1,
       "firetrucks": 1,
-      "police_cars": 2
+      "police_cars": 2,
+      "care_service_command": 1
     },
     "chances": {
       "platform_trucks": 10,
@@ -20176,7 +20889,8 @@
       "filter_id": "water_watch_missions",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
-      "patient_specializations": "Algemene Heelkunde"
+      "patient_specializations": "Algemene Heelkunde",
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": -1,
@@ -20188,6 +20902,54 @@
     "overlay_index": null,
     "base_mission_id": 514,
     "additive_overlays": "",
+    "mission_categories": ["water_rescue"],
+    "exp": [514]
+  },
+  {
+    "id": "514/a",
+    "name": "Aanvaring vrachtschip met watertaxi (Grip 3)",
+    "place": "Rivier",
+    "place_array": ["Rivier"],
+    "average_credits": 4425,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "diver_units": 1,
+      "heavy_rescue_vehicles": 1,
+      "care_service_command": 1,
+      "firetrucks": 1,
+      "police_cars": 2
+    },
+    "chances": {
+      "platform_trucks": 10,
+      "heavy_rescue_vehicles": 50,
+      "patient_transport": 40
+    },
+    "additional": {
+      "possible_patient": 10,
+      "possible_patient_min": 5,
+      "filter_id": "water_watch_missions",
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Algemene Heelkunde"],
+      "patient_specializations": "Algemene Heelkunde"
+    },
+    "prerequisites": {
+      "main_building": -1,
+      "wasserrettung": 1,
+      "rescue_stations": 8,
+      "police_stations": 2,
+      "care_service": 1,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 514,
+    "additive_overlays": "a",
     "mission_categories": ["water_rescue"],
     "exp": [514]
   },
@@ -20210,7 +20972,8 @@
       "diver_units": 2,
       "heavy_rescue_vehicles": 1,
       "firetrucks": 1,
-      "police_cars": 2
+      "police_cars": 2,
+      "care_service_command": 1
     },
     "chances": {
       "platform_trucks": 20,
@@ -20224,7 +20987,8 @@
       "filter_id": "water_watch_missions",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
-      "patient_specializations": "Algemene Heelkunde"
+      "patient_specializations": "Algemene Heelkunde",
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": -1,
@@ -20236,6 +21000,58 @@
     "overlay_index": null,
     "base_mission_id": 515,
     "additive_overlays": "",
+    "mission_categories": ["water_rescue"],
+    "exp": [515]
+  },
+  {
+    "id": "515/a",
+    "name": "Aanvaring vrachtschip met waterbus (Grip 3)",
+    "place": "Rivier",
+    "place_array": ["Rivier"],
+    "average_credits": 6600,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "boats": 1,
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "diver_units": 2,
+      "heavy_rescue_vehicles": 1,
+      "care_service_command": 1,
+      "firetrucks": 1,
+      "police_cars": 2
+    },
+    "chances": {
+      "platform_trucks": 20,
+      "heavy_rescue_vehicles": 60,
+      "nef": 20,
+      "patient_transport": 40
+    },
+    "additional": {
+      "possible_patient": 12,
+      "possible_patient_min": 8,
+      "filter_id": "water_watch_missions",
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Algemene Heelkunde"],
+      "patient_specializations": "Algemene Heelkunde"
+    },
+    "prerequisites": {
+      "main_building": -1,
+      "wasserrettung": 3,
+      "rescue_stations": 10,
+      "police_stations": 2,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 515,
+    "additive_overlays": "a",
     "mission_categories": ["water_rescue"],
     "exp": [515]
   },
@@ -20258,7 +21074,8 @@
       "diver_units": 3,
       "heavy_rescue_vehicles": 1,
       "firetrucks": 2,
-      "police_cars": 4
+      "police_cars": 4,
+      "care_service_command": 1
     },
     "chances": {
       "platform_trucks": 30,
@@ -20271,7 +21088,8 @@
       "filter_id": "water_watch_missions",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
-      "patient_specializations": "Algemene Heelkunde"
+      "patient_specializations": "Algemene Heelkunde",
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": -1,
@@ -20283,6 +21101,57 @@
     "overlay_index": null,
     "base_mission_id": 516,
     "additive_overlays": "",
+    "mission_categories": ["water_rescue"],
+    "exp": [516]
+  },
+  {
+    "id": "516/a",
+    "name": "Aanvaring met rondvaartboot (Grip 3)",
+    "place": "Rivier",
+    "place_array": ["Rivier"],
+    "average_credits": 7737,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "boats": 2,
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "diver_units": 3,
+      "heavy_rescue_vehicles": 1,
+      "care_service_command": 1,
+      "firetrucks": 2,
+      "police_cars": 4
+    },
+    "chances": {
+      "platform_trucks": 30,
+      "heavy_rescue_vehicles": 70,
+      "patient_transport": 0
+    },
+    "additional": {
+      "possible_patient": 15,
+      "possible_patient_min": 10,
+      "filter_id": "water_watch_missions",
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Algemene Heelkunde"],
+      "patient_specializations": "Algemene Heelkunde"
+    },
+    "prerequisites": {
+      "main_building": -1,
+      "wasserrettung": 5,
+      "rescue_stations": 8,
+      "police_stations": 4,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 516,
+    "additive_overlays": "a",
     "mission_categories": ["water_rescue"],
     "exp": [516]
   },
@@ -20305,7 +21174,8 @@
       "diver_units": 3,
       "heavy_rescue_vehicles": 1,
       "firetrucks": 2,
-      "police_cars": 2
+      "police_cars": 2,
+      "care_service_command": 1
     },
     "chances": {
       "platform_trucks": 30,
@@ -20319,7 +21189,8 @@
       "filter_id": "water_watch_missions",
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
-      "patient_specializations": "Algemene Heelkunde"
+      "patient_specializations": "Algemene Heelkunde",
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": -1,
@@ -20331,6 +21202,58 @@
     "overlay_index": null,
     "base_mission_id": 517,
     "additive_overlays": "",
+    "mission_categories": ["water_rescue"],
+    "exp": [517]
+  },
+  {
+    "id": "517/a",
+    "name": "Aanvaring met luxe jachtschip (Grip 4)",
+    "place": "Rivier",
+    "place_array": ["Rivier"],
+    "average_credits": 7937,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "boats": 2,
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "diver_units": 3,
+      "heavy_rescue_vehicles": 1,
+      "care_service_command": 1,
+      "firetrucks": 2,
+      "police_cars": 2
+    },
+    "chances": {
+      "platform_trucks": 30,
+      "heavy_rescue_vehicles": 70,
+      "nef": 1,
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 15,
+      "possible_patient_min": 10,
+      "filter_id": "water_watch_missions",
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Algemene Heelkunde"],
+      "patient_specializations": "Algemene Heelkunde"
+    },
+    "prerequisites": {
+      "main_building": -1,
+      "wasserrettung": 5,
+      "rescue_stations": 10,
+      "police_stations": 2,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 517,
+    "additive_overlays": "a",
     "mission_categories": ["water_rescue"],
     "exp": [517]
   },
@@ -20356,7 +21279,8 @@
       "ovdp": 1,
       "heavy_rescue_vehicles": 1,
       "firetrucks": 2,
-      "police_cars": 4
+      "police_cars": 4,
+      "care_service_command": 1
     },
     "chances": { "platform_trucks": 50, "nef": 5, "patient_transport": 50 },
     "additional": {
@@ -20365,7 +21289,8 @@
       "filter_id": "water_watch_missions",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
-      "patient_specializations": "Traumatologie"
+      "patient_specializations": "Traumatologie",
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": -1,
@@ -20378,6 +21303,57 @@
     "overlay_index": null,
     "base_mission_id": 518,
     "additive_overlays": "",
+    "mission_categories": ["water_rescue_specialization"],
+    "exp": [518]
+  },
+  {
+    "id": "518/a",
+    "name": "Aanvaring vrachtschip met veerboot (Grip 4)",
+    "place": "Rivier",
+    "place_array": ["Rivier"],
+    "average_credits": 12250,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "boats": 2,
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "diver_units": 4,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "care_service_command": 1,
+      "firetrucks": 2,
+      "police_cars": 4
+    },
+    "chances": { "platform_trucks": 50, "nef": 5, "patient_transport": 50 },
+    "additional": {
+      "possible_patient": 18,
+      "possible_patient_min": 12,
+      "filter_id": "water_watch_missions",
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatologie"],
+      "patient_specializations": "Traumatologie"
+    },
+    "prerequisites": {
+      "main_building": -1,
+      "wasserrettung": 6,
+      "rescue_stations": 10,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 14
+    },
+    "overlay_index": null,
+    "base_mission_id": 518,
+    "additive_overlays": "a",
     "mission_categories": ["water_rescue_specialization"],
     "exp": [518]
   },
@@ -20410,7 +21386,8 @@
       "heavy_rescue_vehicles": 1,
       "spokesman": 1,
       "firetrucks": 3,
-      "police_cars": 4
+      "police_cars": 4,
+      "care_service_command": 1
     },
     "chances": {
       "coastal_helicopter": 50,
@@ -20427,7 +21404,8 @@
       "vehicle_groups": ["default", "ocean_missions"],
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
-      "patient_specializations": "Algemene Heelkunde"
+      "patient_specializations": "Algemene Heelkunde",
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": 19,
@@ -20445,6 +21423,81 @@
     "overlay_index": null,
     "base_mission_id": 519,
     "additive_overlays": "",
+    "mission_categories": [
+      "water_rescue",
+      "water_rescue_specialization",
+      "coastal_rescue_ocean"
+    ],
+    "exp": [519]
+  },
+  {
+    "id": "519/a",
+    "name": "Aanvaring vrachtschip met passagiersschip (Grip 4)",
+    "place": "Rivier",
+    "place_array": ["Rivier"],
+    "average_credits": 20162,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "boats": 2,
+      "coastal_boat": 3,
+      "coastal_guard_boat": 1,
+      "coastal_helicopter": 1,
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "hazmat_vehicles": 1,
+      "gwmess": 1,
+      "diver_units": 3,
+      "ovdp": 1,
+      "police_helicopters": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "care_service_command": 1,
+      "firetrucks": 3,
+      "police_cars": 4
+    },
+    "chances": {
+      "coastal_helicopter": 50,
+      "platform_trucks": 80,
+      "elw3": 50,
+      "hazmat_vehicles": 60,
+      "gwmess": 60,
+      "patient_transport": 100
+    },
+    "additional": {
+      "possible_patient": 24,
+      "possible_patient_min": 13,
+      "filter_id": "coastal_rescue_missions",
+      "vehicle_groups": ["default", "ocean_missions"],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Algemene Heelkunde"],
+      "patient_specializations": "Algemene Heelkunde"
+    },
+    "prerequisites": {
+      "main_building": 19,
+      "wasserrettung": 5,
+      "water_rescue_2": 3,
+      "rescue_stations": 9,
+      "police_stations": 5,
+      "police_helicopter_stations": 1,
+      "bereitschaftspolizei": 1,
+      "coastal_rescue_count": 1,
+      "coastal_rescue_small_count": 3,
+      "coastal_helicopter_count": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 14
+    },
+    "overlay_index": null,
+    "base_mission_id": 519,
+    "additive_overlays": "a",
     "mission_categories": [
       "water_rescue",
       "water_rescue_specialization",
@@ -34438,6 +35491,7 @@
       "wildfire_command": 1,
       "wildfire_equipment": 2,
       "personnel_educations": { "wildfire": 36 },
+      "care_service_command": 1,
       "police_helicopters": 1,
       "fire_aviation": 2
     },
@@ -34447,6 +35501,7 @@
       "filter_id": "water_watch_missions",
       "need_bike_police_only_if_present": true,
       "personnel_educations": { "Handcrew": 36 },
+      "care_includes_staff_members": true,
       "possible_patient": 15,
       "possible_patient_min": 11,
       "allow_arff_instead_of_lf": true
@@ -34493,6 +35548,7 @@
       "wildfire_command": 1,
       "wildfire_equipment": 2,
       "personnel_educations": { "wildfire": 36 },
+      "care_service_command": 1,
       "police_helicopters": 1,
       "fire_aviation": 2
     },
@@ -34502,6 +35558,7 @@
       "filter_id": "water_watch_missions",
       "need_bike_police_only_if_present": true,
       "personnel_educations": { "Handcrew": 36 },
+      "care_includes_staff_members": true,
       "possible_patient": 15,
       "possible_patient_min": 11,
       "allow_arff_instead_of_lf": true
@@ -34548,6 +35605,7 @@
       "police_cars": 8,
       "water_rescue": 2,
       "personnel_educations": { "wildfire": 36 },
+      "care_service_command": 1,
       "police_helicopters": 1,
       "fire_aviation": 2
     },
@@ -34558,6 +35616,7 @@
       "filter_id": "water_watch_missions",
       "need_bike_police_only_if_present": true,
       "personnel_educations": { "Handcrew": 36 },
+      "care_includes_staff_members": true,
       "possible_patient": 15,
       "possible_patient_min": 11,
       "allow_arff_instead_of_lf": true
@@ -34574,6 +35633,68 @@
     "overlay_index": null,
     "base_mission_id": 868,
     "additive_overlays": "",
+    "mission_categories": ["forestry"],
+    "exp": [868, 880, 881, 882]
+  },
+  {
+    "id": "868/a",
+    "name": "Duinbrand (Grip 1)",
+    "place": "Duinen",
+    "place_array": ["Duinen"],
+    "average_credits": 26683,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "bike_police": 2,
+      "battalion_chief_vehicles": 3,
+      "mobile_command_vehicles": 2,
+      "elw3": 2,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 2,
+      "gwmess": 6,
+      "ovdp": 2,
+      "spokesman": 2,
+      "water_needed": 168000,
+      "brush_truck": 12,
+      "care_service_command": 1,
+      "wildfire_command": 1,
+      "wildfire_equipment": 2,
+      "police_cars": 8,
+      "water_rescue": 2,
+      "personnel_educations": { "wildfire": 36 },
+      "police_helicopters": 1,
+      "fire_aviation": 2
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [880, 881, 882],
+      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+      "filter_id": "water_watch_missions",
+      "need_bike_police_only_if_present": true,
+      "care_includes_staff_members": true,
+      "personnel_educations": { "Handcrew": 36 },
+      "possible_patient": 15,
+      "possible_patient_min": 11,
+      "allow_arff_instead_of_lf": true
+    },
+    "prerequisites": {
+      "main_building": 16,
+      "water_rescue_2": 2,
+      "police_stations": 7,
+      "bereitschaftspolizei": 1,
+      "brush_extension": 7,
+      "personnel_educations": { "wildfire": 36 },
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 29
+    },
+    "overlay_index": null,
+    "base_mission_id": 868,
+    "additive_overlays": "a",
     "mission_categories": ["forestry"],
     "exp": [868, 880, 881, 882]
   },
@@ -35351,7 +36472,8 @@
       "fire_aviation": 2,
       "police_cars": 8,
       "water_rescue": 2,
-      "personnel_educations": { "wildfire": 36 }
+      "personnel_educations": { "wildfire": 36 },
+      "care_service_command": 1
     },
     "chances": {
       "mobile_air_vehicles": 25,
@@ -35370,6 +36492,7 @@
       "patient_specialization_captions": ["Algemene Heelkunde"],
       "patient_specializations": "Algemene Heelkunde",
       "personnel_educations": { "Handcrew": 36 },
+      "care_includes_staff_members": true,
       "allow_arff_instead_of_lf": true
     },
     "prerequisites": {
@@ -35387,6 +36510,79 @@
     "overlay_index": null,
     "base_mission_id": 880,
     "additive_overlays": "",
+    "mission_categories": ["forestry"],
+    "exp": [880, 881, 882]
+  },
+  {
+    "id": "880/a",
+    "name": "Duinbrand (Grip 2)",
+    "place": "Duinen",
+    "place_array": ["Duinen"],
+    "average_credits": 51855,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "bike_police": 2,
+      "battalion_chief_vehicles": 3,
+      "mobile_command_vehicles": 2,
+      "elw3": 2,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 2,
+      "gwmess": 6,
+      "ovdp": 2,
+      "police_helicopters": 1,
+      "spokesman": 2,
+      "water_needed": 168000,
+      "brush_truck": 12,
+      "care_service_command": 1,
+      "wildfire_command": 1,
+      "wildfire_equipment": 2,
+      "fire_aviation": 2,
+      "police_cars": 8,
+      "water_rescue": 2,
+      "personnel_educations": { "wildfire": 36 }
+    },
+    "chances": {
+      "mobile_air_vehicles": 25,
+      "gwmess": 80,
+      "patient_transport": 100
+    },
+    "additional": {
+      "possible_patient": 15,
+      "possible_patient_min": 11,
+      "expansion_missions_ids": [881, 882],
+      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+      "filter_id": "water_watch_missions",
+      "subsequent_missions_ids": [877],
+      "need_bike_police_only_if_present": true,
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Algemene Heelkunde"],
+      "patient_specializations": "Algemene Heelkunde",
+      "personnel_educations": { "Handcrew": 36 },
+      "allow_arff_instead_of_lf": true
+    },
+    "prerequisites": {
+      "main_building": 16,
+      "water_rescue_2": 2,
+      "rescue_stations": 8,
+      "police_stations": 11,
+      "police_helicopter_stations": 1,
+      "bereitschaftspolizei": 2,
+      "brush_extension": 12,
+      "fire_aviation_count": 1,
+      "personnel_educations": { "wildfire": 36 },
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 53
+    },
+    "overlay_index": null,
+    "base_mission_id": 880,
+    "additive_overlays": "a",
     "mission_categories": ["forestry"],
     "exp": [880, 881, 882]
   },
@@ -35420,7 +36616,8 @@
       "fire_aviation": 2,
       "police_cars": 8,
       "water_rescue": 2,
-      "personnel_educations": { "wildfire": 36 }
+      "personnel_educations": { "wildfire": 36 },
+      "care_service_command": 1
     },
     "chances": {
       "elw3": 80,
@@ -35440,7 +36637,8 @@
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
       "patient_specializations": "Algemene Heelkunde",
-      "personnel_educations": { "Handcrew": 36 }
+      "personnel_educations": { "Handcrew": 36 },
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": 16,
@@ -35457,6 +36655,80 @@
     "overlay_index": null,
     "base_mission_id": 881,
     "additive_overlays": "",
+    "mission_categories": ["forestry"],
+    "exp": [881, 882]
+  },
+  {
+    "id": "881/a",
+    "name": "Duinbrand (Grip 3)",
+    "place": "Duinen",
+    "place_array": ["Duinen"],
+    "average_credits": 56817,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "bike_police": 2,
+      "battalion_chief_vehicles": 3,
+      "mobile_command_vehicles": 2,
+      "elw3": 2,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 2,
+      "gwmess": 6,
+      "ovdp": 2,
+      "police_helicopters": 1,
+      "spokesman": 2,
+      "water_needed": 168000,
+      "brush_truck": 12,
+      "care_service_command": 1,
+      "wildfire_command": 1,
+      "wildfire_equipment": 2,
+      "fire_aviation": 2,
+      "police_cars": 8,
+      "water_rescue": 2,
+      "personnel_educations": { "wildfire": 36 }
+    },
+    "chances": {
+      "elw3": 80,
+      "mobile_air_vehicles": 75,
+      "gwmess": 80,
+      "patient_transport": 100
+    },
+    "additional": {
+      "possible_patient": 15,
+      "possible_patient_min": 11,
+      "expansion_missions_ids": [882],
+      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+      "filter_id": "water_watch_missions",
+      "allow_arff_instead_of_lf": true,
+      "subsequent_missions_ids": [877],
+      "need_bike_police_only_if_present": true,
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Algemene Heelkunde"],
+      "patient_specializations": "Algemene Heelkunde",
+      "personnel_educations": { "Handcrew": 36 }
+    },
+    "prerequisites": {
+      "main_building": 16,
+      "water_rescue_2": 2,
+      "rescue_stations": 8,
+      "police_stations": 11,
+      "police_helicopter_stations": 1,
+      "bereitschaftspolizei": 2,
+      "brush_extension": 12,
+      "fire_aviation_count": 1,
+      "personnel_educations": { "wildfire": 36 },
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 60
+    },
+    "overlay_index": null,
+    "base_mission_id": 881,
+    "additive_overlays": "a",
     "mission_categories": ["forestry"],
     "exp": [881, 882]
   },
@@ -35490,7 +36762,8 @@
       "fire_aviation": 2,
       "police_cars": 8,
       "water_rescue": 2,
-      "personnel_educations": { "wildfire": 36 }
+      "personnel_educations": { "wildfire": 36 },
+      "care_service_command": 1
     },
     "chances": {
       "elw3": 80,
@@ -35509,7 +36782,8 @@
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
       "patient_specializations": "Algemene Heelkunde",
-      "personnel_educations": { "Handcrew": 36 }
+      "personnel_educations": { "Handcrew": 36 },
+      "care_includes_staff_members": true
     },
     "prerequisites": {
       "main_building": 16,
@@ -35526,6 +36800,79 @@
     "overlay_index": null,
     "base_mission_id": 882,
     "additive_overlays": "",
+    "mission_categories": ["forestry"],
+    "exp": [882]
+  },
+  {
+    "id": "882/a",
+    "name": "Duinbrand (Grip 4)",
+    "place": "Duinen",
+    "place_array": ["Duinen"],
+    "average_credits": 65217,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "bike_police": 2,
+      "battalion_chief_vehicles": 3,
+      "mobile_command_vehicles": 2,
+      "elw3": 2,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 2,
+      "gwmess": 6,
+      "ovdp": 2,
+      "police_helicopters": 1,
+      "spokesman": 2,
+      "water_needed": 168000,
+      "brush_truck": 12,
+      "care_service_command": 1,
+      "wildfire_command": 1,
+      "wildfire_equipment": 2,
+      "fire_aviation": 2,
+      "police_cars": 8,
+      "water_rescue": 2,
+      "personnel_educations": { "wildfire": 36 }
+    },
+    "chances": {
+      "elw3": 80,
+      "mobile_air_vehicles": 75,
+      "gwmess": 80,
+      "patient_transport": 100
+    },
+    "additional": {
+      "possible_patient": 15,
+      "possible_patient_min": 11,
+      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+      "filter_id": "water_watch_missions",
+      "allow_arff_instead_of_lf": true,
+      "subsequent_missions_ids": [877],
+      "need_bike_police_only_if_present": true,
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Algemene Heelkunde"],
+      "patient_specializations": "Algemene Heelkunde",
+      "personnel_educations": { "Handcrew": 36 }
+    },
+    "prerequisites": {
+      "main_building": 16,
+      "water_rescue_2": 2,
+      "rescue_stations": 8,
+      "police_stations": 13,
+      "police_helicopter_stations": 1,
+      "bereitschaftspolizei": 2,
+      "brush_extension": 13,
+      "fire_aviation_count": 1,
+      "personnel_educations": { "wildfire": 36 },
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 73
+    },
+    "overlay_index": null,
+    "base_mission_id": 882,
+    "additive_overlays": "a",
     "mission_categories": ["forestry"],
     "exp": [882]
   },
