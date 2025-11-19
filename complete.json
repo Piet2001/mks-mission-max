@@ -501,7 +501,7 @@
       "wildfire_equipment": 1,
       "personnel_educations": {
         "wildfire": 18,
-        "clean_service": 9,
+        "clean_service": 5,
         "care_service": 2
       },
       "elw3": 1,
@@ -515,7 +515,7 @@
       "filter_id": "firehouse_missions",
       "personnel_educations": {
         "Handcrew": 18,
-        "Hygi\u00ebnemedewerker": 9,
+        "Hygi\u00ebnemedewerker": 5,
         "Verzorger": 2
       },
       "care_includes_staff_members": true
@@ -7466,7 +7466,7 @@
       "wildfire_equipment": 1,
       "personnel_educations": {
         "wildfire": 18,
-        "clean_service": 9,
+        "clean_service": 5,
         "care_service": 2
       },
       "elw3": 1,
@@ -7480,7 +7480,7 @@
       "filter_id": "firehouse_missions",
       "personnel_educations": {
         "Handcrew": 18,
-        "Hygi\u00ebnemedewerker": 9,
+        "Hygi\u00ebnemedewerker": 5,
         "Verzorger": 2
       },
       "care_includes_staff_members": true
@@ -7517,7 +7517,7 @@
       "wildfire_equipment": 1,
       "personnel_educations": {
         "wildfire": 18,
-        "clean_service": 9,
+        "clean_service": 5,
         "care_service": 2
       },
       "elw3": 1,
@@ -7531,7 +7531,7 @@
       "filter_id": "firehouse_missions",
       "personnel_educations": {
         "Handcrew": 18,
-        "Hygi\u00ebnemedewerker": 9,
+        "Hygi\u00ebnemedewerker": 5,
         "Verzorger": 2
       },
       "care_includes_staff_members": true
@@ -7572,7 +7572,7 @@
       "police_cars": 2,
       "personnel_educations": {
         "wildfire": 18,
-        "clean_service": 9,
+        "clean_service": 5,
         "care_service": 2
       },
       "care_service_command": 1
@@ -7582,7 +7582,7 @@
       "filter_id": "firehouse_missions",
       "personnel_educations": {
         "Handcrew": 18,
-        "Hygi\u00ebnemedewerker": 9,
+        "Hygi\u00ebnemedewerker": 5,
         "Verzorger": 2
       },
       "care_includes_staff_members": true
@@ -7626,7 +7626,7 @@
       "police_cars": 2,
       "personnel_educations": {
         "wildfire": 18,
-        "clean_service": 9,
+        "clean_service": 5,
         "care_service": 2
       }
     },
@@ -7636,7 +7636,7 @@
       "care_includes_staff_members": true,
       "personnel_educations": {
         "Handcrew": 18,
-        "Hygi\u00ebnemedewerker": 9,
+        "Hygi\u00ebnemedewerker": 5,
         "Verzorger": 2
       }
     },
@@ -35532,7 +35532,7 @@
       "wildfire_equipment": 2,
       "personnel_educations": {
         "wildfire": 36,
-        "clean_service": 22,
+        "clean_service": 28,
         "care_service": 6
       },
       "care_service_command": 1,
@@ -35546,7 +35546,7 @@
       "need_bike_police_only_if_present": true,
       "personnel_educations": {
         "Handcrew": 36,
-        "Hygi\u00ebnemedewerker": 22,
+        "Hygi\u00ebnemedewerker": 28,
         "Verzorger": 6
       },
       "care_includes_staff_members": true,
@@ -35597,7 +35597,7 @@
       "wildfire_equipment": 2,
       "personnel_educations": {
         "wildfire": 36,
-        "clean_service": 22,
+        "clean_service": 28,
         "care_service": 6
       },
       "care_service_command": 1,
@@ -35611,7 +35611,7 @@
       "need_bike_police_only_if_present": true,
       "personnel_educations": {
         "Handcrew": 36,
-        "Hygi\u00ebnemedewerker": 22,
+        "Hygi\u00ebnemedewerker": 28,
         "Verzorger": 6
       },
       "care_includes_staff_members": true,
@@ -35662,7 +35662,7 @@
       "water_rescue": 2,
       "personnel_educations": {
         "wildfire": 36,
-        "clean_service": 22,
+        "clean_service": 28,
         "care_service": 6
       },
       "care_service_command": 1,
@@ -35677,7 +35677,7 @@
       "need_bike_police_only_if_present": true,
       "personnel_educations": {
         "Handcrew": 36,
-        "Hygi\u00ebnemedewerker": 22,
+        "Hygi\u00ebnemedewerker": 28,
         "Verzorger": 6
       },
       "care_includes_staff_members": true,
@@ -35731,7 +35731,7 @@
       "water_rescue": 2,
       "personnel_educations": {
         "wildfire": 36,
-        "clean_service": 22,
+        "clean_service": 28,
         "care_service": 6
       },
       "police_helicopters": 1,
@@ -35746,7 +35746,7 @@
       "care_includes_staff_members": true,
       "personnel_educations": {
         "Handcrew": 36,
-        "Hygi\u00ebnemedewerker": 22,
+        "Hygi\u00ebnemedewerker": 28,
         "Verzorger": 6
       },
       "possible_patient": 15,
@@ -36546,7 +36546,7 @@
       "water_rescue": 2,
       "personnel_educations": {
         "wildfire": 36,
-        "clean_service": 22,
+        "clean_service": 28,
         "care_service": 6
       },
       "care_service_command": 1
@@ -36569,7 +36569,7 @@
       "patient_specializations": "Algemene Heelkunde",
       "personnel_educations": {
         "Handcrew": 36,
-        "Hygi\u00ebnemedewerker": 22,
+        "Hygi\u00ebnemedewerker": 28,
         "Verzorger": 6
       },
       "care_includes_staff_members": true,
@@ -36626,7 +36626,7 @@
       "water_rescue": 2,
       "personnel_educations": {
         "wildfire": 36,
-        "clean_service": 22,
+        "clean_service": 28,
         "care_service": 6
       }
     },
@@ -36649,7 +36649,7 @@
       "patient_specializations": "Algemene Heelkunde",
       "personnel_educations": {
         "Handcrew": 36,
-        "Hygi\u00ebnemedewerker": 22,
+        "Hygi\u00ebnemedewerker": 28,
         "Verzorger": 6
       },
       "allow_arff_instead_of_lf": true
@@ -36706,7 +36706,7 @@
       "water_rescue": 2,
       "personnel_educations": {
         "wildfire": 36,
-        "clean_service": 22,
+        "clean_service": 28,
         "care_service": 6
       },
       "care_service_command": 1
@@ -36731,7 +36731,7 @@
       "patient_specializations": "Algemene Heelkunde",
       "personnel_educations": {
         "Handcrew": 36,
-        "Hygi\u00ebnemedewerker": 22,
+        "Hygi\u00ebnemedewerker": 28,
         "Verzorger": 6
       },
       "care_includes_staff_members": true
@@ -36787,7 +36787,7 @@
       "water_rescue": 2,
       "personnel_educations": {
         "wildfire": 36,
-        "clean_service": 22,
+        "clean_service": 28,
         "care_service": 6
       }
     },
@@ -36812,7 +36812,7 @@
       "patient_specializations": "Algemene Heelkunde",
       "personnel_educations": {
         "Handcrew": 36,
-        "Hygi\u00ebnemedewerker": 22,
+        "Hygi\u00ebnemedewerker": 28,
         "Verzorger": 6
       }
     },
@@ -36868,7 +36868,7 @@
       "water_rescue": 2,
       "personnel_educations": {
         "wildfire": 36,
-        "clean_service": 22,
+        "clean_service": 28,
         "care_service": 6
       },
       "care_service_command": 1
@@ -36892,7 +36892,7 @@
       "patient_specializations": "Algemene Heelkunde",
       "personnel_educations": {
         "Handcrew": 36,
-        "Hygi\u00ebnemedewerker": 22,
+        "Hygi\u00ebnemedewerker": 28,
         "Verzorger": 6
       },
       "care_includes_staff_members": true
@@ -36948,7 +36948,7 @@
       "water_rescue": 2,
       "personnel_educations": {
         "wildfire": 36,
-        "clean_service": 22,
+        "clean_service": 28,
         "care_service": 6
       }
     },
@@ -36972,7 +36972,7 @@
       "patient_specializations": "Algemene Heelkunde",
       "personnel_educations": {
         "Handcrew": 36,
-        "Hygi\u00ebnemedewerker": 22,
+        "Hygi\u00ebnemedewerker": 28,
         "Verzorger": 6
       }
     },
