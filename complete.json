@@ -32863,8 +32863,8 @@
   {
     "id": "809",
     "name": "Bootje op drift",
-    "place": "Strand",
-    "place_array": ["Strand"],
+    "place": "Strand\nMeer\nJachthaven\nPontsteiger\nRivier",
+    "place_array": ["Strand", "Meer", "Jachthaven", "Pontsteiger", "Rivier"],
     "average_credits": 1730,
     "generated_by": "",
     "icons": [
@@ -32872,15 +32872,26 @@
       "/images/waterpark_gelb.png",
       "/images/waterpark_rot.png"
     ],
-    "requirements": { "boats": 1, "water_rescue": 2 },
+    "requirements": {
+      "boats": 1,
+      "water_rescue": 2,
+      "platform_trucks": 1,
+      "diver_units": 1,
+      "firetrucks": 2,
+      "police_cars": 2
+    },
     "chances": {},
-    "additional": { "filter_id": "water_watch_missions" },
-    "prerequisites": { "main_building": 16, "water_rescue_2": 3 },
+    "additional": {
+      "expansion_missions_ids": [1182],
+      "filter_id": "coastal_rescue_missions",
+      "possible_patient": 2
+    },
+    "prerequisites": { "main_building": 19, "water_rescue_2": 3 },
     "overlay_index": null,
     "base_mission_id": 809,
     "additive_overlays": "",
-    "mission_categories": ["water_rescue_2"],
-    "exp": [809]
+    "mission_categories": ["coastal_rescue"],
+    "exp": [809, 1182]
   },
   {
     "id": "810",
