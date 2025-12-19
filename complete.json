@@ -459,7 +459,7 @@
     "name": "Heidebrand (Middel)",
     "place": "Bos",
     "place_array": ["Bos"],
-    "average_credits": 5500,
+    "average_credits": 6200,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -467,13 +467,31 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "battalion_chief_vehicles": 1,
-      "water_tankers": 1,
-      "water_needed": 23000,
-      "brush_truck": 2
+      "battalion_chief_vehicles": 2,
+      "water_tankers": 5,
+      "water_needed": 85000,
+      "brush_truck": 8,
+      "spokesman": 1,
+      "police_cars": 4,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "gwmess": 2,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "wildfire_command": 1,
+      "wildfire_equipment": 1,
+      "personnel_educations": { "wildfire": 18 },
+      "care_service_command": 1,
+      "fire_aviation": 1
     },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "expansion_missions_ids": [129, 355, 356],
+      "filter_id": "firehouse_missions",
+      "personnel_educations": { "Handcrew": 18 },
+      "care_includes_staff_members": true
+    },
     "prerequisites": {
       "main_building": 0,
       "brush_extension": 2,
@@ -483,7 +501,7 @@
     "base_mission_id": 14,
     "additive_overlays": "",
     "mission_categories": ["forestry"],
-    "exp": [14]
+    "exp": [14, 129, 355, 356]
   },
   {
     "id": "15",
@@ -602,22 +620,37 @@
     ],
     "requirements": {
       "firetrucks": 1,
-      "battalion_chief_vehicles": 1,
-      "water_tankers": 1,
-      "water_needed": 23000,
-      "brush_truck": 2
+      "battalion_chief_vehicles": 2,
+      "water_tankers": 5,
+      "water_needed": 85000,
+      "brush_truck": 8,
+      "spokesman": 1,
+      "police_cars": 4,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "gwmess": 2,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "wildfire_command": 1,
+      "wildfire_equipment": 1,
+      "personnel_educations": { "wildfire": 18 },
+      "care_service_command": 1,
+      "fire_aviation": 1
     },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [14],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "personnel_educations": { "Handcrew": 18 },
+      "care_includes_staff_members": true
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 18,
     "additive_overlays": "",
     "mission_categories": ["fire", "rural"],
-    "exp": [18, 14]
+    "exp": [18, 14, 129, 355, 356]
   },
   {
     "id": "19",
@@ -4283,9 +4316,32 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": { "water_tankers": 1, "brush_truck": 1 },
+    "requirements": {
+      "water_tankers": 5,
+      "brush_truck": 8,
+      "battalion_chief_vehicles": 2,
+      "water_needed": 85000,
+      "spokesman": 1,
+      "police_cars": 4,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "gwmess": 2,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "wildfire_command": 1,
+      "wildfire_equipment": 1,
+      "personnel_educations": { "wildfire": 18 },
+      "care_service_command": 1,
+      "fire_aviation": 1
+    },
     "chances": { "water_tankers": 10 },
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "expansion_missions_ids": [14, 129, 355, 356],
+      "filter_id": "firehouse_missions",
+      "personnel_educations": { "Handcrew": 18 },
+      "care_includes_staff_members": true
+    },
     "prerequisites": {
       "main_building": 0,
       "brush_extension": 1,
@@ -4295,14 +4351,14 @@
     "base_mission_id": 128,
     "additive_overlays": "",
     "mission_categories": ["forestry"],
-    "exp": [128]
+    "exp": [128, 14, 129, 355, 356]
   },
   {
     "id": "129",
     "name": "Heidebrand (Groot)",
     "place": "Bos",
     "place_array": ["Bos"],
-    "average_credits": 9210,
+    "average_credits": 10210,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -4650,8 +4706,7 @@
       "personnel_educations": { "wildfire": 18 },
       "care_service_command": 1,
       "gwmess": 3,
-      "fire_aviation": 1,
-      "firetrucks": 1
+      "fire_aviation": 1
     },
     "chances": { "water_tankers": 10 },
     "additional": {
@@ -4676,7 +4731,7 @@
     "name": "Natuurbrand (Middel)",
     "place": "Bos",
     "place_array": ["Bos"],
-    "average_credits": 4800,
+    "average_credits": 5100,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -4700,8 +4755,7 @@
       "personnel_educations": { "wildfire": 18 },
       "care_service_command": 1,
       "gwmess": 3,
-      "fire_aviation": 1,
-      "firetrucks": 1
+      "fire_aviation": 1
     },
     "chances": {},
     "additional": {
@@ -4726,7 +4780,7 @@
     "name": "Natuurbrand (Groot)",
     "place": "Bos",
     "place_array": ["Bos"],
-    "average_credits": 6770,
+    "average_credits": 7170,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -4750,8 +4804,7 @@
       "personnel_educations": { "wildfire": 18 },
       "care_service_command": 1,
       "gwmess": 3,
-      "fire_aviation": 1,
-      "firetrucks": 1
+      "fire_aviation": 1
     },
     "chances": {},
     "additional": {
@@ -4800,8 +4853,7 @@
       "personnel_educations": { "wildfire": 18 },
       "care_service_command": 1,
       "gwmess": 3,
-      "fire_aviation": 1,
-      "firetrucks": 1
+      "fire_aviation": 1
     },
     "chances": {},
     "additional": {
@@ -4851,13 +4903,12 @@
       "personnel_educations": { "wildfire": 18 },
       "care_service_command": 1,
       "gwmess": 3,
-      "fire_aviation": 1,
-      "firetrucks": 1
+      "fire_aviation": 1
     },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [144, 308, 309, 357],
-      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+      "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
       "subsequent_missions_ids": [877],
       "personnel_educations": { "Handcrew": 18 },
@@ -4882,7 +4933,7 @@
     "name": "Natuurbrand (Grip 1)",
     "place": "Bos",
     "place_array": ["Bos"],
-    "average_credits": 27315,
+    "average_credits": 30252,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -4906,13 +4957,12 @@
       "police_cars": 8,
       "personnel_educations": { "wildfire": 18 },
       "gwmess": 3,
-      "fire_aviation": 1,
-      "firetrucks": 1
+      "fire_aviation": 1
     },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [144, 308, 309, 357],
-      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+      "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
       "subsequent_missions_ids": [877],
       "care_includes_staff_members": true,
@@ -4963,13 +5013,12 @@
       "personnel_educations": { "wildfire": 18 },
       "care_service_command": 1,
       "gwmess": 3,
-      "fire_aviation": 1,
-      "firetrucks": 1
+      "fire_aviation": 1
     },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [308, 309, 357],
-      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+      "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
       "subsequent_missions_ids": [877],
       "personnel_educations": { "Handcrew": 18 },
@@ -4994,7 +5043,7 @@
     "name": "Natuurbrand (Grip 2)",
     "place": "Bos",
     "place_array": ["Bos"],
-    "average_credits": 31552,
+    "average_credits": 34490,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -5018,13 +5067,12 @@
       "police_cars": 8,
       "personnel_educations": { "wildfire": 18 },
       "gwmess": 3,
-      "fire_aviation": 1,
-      "firetrucks": 1
+      "fire_aviation": 1
     },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [308, 309, 357],
-      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+      "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
       "subsequent_missions_ids": [877],
       "care_includes_staff_members": true,
@@ -11513,7 +11561,6 @@
       "wildfire_command": 1,
       "wildfire_equipment": 1,
       "fire_aviation": 1,
-      "firetrucks": 1,
       "police_cars": 8,
       "personnel_educations": { "wildfire": 18 },
       "care_service_command": 1
@@ -11521,7 +11568,7 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [309, 357],
-      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+      "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
       "subsequent_missions_ids": [877],
       "personnel_educations": { "Handcrew": 18 },
@@ -11547,7 +11594,7 @@
     "name": "Natuurbrand (Grip 3)",
     "place": "Bos",
     "place_array": ["Bos"],
-    "average_credits": 45527,
+    "average_credits": 48465,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -11570,14 +11617,13 @@
       "wildfire_command": 1,
       "wildfire_equipment": 1,
       "fire_aviation": 1,
-      "firetrucks": 1,
       "police_cars": 8,
       "personnel_educations": { "wildfire": 18 }
     },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [309, 357],
-      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+      "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
       "subsequent_missions_ids": [877],
       "care_includes_staff_members": true,
@@ -11627,7 +11673,6 @@
       "wildfire_command": 1,
       "wildfire_equipment": 1,
       "fire_aviation": 1,
-      "firetrucks": 1,
       "police_cars": 8,
       "personnel_educations": { "wildfire": 18 },
       "care_service_command": 1
@@ -11635,7 +11680,7 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [357],
-      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+      "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
       "subsequent_missions_ids": [877],
       "personnel_educations": { "Handcrew": 18 },
@@ -11661,7 +11706,7 @@
     "name": "Natuurbrand (Grip 4)",
     "place": "Bos",
     "place_array": ["Bos"],
-    "average_credits": 64052,
+    "average_credits": 66990,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -11684,14 +11729,13 @@
       "wildfire_command": 1,
       "wildfire_equipment": 1,
       "fire_aviation": 1,
-      "firetrucks": 1,
       "police_cars": 8,
       "personnel_educations": { "wildfire": 18 }
     },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [357],
-      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+      "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
       "subsequent_missions_ids": [877],
       "care_includes_staff_members": true,
@@ -13698,22 +13742,24 @@
       "mobile_command_vehicles": 1,
       "elw3": 1,
       "mobile_air_vehicles": 1,
-      "water_tankers": 4,
-      "gwmess": 1,
+      "water_tankers": 5,
+      "gwmess": 2,
       "ovdp": 1,
       "heavy_rescue_vehicles": 1,
       "spokesman": 1,
-      "water_needed": 70000,
+      "water_needed": 85000,
       "brush_truck": 8,
       "wildfire_command": 1,
       "wildfire_equipment": 1,
       "police_cars": 4,
       "personnel_educations": { "wildfire": 18 },
-      "care_service_command": 1
+      "care_service_command": 1,
+      "fire_aviation": 1
     },
     "chances": {},
     "additional": {
-      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+      "expansion_missions_ids": [356],
+      "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
       "subsequent_missions_ids": [877],
       "personnel_educations": { "Handcrew": 18 },
@@ -13731,14 +13777,14 @@
     "base_mission_id": 355,
     "additive_overlays": "",
     "mission_categories": ["forestry"],
-    "exp": [355]
+    "exp": [355, 356]
   },
   {
     "id": "355/a",
     "name": "Heidebrand (Grip 1)",
     "place": "Bos",
     "place_array": ["Bos"],
-    "average_credits": 33990,
+    "average_credits": 36927,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -13750,22 +13796,24 @@
       "mobile_command_vehicles": 1,
       "elw3": 1,
       "mobile_air_vehicles": 1,
-      "water_tankers": 4,
-      "gwmess": 1,
+      "water_tankers": 5,
+      "gwmess": 2,
       "ovdp": 1,
       "heavy_rescue_vehicles": 1,
       "spokesman": 1,
-      "water_needed": 70000,
+      "water_needed": 85000,
       "brush_truck": 8,
       "care_service_command": 1,
       "wildfire_command": 1,
       "wildfire_equipment": 1,
       "police_cars": 4,
-      "personnel_educations": { "wildfire": 18 }
+      "personnel_educations": { "wildfire": 18 },
+      "fire_aviation": 1
     },
     "chances": {},
     "additional": {
-      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+      "expansion_missions_ids": [356],
+      "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
       "subsequent_missions_ids": [877],
       "care_includes_staff_members": true,
@@ -13785,7 +13833,7 @@
     "base_mission_id": 355,
     "additive_overlays": "a",
     "mission_categories": ["forestry"],
-    "exp": [355]
+    "exp": [355, 356]
   },
   {
     "id": "356",
@@ -13820,7 +13868,7 @@
     },
     "chances": {},
     "additional": {
-      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+      "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
       "subsequent_missions_ids": [877],
       "personnel_educations": { "Handcrew": 18 },
@@ -13846,7 +13894,7 @@
     "name": "Heidebrand (Grip 2)",
     "place": "Bos",
     "place_array": ["Bos"],
-    "average_credits": 40377,
+    "average_credits": 43315,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -13874,7 +13922,7 @@
     },
     "chances": {},
     "additional": {
-      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+      "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
       "subsequent_missions_ids": [877],
       "care_includes_staff_members": true,
@@ -13924,14 +13972,13 @@
       "wildfire_command": 1,
       "wildfire_equipment": 1,
       "fire_aviation": 1,
-      "firetrucks": 1,
       "police_cars": 8,
       "personnel_educations": { "wildfire": 18 },
       "care_service_command": 1
     },
     "chances": {},
     "additional": {
-      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+      "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
       "subsequent_missions_ids": [877],
       "personnel_educations": { "Handcrew": 18 },
@@ -13957,7 +14004,7 @@
     "name": "Natuurbrand (Grip 5)",
     "place": "Bos",
     "place_array": ["Bos"],
-    "average_credits": 83415,
+    "average_credits": 86352,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -13980,13 +14027,12 @@
       "wildfire_command": 1,
       "wildfire_equipment": 1,
       "fire_aviation": 1,
-      "firetrucks": 1,
       "police_cars": 8,
       "personnel_educations": { "wildfire": 18 }
     },
     "chances": {},
     "additional": {
-      "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+      "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
       "subsequent_missions_ids": [877],
       "care_includes_staff_members": true,
