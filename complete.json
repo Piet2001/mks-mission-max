@@ -22209,8 +22209,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -22235,8 +22235,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -22261,8 +22261,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -22287,8 +22287,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -22313,8 +22313,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -22340,8 +22340,8 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z",
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -22373,8 +22373,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 2 },
     "overlay_index": null,
@@ -22399,8 +22399,8 @@
     "chances": { "platform_trucks": 30 },
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 3 },
     "overlay_index": null,
@@ -22425,8 +22425,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -22451,8 +22451,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -22477,8 +22477,8 @@
     "chances": {},
     "additional": {
       "filter_id": "firehouse_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "overlay_index": null,
@@ -22503,8 +22503,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
@@ -22529,8 +22529,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
@@ -22567,8 +22567,8 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z",
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -22601,8 +22601,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
@@ -22627,8 +22627,8 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
@@ -22655,8 +22655,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z",
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -28386,8 +28386,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
@@ -28413,8 +28413,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 3 },
     "overlay_index": null,
@@ -28440,8 +28440,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
@@ -28467,8 +28467,8 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "riot_police_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": {
       "main_building": 11,
@@ -28505,8 +28505,8 @@
     "additional": {
       "max_possible_prisoners": 4,
       "filter_id": "riot_police_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": {
       "main_building": 11,
@@ -28539,8 +28539,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z",
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -28570,8 +28570,8 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z",
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -28601,8 +28601,8 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z",
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -28632,8 +28632,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z",
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -28663,8 +28663,8 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z",
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -28706,8 +28706,8 @@
       "guard_mission": true,
       "filter_id": "police_station_missions",
       "need_bike_police_only_if_present": true,
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": {
       "main_building": 5,
@@ -28743,8 +28743,8 @@
       "possible_patient": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z",
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -28778,8 +28778,8 @@
       "expansion_missions_ids": [701],
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z",
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00",
       "possible_patient": 4,
       "possible_patient_min": 1
     },
@@ -28809,8 +28809,8 @@
       "possible_patient_min": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z",
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -28843,8 +28843,8 @@
     "additional": {
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z"
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
     },
     "prerequisites": { "main_building": 5, "police_stations": 4 },
     "overlay_index": null,
@@ -37696,8 +37696,8 @@
       "possible_patient": 250,
       "possible_patient_min": 120,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z",
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -37750,8 +37750,8 @@
       "possible_patient": 250,
       "possible_patient_min": 120,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z",
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -37806,8 +37806,8 @@
       "possible_patient": 250,
       "possible_patient_min": 120,
       "filter_id": "ambulance_station_missions",
-      "date_start": "2024-12-27T10:00:00Z",
-      "date_end": "2025-01-02T22:59:00Z",
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -51725,6 +51725,96 @@
     "additive_overlays": "",
     "mission_categories": ["police"],
     "exp": [1185]
+  },
+  {
+    "id": "1187",
+    "name": "Bezit van verboden vuurwerk",
+    "place": "",
+    "place_array": [],
+    "average_credits": 670,
+    "generated_by": "",
+    "icons": [
+      "/images/cuffs_gruen.png",
+      "/images/cuffs_gelb.png",
+      "/images/cuffs_rot.png"
+    ],
+    "requirements": { "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "police_station_missions",
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00"
+    },
+    "prerequisites": { "main_building": 5, "police_stations": 2 },
+    "overlay_index": null,
+    "base_mission_id": 1187,
+    "additive_overlays": "",
+    "mission_categories": ["police"],
+    "exp": [1187]
+  },
+  {
+    "id": "1188",
+    "name": "Zwaar vuurwerk aangetroffen",
+    "place": "",
+    "place_array": [],
+    "average_credits": 10740,
+    "generated_by": "",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "hazmat_vehicles": 1,
+      "gwmess": 1,
+      "hondengeleider": 1,
+      "ovdp": 1,
+      "police_helicopters": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "bomb_disposal": 1,
+      "bomb_disposal_dogs": 1,
+      "bomb_disposal_robot": 1,
+      "bomb_disposal_patrol": 1,
+      "firetrucks": 2,
+      "police_cars": 5
+    },
+    "chances": {
+      "mobile_command_vehicles": 50,
+      "elw3": 25,
+      "nef": 15,
+      "patient_transport": 35
+    },
+    "additional": {
+      "possible_patient": 10,
+      "max_possible_prisoners": 5,
+      "filter_id": "police_station_missions",
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00",
+      "patient_specialization_ids": [4],
+      "patient_specialization_captions": ["Traumatologie"],
+      "patient_specializations": "Traumatologie"
+    },
+    "prerequisites": {
+      "main_building": 5,
+      "rescue_stations": 10,
+      "police_stations": 15,
+      "police_helicopter_stations": 1,
+      "bereitschaftspolizei": 1,
+      "bomb_disposal_count": 1,
+      "hondengeleider": 1,
+      "military_police": 1,
+      "bomb_disposal_patrol": 1,
+      "fire_stations": 14
+    },
+    "overlay_index": null,
+    "base_mission_id": 1188,
+    "additive_overlays": "",
+    "mission_categories": ["bomb_disposal", "police"],
+    "exp": [1188]
   },
   {
     "id": "1139",
