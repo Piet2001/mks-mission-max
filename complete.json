@@ -489,6 +489,7 @@
     "additional": {
       "expansion_missions_ids": [129, 355, 356],
       "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [1191],
       "personnel_educations": { "Handcrew": 18 },
       "care_includes_staff_members": true
     },
@@ -4418,6 +4419,7 @@
     "additional": {
       "expansion_missions_ids": [14, 129, 355, 356],
       "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [1191],
       "personnel_educations": { "Handcrew": 18 },
       "care_includes_staff_members": true
     },
@@ -4467,6 +4469,7 @@
     "additional": {
       "expansion_missions_ids": [355, 356],
       "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [1191],
       "personnel_educations": { "Handcrew": 18 },
       "care_includes_staff_members": true
     },
@@ -4791,6 +4794,7 @@
     "additional": {
       "expansion_missions_ids": [140, 141, 142, 143, 144, 308, 309, 357],
       "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [1191],
       "personnel_educations": { "Handcrew": 18 },
       "care_includes_staff_members": true
     },
@@ -4840,6 +4844,7 @@
     "additional": {
       "expansion_missions_ids": [141, 142, 143, 144, 308, 309, 357],
       "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [1191],
       "personnel_educations": { "Handcrew": 18 },
       "care_includes_staff_members": true
     },
@@ -4889,6 +4894,7 @@
     "additional": {
       "expansion_missions_ids": [142, 143, 144, 308, 309, 357],
       "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [1191],
       "personnel_educations": { "Handcrew": 18 },
       "care_includes_staff_members": true
     },
@@ -4938,6 +4944,7 @@
     "additional": {
       "expansion_missions_ids": [143, 144, 308, 309, 357],
       "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [1191],
       "personnel_educations": { "Handcrew": 18 },
       "care_includes_staff_members": true
     },
@@ -4989,7 +4996,7 @@
       "expansion_missions_ids": [144, 308, 309, 357],
       "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "personnel_educations": { "Handcrew": 18 },
       "care_includes_staff_members": true
     },
@@ -5043,7 +5050,7 @@
       "expansion_missions_ids": [144, 308, 309, 357],
       "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "care_includes_staff_members": true,
       "personnel_educations": { "Handcrew": 18 }
     },
@@ -5099,7 +5106,7 @@
       "expansion_missions_ids": [308, 309, 357],
       "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "personnel_educations": { "Handcrew": 18 },
       "care_includes_staff_members": true
     },
@@ -5153,7 +5160,7 @@
       "expansion_missions_ids": [308, 309, 357],
       "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "care_includes_staff_members": true,
       "personnel_educations": { "Handcrew": 18 }
     },
@@ -5203,6 +5210,7 @@
     "additional": {
       "only_alliance_mission": true,
       "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [1191],
       "personnel_educations": { "Handcrew": 36 },
       "unavailable_in_normal_missions": true
     },
@@ -11649,7 +11657,7 @@
       "expansion_missions_ids": [309, 357],
       "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "personnel_educations": { "Handcrew": 18 },
       "care_includes_staff_members": true
     },
@@ -11704,7 +11712,7 @@
       "expansion_missions_ids": [309, 357],
       "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "care_includes_staff_members": true,
       "personnel_educations": { "Handcrew": 18 }
     },
@@ -11761,7 +11769,7 @@
       "expansion_missions_ids": [357],
       "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "personnel_educations": { "Handcrew": 18 },
       "care_includes_staff_members": true
     },
@@ -11816,7 +11824,7 @@
       "expansion_missions_ids": [357],
       "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "care_includes_staff_members": true,
       "personnel_educations": { "Handcrew": 18 }
     },
@@ -13840,7 +13848,7 @@
       "expansion_missions_ids": [356],
       "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "personnel_educations": { "Handcrew": 18 },
       "care_includes_staff_members": true
     },
@@ -13894,7 +13902,7 @@
       "expansion_missions_ids": [356],
       "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "care_includes_staff_members": true,
       "personnel_educations": { "Handcrew": 18 }
     },
@@ -13949,7 +13957,7 @@
     "additional": {
       "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "personnel_educations": { "Handcrew": 18 },
       "care_includes_staff_members": true
     },
@@ -14003,7 +14011,7 @@
     "additional": {
       "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "care_includes_staff_members": true,
       "personnel_educations": { "Handcrew": 18 }
     },
@@ -14059,7 +14067,7 @@
     "additional": {
       "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "personnel_educations": { "Handcrew": 18 },
       "care_includes_staff_members": true
     },
@@ -14113,7 +14121,7 @@
     "additional": {
       "followup_missions_ids": [48, 99, 225, 768, 878, 879],
       "filter_id": "firehouse_missions",
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "care_includes_staff_members": true,
       "personnel_educations": { "Handcrew": 18 }
     },
@@ -36142,6 +36150,7 @@
     "additional": {
       "expansion_missions_ids": [867, 868, 880, 881, 882],
       "filter_id": "water_watch_missions",
+      "subsequent_missions_ids": [1191],
       "need_bike_police_only_if_present": true,
       "personnel_educations": { "Handcrew": 36 },
       "care_includes_staff_members": true,
@@ -36199,6 +36208,7 @@
     "additional": {
       "expansion_missions_ids": [868, 880, 881, 882],
       "filter_id": "water_watch_missions",
+      "subsequent_missions_ids": [1191],
       "need_bike_police_only_if_present": true,
       "personnel_educations": { "Handcrew": 36 },
       "care_includes_staff_members": true,
@@ -36257,6 +36267,7 @@
       "expansion_missions_ids": [880, 881, 882],
       "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
       "filter_id": "water_watch_missions",
+      "subsequent_missions_ids": [1191],
       "need_bike_police_only_if_present": true,
       "personnel_educations": { "Handcrew": 36 },
       "care_includes_staff_members": true,
@@ -36317,6 +36328,7 @@
       "expansion_missions_ids": [880, 881, 882],
       "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
       "filter_id": "water_watch_missions",
+      "subsequent_missions_ids": [1191],
       "need_bike_police_only_if_present": true,
       "care_includes_staff_members": true,
       "personnel_educations": { "Handcrew": 36 },
@@ -37131,7 +37143,7 @@
       "expansion_missions_ids": [881, 882],
       "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
       "filter_id": "water_watch_missions",
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "need_bike_police_only_if_present": true,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
@@ -37202,7 +37214,7 @@
       "expansion_missions_ids": [881, 882],
       "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
       "filter_id": "water_watch_missions",
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "need_bike_police_only_if_present": true,
       "care_includes_staff_members": true,
       "patient_specialization_ids": [1],
@@ -37277,7 +37289,7 @@
       "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
       "filter_id": "water_watch_missions",
       "allow_arff_instead_of_lf": true,
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "need_bike_police_only_if_present": true,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
@@ -37349,7 +37361,7 @@
       "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
       "filter_id": "water_watch_missions",
       "allow_arff_instead_of_lf": true,
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "need_bike_police_only_if_present": true,
       "care_includes_staff_members": true,
       "patient_specialization_ids": [1],
@@ -37422,7 +37434,7 @@
       "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
       "filter_id": "water_watch_missions",
       "allow_arff_instead_of_lf": true,
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "need_bike_police_only_if_present": true,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
@@ -37493,7 +37505,7 @@
       "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
       "filter_id": "water_watch_missions",
       "allow_arff_instead_of_lf": true,
-      "subsequent_missions_ids": [877],
+      "subsequent_missions_ids": [1191],
       "need_bike_police_only_if_present": true,
       "care_includes_staff_members": true,
       "patient_specialization_ids": [1],
@@ -52052,6 +52064,93 @@
     "additive_overlays": "",
     "mission_categories": ["tow_trucks", "tow_trucks_only"],
     "exp": [1190]
+  },
+  {
+    "id": "1191",
+    "name": "Nablussen natuur",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 5,
+      "battalion_chief_vehicles": 1,
+      "water_tankers": 1
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "subsequent_mission_only": true
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 1191,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "urban", "rural"],
+    "exp": [1191]
+  },
+  {
+    "id": "1191-0",
+    "name": "Nablussen natuur",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1770,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "water_tankers": 1,
+      "firetrucks": 5
+    },
+    "chances": { "battalion_chief_vehicles": 50, "water_tankers": 50 },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "subsequent_mission_only": true
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 7 },
+    "overlay_index": 0,
+    "base_mission_id": 1191,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "urban", "rural"],
+    "exp": [1191]
+  },
+  {
+    "id": "1191-1",
+    "name": "Nablussen natuur",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2110,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "water_tankers": 1,
+      "firetrucks": 5
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "subsequent_mission_only": true
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 8 },
+    "overlay_index": 1,
+    "base_mission_id": 1191,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "urban", "rural"],
+    "exp": [1191]
   },
   {
     "id": "1139",
