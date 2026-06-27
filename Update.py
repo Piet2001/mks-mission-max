@@ -1,6 +1,18 @@
 import json
 import time
 
+
+def get_ambulance_total(mission):
+    requirements = mission.get("requirements", {})
+    additional = mission.get("additional", {})
+    ambulance = requirements.get("ambulances", requirements.get("ambulance", 0))
+    possible_patient = additional.get("possible_patient", 0)
+    if not isinstance(ambulance, int):
+        ambulance = 0
+    if not isinstance(possible_patient, int):
+        possible_patient = 0
+    return ambulance + possible_patient
+
 print("start")
 
 file = open('api.json')
@@ -38,6 +50,12 @@ for i in data:
         for k in possiblemissions:
             for j in k["requirements"]:
                 if(isinstance(k["requirements"][j], int)):
+                    if(j == "ambulances" or j == "ambulance"):
+                        source_total = get_ambulance_total(k)
+                        target_total = get_ambulance_total(i)
+                        if(source_total > target_total):
+                            i["requirements"][j] = source_total
+                        continue
                     if(j in i["requirements"]):
                         if(k["requirements"][j] > i["requirements"][j]):
                             i["requirements"][j] = k["requirements"][j]
