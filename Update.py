@@ -47,11 +47,18 @@ for i in data:
     print(f"Processing mission {i['id']}")
     if(len(i["exp"]) > 0):
         best_ambulance_total = get_ambulance_total(i)
+        ambulance_key = None
+        if("ambulances" in i["requirements"]):
+            ambulance_key = "ambulances"
+        elif("ambulance" in i["requirements"]):
+            ambulance_key = "ambulance"
         possiblemissions = [d for d in data if d["base_mission_id"] in i["exp"]]
         for k in possiblemissions:
             for j in k["requirements"]:
                 if(isinstance(k["requirements"][j], int)):
                     if(j == "ambulances" or j == "ambulance"):
+                        if(ambulance_key == None):
+                            ambulance_key = "ambulances"
                         source_total = get_ambulance_total(k)
                         if(source_total > best_ambulance_total):
                             best_ambulance_total = source_total
@@ -89,10 +96,19 @@ for i in data:
                             else:
                                 i["additional"]["personnel_educations"][m] = k["additional"]["personnel_educations"][m]
 
-        if("ambulances" in i["requirements"]):
-            i["requirements"]["ambulances"] = best_ambulance_total
-        elif("ambulance" in i["requirements"]):
-            i["requirements"]["ambulance"] = best_ambulance_total
+            if("chances" in k):
+                if not("chances" in i):
+                    i["chances"] = {}
+                for c in k["chances"]:
+                    if(isinstance(k["chances"][c], int)):
+                        if(c in i["chances"]):
+                            if(k["chances"][c] > i["chances"][c]):
+                                i["chances"][c] = k["chances"][c]
+                        else:
+                            i["chances"][c] = k["chances"][c]
+
+        if(ambulance_key != None):
+            i["requirements"][ambulance_key] = best_ambulance_total
                     
 
 
