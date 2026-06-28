@@ -1900,7 +1900,7 @@
       "/images/medicalstore_gelb.png",
       "/images/medicalstore_rot.png"
     ],
-    "requirements": { "ambulances": 3, "firetrucks": 1, "police_cars": 2 },
+    "requirements": { "firetrucks": 1, "police_cars": 2 },
     "chances": { "patient_transport": 100 },
     "additional": {
       "possible_patient": 1,
@@ -1960,7 +1960,7 @@
       "/images/medicalstore_gelb.png",
       "/images/medicalstore_rot.png"
     ],
-    "requirements": { "ambulances": 3, "firetrucks": 1, "police_cars": 2 },
+    "requirements": { "firetrucks": 1, "police_cars": 2 },
     "chances": { "patient_transport": 75 },
     "additional": {
       "possible_patient": 1,
@@ -10185,7 +10185,7 @@
       "/images/medicalstore_gelb.png",
       "/images/medicalstore_rot.png"
     ],
-    "requirements": { "ambulances": 3, "firetrucks": 2, "police_cars": 3 },
+    "requirements": { "firetrucks": 2, "police_cars": 3 },
     "chances": { "patient_transport": 30 },
     "additional": {
       "possible_patient": 1,
@@ -12193,7 +12193,7 @@
       "/images/medicalstore_gelb.png",
       "/images/medicalstore_rot.png"
     ],
-    "requirements": { "ambulances": 3, "firetrucks": 1, "police_cars": 2 },
+    "requirements": { "firetrucks": 1, "police_cars": 2 },
     "chances": { "patient_transport": 100 },
     "additional": {
       "possible_patient": 1,
@@ -12224,7 +12224,7 @@
       "/images/medicalstore_gelb.png",
       "/images/medicalstore_rot.png"
     ],
-    "requirements": { "ambulances": 3, "firetrucks": 1, "police_cars": 2 },
+    "requirements": { "firetrucks": 1, "police_cars": 2 },
     "chances": { "patient_transport": 50 },
     "additional": {
       "possible_patient": 1,
@@ -29831,7 +29831,7 @@
       "/images/bar_cocktail_gelb.png",
       "/images/bar_cocktail_rot.png"
     ],
-    "requirements": { "police_cars": 3, "ambulances": 3, "firetrucks": 2 },
+    "requirements": { "police_cars": 3, "firetrucks": 2 },
     "chances": { "patient_transport": 60 },
     "additional": {
       "possible_patient": 1,
@@ -31671,7 +31671,7 @@
       "/images/medicalstore_gelb.png",
       "/images/medicalstore_rot.png"
     ],
-    "requirements": { "police_cars": 3, "ambulances": 4, "firetrucks": 2 },
+    "requirements": { "police_cars": 3, "firetrucks": 2 },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [230, 235, 450, 51],
@@ -33942,7 +33942,7 @@
       "/images/medicalstore_gelb.png",
       "/images/medicalstore_rot.png"
     ],
-    "requirements": { "ambulances": 3, "firetrucks": 2, "police_cars": 3 },
+    "requirements": { "firetrucks": 2, "police_cars": 3 },
     "chances": { "patient_transport": 100 },
     "additional": {
       "possible_patient": 1,
@@ -35205,7 +35205,7 @@
       "/images/medicalstore_gelb.png",
       "/images/medicalstore_rot.png"
     ],
-    "requirements": { "ambulances": 3, "firetrucks": 2, "police_cars": 3 },
+    "requirements": { "firetrucks": 2, "police_cars": 3 },
     "chances": { "patient_transport": 100 },
     "additional": {
       "possible_patient": 1,
@@ -51820,7 +51820,7 @@
       "/images/ambulance_gelb.png",
       "/images/ambulance_rot.png"
     ],
-    "requirements": { "ambulances": 2, "firetrucks": 1, "police_cars": 2 },
+    "requirements": { "ambulances": 3, "firetrucks": 1, "police_cars": 2 },
     "chances": { "firetrucks": 30, "patient_transport": 85 },
     "additional": {
       "possible_patient": 1,
@@ -51855,7 +51855,7 @@
       "/images/ambulance_gelb.png",
       "/images/ambulance_rot.png"
     ],
-    "requirements": { "ambulances": 2, "firetrucks": 2, "police_cars": 3 },
+    "requirements": { "ambulances": 3, "firetrucks": 2, "police_cars": 3 },
     "chances": { "firetrucks": 30, "nef": 100, "patient_transport": 100 },
     "additional": {
       "possible_patient": 1,
@@ -60803,7 +60803,7 @@
       "/images/ambulance_gelb.png",
       "/images/ambulance_rot.png"
     ],
-    "requirements": { "ambulances": 2, "firetrucks": 1, "police_cars": 2 },
+    "requirements": { "ambulances": 3, "firetrucks": 1, "police_cars": 2 },
     "chances": { "nef": 100, "patient_transport": 85 },
     "additional": {
       "possible_patient": 1,
@@ -86036,7 +86036,7 @@
       "/images/medicalstore_gelb.png",
       "/images/medicalstore_rot.png"
     ],
-    "requirements": { "ambulances": 2, "police_cars": 3 },
+    "requirements": { "ambulances": 3, "police_cars": 3 },
     "chances": { "patient_transport": 100 },
     "additional": {
       "possible_patient": 1,
