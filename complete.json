@@ -5075,20 +5075,24 @@
     "name": "Overval winkel",
     "place": "Buurtsuper",
     "place_array": ["Buurtsuper"],
-    "average_credits": 2180,
+    "average_credits": 2980,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_helicopters": 1, "police_cars": 5 },
+    "requirements": { "ovdp": 1, "police_helicopters": 1, "police_cars": 5 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "max_possible_prisoners": 2,
+      "filter_id": "police_station_missions"
+    },
     "prerequisites": {
       "main_building": 5,
-      "police_stations": 4,
-      "police_helicopter_stations": 1
+      "police_stations": 6,
+      "police_helicopter_stations": 1,
+      "bereitschaftspolizei": 1
     },
     "overlay_index": null,
     "base_mission_id": 122,
@@ -5101,20 +5105,24 @@
     "name": "Overval winkel",
     "place": "Supermarkt",
     "place_array": ["Supermarkt"],
-    "average_credits": 2180,
+    "average_credits": 2980,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_helicopters": 1, "police_cars": 5 },
+    "requirements": { "ovdp": 1, "police_helicopters": 1, "police_cars": 5 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "max_possible_prisoners": 2,
+      "filter_id": "police_station_missions"
+    },
     "prerequisites": {
       "main_building": 5,
-      "police_stations": 4,
-      "police_helicopter_stations": 1
+      "police_stations": 6,
+      "police_helicopter_stations": 1,
+      "bereitschaftspolizei": 1
     },
     "overlay_index": null,
     "base_mission_id": 123,
@@ -9735,8 +9743,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [218],
-      "filter_id": "police_station_missions",
-      "max_possible_prisoners": 2
+      "max_possible_prisoners": 4,
+      "filter_id": "police_station_missions"
     },
     "prerequisites": {
       "main_building": 5,
@@ -10314,7 +10322,7 @@
     "name": "Vernieling bushokje",
     "place": "Bushalte",
     "place_array": ["Bushalte"],
-    "average_credits": 800,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/bus_gruen.png",
@@ -10323,7 +10331,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions"
+    },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 231,
@@ -11082,7 +11093,7 @@
     "name": "Opnemen aangifte inbraak",
     "place": "",
     "place_array": [],
-    "average_credits": 300,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/comment_gruen.png",
@@ -11603,17 +11614,20 @@
     "name": "Auto-inbraak",
     "place": "",
     "place_array": [],
-    "average_credits": 500,
+    "average_credits": 670,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
+    "requirements": { "police_cars": 2 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
-    "prerequisites": { "main_building": 5, "police_stations": 1 },
+    "additional": {
+      "max_possible_prisoners": 2,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 257,
     "additive_overlays": "",
@@ -13018,7 +13032,7 @@
     "name": "Overlast zwervers",
     "place": "Winkelcentrum",
     "place_array": ["Winkelcentrum"],
-    "average_credits": 450,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/dancinghall_gruen.png",
@@ -13027,7 +13041,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "max_possible_prisoners": 2,
+      "filter_id": "police_station_missions"
+    },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 295,
@@ -13221,20 +13238,53 @@
     "name": "Inbraakalarm",
     "place": "",
     "place_array": [],
-    "average_credits": 750,
+    "average_credits": 670,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_cars": 2 },
+    "requirements": { "police_cars": 2, "hondengeleider": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "max_possible_prisoners": 2,
+      "filter_id": "police_station_missions"
+    },
     "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 301,
     "additive_overlays": "",
+    "mission_categories": ["police"],
+    "exp": [301]
+  },
+  {
+    "id": "301/a",
+    "name": "Inbraakalarm",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1170,
+    "generated_by": "",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "hondengeleider": 1, "police_cars": 2 },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 2,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": {
+      "main_building": 5,
+      "police_stations": 2,
+      "bereitschaftspolizei": 1,
+      "hondengeleider": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 301,
+    "additive_overlays": "a",
     "mission_categories": ["police"],
     "exp": [301]
   },
@@ -15908,7 +15958,7 @@
     "name": "Verwaarloosde hond in woning",
     "place": "",
     "place_array": [],
-    "average_credits": 350,
+    "average_credits": 1000,
     "generated_by": "",
     "icons": [
       "/images/cat_gruen.png",
@@ -15917,7 +15967,10 @@
     ],
     "requirements": { "hondengeleider": 1, "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "riot_police_missions" },
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "riot_police_missions"
+    },
     "prerequisites": {
       "main_building": 11,
       "police_stations": 1,
@@ -18064,7 +18117,7 @@
     "name": "Gestolen scooter gevonden",
     "place": "School",
     "place_array": ["School"],
-    "average_credits": 400,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/baseball_gruen.png",
@@ -18073,7 +18126,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions"
+    },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 367,
@@ -19885,7 +19941,7 @@
     "name": "Inbraakalarm bedrijfspand",
     "place": "Kantoorgebouw",
     "place_array": ["Kantoorgebouw"],
-    "average_credits": 1850,
+    "average_credits": 1170,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
@@ -19900,8 +19956,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [333],
-      "filter_id": "riot_police_missions",
-      "max_possible_prisoners": 1
+      "max_possible_prisoners": 2,
+      "filter_id": "riot_police_missions"
     },
     "prerequisites": {
       "main_building": 11,
@@ -19920,7 +19976,7 @@
     "name": "Inbraakalarm bedrijfspand",
     "place": "Magazijn",
     "place_array": ["Magazijn"],
-    "average_credits": 1850,
+    "average_credits": 1170,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
@@ -19935,8 +19991,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [333],
-      "filter_id": "riot_police_missions",
-      "max_possible_prisoners": 1
+      "max_possible_prisoners": 1,
+      "filter_id": "riot_police_missions"
     },
     "prerequisites": {
       "main_building": 11,
@@ -19955,17 +20011,18 @@
     "name": "Overvalalarm supermarkt",
     "place": "Supermarkt",
     "place_array": ["Supermarkt"],
-    "average_credits": 2250,
+    "average_credits": 840,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_cars": 5, "police_helicopters": 1 },
+    "requirements": { "police_cars": 5, "ovdp": 1, "police_helicopters": 1 },
     "chances": {},
     "additional": {
       "expansion_missions_ids": [123],
+      "max_possible_prisoners": 3,
       "filter_id": "police_station_missions"
     },
     "prerequisites": { "main_building": 5, "police_stations": 3 },
@@ -20796,17 +20853,24 @@
     "name": "Overvalalarm bankkantoor",
     "place": "Bankkantoor",
     "place_array": ["Bankkantoor"],
-    "average_credits": 2200,
+    "average_credits": 1810,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_cars": 3 },
+    "requirements": { "ovdp": 1, "police_cars": 4 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
-    "prerequisites": { "main_building": 5, "police_stations": 3 },
+    "additional": {
+      "max_possible_prisoners": 4,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": {
+      "main_building": 5,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1
+    },
     "overlay_index": null,
     "base_mission_id": 421,
     "additive_overlays": "",
@@ -28479,47 +28543,88 @@
     "name": "Geschreeuw in woning",
     "place": "",
     "place_array": [],
-    "average_credits": 200,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/baseball_gruen.png",
       "/images/baseball_gelb.png",
       "/images/baseball_rot.png"
     ],
-    "requirements": { "police_cars": 1 },
-    "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "requirements": {
+      "police_cars": 5,
+      "ovdp": 1,
+      "at_c": 1,
+      "at_m": 1,
+      "at_o": 4,
+      "hondengeleider": 1,
+      "drone_police": 1,
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 1
+    },
+    "chances": {
+      "patient_transport": 50,
+      "nef": 10,
+      "ovdp": 50,
+      "heavy_rescue_vehicles": 50
+    },
+    "additional": {
+      "expansion_missions_ids": [337, 338, 567],
+      "filter_id": "police_station_missions",
+      "possible_patient": 1,
+      "max_possible_prisoners": 2,
+      "possible_patient_min": 1
+    },
     "prerequisites": { "main_building": 5, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 559,
     "additive_overlays": "",
     "mission_categories": ["police"],
-    "exp": [559]
+    "exp": [559, 337, 338, 567, 81, 568, 91, 569]
   },
   {
     "id": "560",
     "name": "Geschreeuw in woning",
     "place": "",
     "place_array": [],
-    "average_credits": 400,
+    "average_credits": 670,
     "generated_by": "",
     "icons": [
       "/images/baseball_gruen.png",
       "/images/baseball_gelb.png",
       "/images/baseball_rot.png"
     ],
-    "requirements": { "police_cars": 2 },
-    "chances": {},
+    "requirements": {
+      "police_cars": 5,
+      "ovdp": 1,
+      "at_c": 1,
+      "at_m": 1,
+      "at_o": 4,
+      "hondengeleider": 1,
+      "drone_police": 1,
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 1
+    },
+    "chances": {
+      "patient_transport": 50,
+      "nef": 10,
+      "ovdp": 50,
+      "heavy_rescue_vehicles": 50
+    },
     "additional": {
-      "max_possible_prisoners": 1,
-      "filter_id": "police_station_missions"
+      "expansion_missions_ids": [337, 338, 567],
+      "max_possible_prisoners": 2,
+      "filter_id": "police_station_missions",
+      "possible_patient": 1,
+      "possible_patient_min": 1
     },
     "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 560,
     "additive_overlays": "",
     "mission_categories": ["police"],
-    "exp": [560]
+    "exp": [560, 337, 338, 567, 81, 568, 91, 569]
   },
   {
     "id": "561",
@@ -28734,7 +28839,7 @@
     "name": "Verward persoon",
     "place": "",
     "place_array": [],
-    "average_credits": 400,
+    "average_credits": 670,
     "generated_by": "",
     "icons": [
       "/images/baseball_gruen.png",
@@ -28742,34 +28847,36 @@
       "/images/baseball_rot.png"
     ],
     "requirements": {
-      "police_cars": 4,
+      "police_cars": 5,
+      "ovdp": 1,
       "at_c": 1,
       "at_m": 1,
       "at_o": 4,
       "hondengeleider": 1,
-      "ovdp": 1,
       "drone_police": 1,
       "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 1,
       "firetrucks": 1
     },
     "chances": {
-      "ovdp": 50,
       "patient_transport": 30,
+      "nef": 10,
+      "ovdp": 50,
       "heavy_rescue_vehicles": 50
     },
     "additional": {
-      "expansion_missions_ids": [568],
+      "expansion_missions_ids": [81, 568],
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
-      "possible_patient": 1
+      "possible_patient": 1,
+      "possible_patient_min": 1
     },
     "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 567,
     "additive_overlays": "",
     "mission_categories": ["police"],
-    "exp": [567, 568, 569]
+    "exp": [567, 81, 568, 91, 569]
   },
   {
     "id": "568",
@@ -29052,7 +29159,7 @@
     "name": "Assistentie handhaving",
     "place": "Winkelcentrum",
     "place_array": ["Winkelcentrum"],
-    "average_credits": 300,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/cuffs_gruen.png",
@@ -31566,20 +31673,24 @@
     "name": "Overval frietkraam",
     "place": "Frietkraam",
     "place_array": ["Frietkraam"],
-    "average_credits": 2180,
+    "average_credits": 2980,
     "generated_by": "",
     "icons": [
       "/images/theft_gruen.png",
       "/images/theft_gelb.png",
       "/images/theft_rot.png"
     ],
-    "requirements": { "police_helicopters": 1, "police_cars": 5 },
+    "requirements": { "ovdp": 1, "police_helicopters": 1, "police_cars": 5 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "max_possible_prisoners": 3,
+      "filter_id": "police_station_missions"
+    },
     "prerequisites": {
       "main_building": 5,
-      "police_stations": 4,
-      "police_helicopter_stations": 1
+      "police_stations": 6,
+      "police_helicopter_stations": 1,
+      "bereitschaftspolizei": 1
     },
     "overlay_index": null,
     "base_mission_id": 634,
@@ -32318,12 +32429,44 @@
     "chances": { "ovdp": 10 },
     "additional": {
       "expansion_missions_ids": [656],
+      "max_possible_prisoners": 4,
       "filter_id": "police_station_missions"
     },
     "prerequisites": { "main_building": 5, "police_stations": 3 },
     "overlay_index": null,
     "base_mission_id": 655,
     "additive_overlays": "",
+    "mission_categories": ["police"],
+    "exp": [655, 656]
+  },
+  {
+    "id": "655/a",
+    "name": "Koperdiefstal",
+    "place": "Rangeeremplacement",
+    "place_array": ["Rangeeremplacement"],
+    "average_credits": 1340,
+    "generated_by": "",
+    "icons": [
+      "/images/theft_gruen.png",
+      "/images/theft_gelb.png",
+      "/images/theft_rot.png"
+    ],
+    "requirements": { "hondengeleider": 1, "police_cars": 5, "ovdp": 1 },
+    "chances": { "ovdp": 10 },
+    "additional": {
+      "expansion_missions_ids": [656],
+      "max_possible_prisoners": 4,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": {
+      "main_building": 5,
+      "police_stations": 3,
+      "bereitschaftspolizei": 1,
+      "hondengeleider": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 655,
+    "additive_overlays": "a",
     "mission_categories": ["police"],
     "exp": [655, 656]
   },
@@ -32341,7 +32484,10 @@
     ],
     "requirements": { "hondengeleider": 1, "ovdp": 1, "police_cars": 5 },
     "chances": { "ovdp": 10 },
-    "additional": { "filter_id": "riot_police_missions" },
+    "additional": {
+      "max_possible_prisoners": 4,
+      "filter_id": "riot_police_missions"
+    },
     "prerequisites": {
       "main_building": 11,
       "police_stations": 6,
@@ -41659,15 +41805,17 @@
       "battalion_chief_vehicles": 1,
       "mobile_command_vehicles": 1,
       "elw3": 1,
-      "oneof_fire_engine_or_rescue": 1
+      "oneof_fire_engine_or_rescue": 1,
+      "police_helicopters": 1,
+      "hondengeleider": 1
     },
     "chances": { "nef": 100, "patient_transport": 100 },
     "additional": {
       "expansion_missions_ids": [202, 548, 549, 846],
+      "max_possible_prisoners": 4,
       "filter_id": "police_station_missions",
       "possible_patient": 7,
-      "possible_patient_min": 5,
-      "max_possible_prisoners": 1
+      "possible_patient_min": 5
     },
     "prerequisites": { "main_building": 5, "police_stations": 3 },
     "overlay_index": null,
@@ -41681,24 +41829,69 @@
     "name": "Woningoverval",
     "place": "",
     "place_array": [],
-    "average_credits": 1980,
+    "average_credits": 2980,
     "generated_by": "",
     "icons": [
       "/images/baseball_gruen.png",
       "/images/baseball_gelb.png",
       "/images/baseball_rot.png"
     ],
-    "requirements": { "ovdp": 1, "police_cars": 5 },
+    "requirements": {
+      "ovdp": 1,
+      "police_helicopters": 1,
+      "police_cars": 5,
+      "hondengeleider": 1
+    },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "max_possible_prisoners": 4,
+      "filter_id": "police_station_missions"
+    },
     "prerequisites": {
       "main_building": 5,
       "police_stations": 6,
+      "police_helicopter_stations": 1,
       "bereitschaftspolizei": 1
     },
     "overlay_index": null,
     "base_mission_id": 846,
     "additive_overlays": "",
+    "mission_categories": ["police"],
+    "exp": [846]
+  },
+  {
+    "id": "846/a",
+    "name": "Woningoverval",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3480,
+    "generated_by": "",
+    "icons": [
+      "/images/baseball_gruen.png",
+      "/images/baseball_gelb.png",
+      "/images/baseball_rot.png"
+    ],
+    "requirements": {
+      "hondengeleider": 1,
+      "ovdp": 1,
+      "police_helicopters": 1,
+      "police_cars": 5
+    },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 4,
+      "filter_id": "police_station_missions"
+    },
+    "prerequisites": {
+      "main_building": 5,
+      "police_stations": 6,
+      "police_helicopter_stations": 1,
+      "bereitschaftspolizei": 1,
+      "hondengeleider": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 846,
+    "additive_overlays": "a",
     "mission_categories": ["police"],
     "exp": [846]
   },
@@ -56343,7 +56536,10 @@
     ],
     "requirements": { "police_cars": 2 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "police_station_missions"
+    },
     "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 944,
@@ -56746,9 +56942,15 @@
       "/images/baseball_gelb.png",
       "/images/baseball_rot.png"
     ],
-    "requirements": { "bike_police": 2, "police_horse": 4, "police_cars": 7 },
+    "requirements": {
+      "bike_police": 2,
+      "police_horse": 4,
+      "police_cars": 7,
+      "hondengeleider": 2
+    },
     "chances": {},
     "additional": {
+      "max_possible_prisoners": 5,
       "filter_id": "riot_police_missions",
       "need_bike_police_only_if_present": true
     },
@@ -56761,6 +56963,43 @@
     "overlay_index": null,
     "base_mission_id": 951,
     "additive_overlays": "",
+    "mission_categories": ["riot_police"],
+    "exp": [951]
+  },
+  {
+    "id": "951/a",
+    "name": "Vechtpartij horecagebied",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3570,
+    "generated_by": "",
+    "icons": [
+      "/images/baseball_gruen.png",
+      "/images/baseball_gelb.png",
+      "/images/baseball_rot.png"
+    ],
+    "requirements": {
+      "bike_police": 2,
+      "hondengeleider": 2,
+      "police_horse": 4,
+      "police_cars": 7
+    },
+    "chances": {},
+    "additional": {
+      "max_possible_prisoners": 5,
+      "filter_id": "riot_police_missions",
+      "need_bike_police_only_if_present": true
+    },
+    "prerequisites": {
+      "main_building": 11,
+      "police_stations": 9,
+      "bereitschaftspolizei": 2,
+      "police_horse": 1,
+      "hondengeleider": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 951,
+    "additive_overlays": "a",
     "mission_categories": ["riot_police"],
     "exp": [951]
   },
@@ -59140,6 +59379,7 @@
     "chances": { "ovdp": 50 },
     "additional": {
       "expansion_missions_ids": [124],
+      "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
       "possible_crashed_car_max": 1
     },
@@ -86854,16 +87094,19 @@
     "name": "Verdovende middelen aangetroffen in bagage",
     "place": "Vliegveld (groot): Terminal",
     "place_array": ["Vliegveld (groot): Terminal"],
-    "average_credits": 1000,
+    "average_credits": 600,
     "generated_by": "",
     "icons": [
       "/images/cannabis_gruen.png",
       "/images/cannabis_gelb.png",
       "/images/cannabis_rot.png"
     ],
-    "requirements": { "military_police": 1, "police_cars": 1 },
+    "requirements": { "military_police": 1 },
     "chances": {},
-    "additional": { "filter_id": "military_police_missions" },
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "military_police_missions"
+    },
     "prerequisites": { "main_building": 25, "military_police": 1 },
     "overlay_index": null,
     "base_mission_id": 1150,
@@ -86898,16 +87141,19 @@
     "name": "Drugs aangetroffen in pakket",
     "place": "Vliegveld (groot): Terminal",
     "place_array": ["Vliegveld (groot): Terminal"],
-    "average_credits": 1350,
+    "average_credits": 600,
     "generated_by": "",
     "icons": [
       "/images/cannabis_gruen.png",
       "/images/cannabis_gelb.png",
       "/images/cannabis_rot.png"
     ],
-    "requirements": { "military_police": 1, "police_cars": 1 },
+    "requirements": { "military_police": 1 },
     "chances": {},
-    "additional": { "filter_id": "military_police_missions" },
+    "additional": {
+      "max_possible_prisoners": 1,
+      "filter_id": "military_police_missions"
+    },
     "prerequisites": { "main_building": 25, "military_police": 1 },
     "overlay_index": null,
     "base_mission_id": 1152,
